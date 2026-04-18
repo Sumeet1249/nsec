@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&family=Space+Grotesk:wght@300..700&family=JetBrains+Mono:wght@400;500;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Boutique Professional Palette */
+  --color-brand-bg: #f8f9fa; /* Clean, light base */
+  --color-brand-surface: #ffffff;
+  --color-brand-accent: #008b8b; /* Cyan - Core Highlight */
+  --color-brand-maroon: #800000; /* Maroon - Sporadic Contrast */
+  --color-brand-blue: #0a111a; /* Professional Depth */
+  --color-brand-text: #1a1a1a;
+  --color-brand-muted: #6c757d;
+  --color-brand-grid: rgba(0, 139, 139, 0.05); /* Cyan-tinted grid */
+  
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --radius-xl: 0px;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-brand-text font-body selection:bg-brand-accent selection:text-white overflow-x-hidden;
+    background-image: 
+      linear-gradient(var(--color-brand-grid) 1px, transparent 1px),
+      linear-gradient(90deg, var(--color-brand-grid) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-heading font-black text-brand-blue leading-[0.8] uppercase tracking-tighter;
+  }
+}
+
+@layer components {
+  .bg-grid {
+    background-image: 
+      linear-gradient(var(--color-brand-grid) 1px, transparent 1px),
+      linear-gradient(90deg, var(--color-brand-grid) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  .drafting-border {
+    @apply border-2 border-brand-blue relative;
+  }
+  
+  .stencil-text {
+    @apply font-heading font-black tracking-tighter uppercase;
+  }
+
+  .vertical-label {
+    @apply font-mono text-[9px] font-bold uppercase tracking-[0.5em] text-brand-blue/40 [writing-mode:vertical-lr] rotate-180;
+  }
+  
+  .btn-industrial {
+    @apply px-10 py-6 bg-brand-blue text-white font-mono font-bold uppercase text-[11px] tracking-[0.3em] hover:bg-brand-accent transition-all duration-500 relative flex items-center justify-center;
+    box-shadow: 12px 12px 0px rgba(10, 17, 26, 0.1);
+  }
+
+  .btn-industrial:active {
+    @apply translate-x-1 translate-y-1;
+    box-shadow: 6px 6px 0px rgba(10, 17, 26, 0.1);
+  }
+
+  .drafting-card {
+    @apply bg-white border-2 border-brand-blue/10 p-10 relative transition-all duration-700 hover:border-brand-accent/50 hover:shadow-[30px_30px_0px_rgba(217,67,55,0.05)];
+  }
+
+  .label-technical {
+    @apply px-4 py-2 font-mono text-[9px] font-black uppercase tracking-[0.3em] bg-brand-accent text-white;
+  }
+
+  .vertical-text {
+    @apply [writing-mode:vertical-lr] rotate-180;
+  }
+
+  .animate-spin-slow {
+    animation: spin 10s linear infinite;
+  }
+
+  /* Custom Scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-brand-accent/20 rounded-full transition-colors;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-brand-accent/50;
+  }
+
+  .mask-fade-y {
+    mask-image: linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
+  }
+
+  .animate-marquee {
+    animation: marquee 30s linear infinite;
+  }
+
+  .animate-marquee-slow {
+    animation: marquee 60s linear infinite;
+  }
+
+  .animate-marquee-infinite {
+    animation: marquee-infinite 40s linear infinite;
+  }
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+  }
+
+  @keyframes marquee-infinite {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+}

@@ -1,0 +1,709 @@
+{
+  "header": {
+    "primaryLogo": "/assets/logo/nsec.png",
+    "secondaryLogo": "/assets/logo/aicte_logo.png",
+    "tertiaryLogo": "/assets/logo/icce-logo.png"
+  },
+  "contact": {
+    "phone": "+91 9831817307",
+    "email": "info@nsec.ac.in",
+    "location": "Techno City, Garia, Kolkata - 700152, West Bengal, India",
+    "mapLink": "https://www.google.com/maps/place/Netaji+Subhash+Engineering+College/@22.47616,88.414933,15z/data=!4m5!3m4!1s0x0:0x276c0d30e6be12ea!8m2!3d22.4761596!4d88.4149326?hl=en-US"
+  },
+  "hero": {
+    "phrases": [
+      { "main": "Architecting", "sub": "the Horizon." },
+      { "main": "Engineering", "sub": "the Future." },
+      { "main": "Synthesis", "sub": "of Innovation." },
+      { "main": "Defining", "sub": "the Frontier." },
+      { "main": "Mastering", "sub": "the Core." },
+      { "main": "Precision", "sub": "in Engineering." },
+      { "main": "Evolving", "sub": "Technicality." },
+      { "main": "Pioneering", "sub": "Next-Gen." }
+    ],
+    "carousel": {
+      "images": [
+        { "path": "/assets/Explore/Boardroom1.webp", "label": "Executive Boardroom" },
+        { "path": "/assets/Explore/Cafeteria1.webp", "label": "Modern Cafeteria" },
+        { "path": "/assets/Explore/Campus_Life1.webp", "label": "Vibrant Campus Life" },
+        { "path": "/assets/Explore/Campus_Life2.webp", "label": "Student Engagement" },
+        { "path": "/assets/Explore/Campus_Life3.webp", "label": "Collaborative Spaces" },
+        { "path": "/assets/Explore/Campus_Life4.webp", "label": "Campus Activities" },
+        { "path": "/assets/Explore/Campus_Life5.webp", "label": "Student Community" },
+        { "path": "/assets/Explore/Campus_Life6.webp", "label": "Campus Interaction" },
+        { "path": "/assets/Explore/Campus1.webp", "label": "Main Campus View" },
+        { "path": "/assets/Explore/Campus2.webp", "label": "Architectural Excellence" },
+        { "path": "/assets/Explore/Classroom1.webp", "label": "Interactive Classroom" },
+        { "path": "/assets/Explore/Classroom2.webp", "label": "Learning Spaces" },
+        { "path": "/assets/Explore/Classroom3.webp", "label": "Academic Environment" },
+        { "path": "/assets/Explore/Laboratories1.webp", "label": "Research & Development Lab" },
+        { "path": "/assets/Explore/Laboratories2.webp", "label": "Advanced Engineering Lab" },
+        { "path": "/assets/Explore/Laboratories3.webp", "label": "Computing Center" },
+        { "path": "/assets/Explore/Laboratories4.webp", "label": "Technical Training Facility" },
+        { "path": "/assets/Explore/Laboratories5.webp", "label": "Innovation Lab" },
+        { "path": "/assets/Explore/Laboratories6.webp", "label": "Specialized Workshop" },
+        { "path": "/assets/Explore/Laboratories7.webp", "label": "High-End Laboratory" },
+        { "path": "/assets/Explore/Laboratories8.webp", "label": "Practical Learning" },
+        { "path": "/assets/Explore/Libary1.webp", "label": "Central Library" },
+        { "path": "/assets/Explore/Libary2.webp", "label": "Resource Center" },
+        { "path": "/assets/Explore/Libary3.webp", "label": "Study Hub" },
+        { "path": "/assets/Explore/Reception1.webp", "label": "Welcoming Reception" },
+        { "path": "/assets/Explore/Seminar1.webp", "label": "Professional Seminar Hall" }
+      ]
+    },
+    "description": "NSEC has been set up, keeping in mind the ideals of Netaji Subhash Chandra Bose, whose contribution to the Indian Freedom Movement remains invaluable forever.",
+    "buttons": {
+      "main": {
+        "label": "Admission 2025-26",
+        "subLabel": "+91-9831817307 / 2436 3333",
+        "path": "/admission",
+        "icon": "GraduationCap"
+      },
+      "grid": [
+        {
+          "label": "Silver Jubilee",
+          "subLabel": "25 years of Academic Excellence",
+          "path": "/silver-jubilee",
+          "image": "/assets/HeroFocus/25-years-nsec-logo-3.png"
+        },
+        {
+          "label": "Accreditation",
+          "subLabel": "NBA(EE,CSE,ECE,BME) & NAAC(Institute)",
+          "path": "/accreditation",
+          "icon": "Award"
+        },
+        {
+          "label": "Academic Programs",
+          "subLabel": "B.Tech, M.Tech, MBA, MCA, BBA, BCA, BSc, Dip",
+          "path": "/programs",
+          "icon": "BookOpen"
+        },
+        {
+          "label": "VTour",
+          "subLabel": "Experience our Campus virtually",
+          "path": "/vtour",
+          "icon": "Zap"
+        },
+        {
+          "label": "Book Online Counselling",
+          "subLabel": "Secure your seat today",
+          "path": "/admission/counselling",
+          "icon": "MousePointerClick"
+        },
+        {
+          "label": "Online Fees Payment",
+          "subLabel": "Easy & Secure transaction",
+          "path": "https://nsec.techtron.net/",
+          "icon": "CreditCard"
+        }
+      ]
+    },
+    "ticker": [
+      { "label1": "NSEC_ESTD_1998", "label2": "27_YEARS_OF_EXCELLENCE", "icon": "Activity" },
+      { "label1": "ADMISSIONS_OPEN_2025-26", "label2": "ENROLL_NOW", "icon": "Zap" },
+      { "label1": "NAAC_A_GRADE", "label2": "NBA_ACCREDITED", "icon": "Award" },
+      { "label1": "RESEARCH_DRIVEN", "label2": "INNOVATION_HUB", "icon": "Target" },
+      { "label1": "NIRF_RANKED", "label2": "ARIIA_RECOGNIZED", "icon": "Trophy" }
+    ],
+    "metrics": [
+      { "label": "Legacy", "val": "27Y", "unit": "YEARS" },
+      { "label": "Alumni", "val": "15K+", "unit": "PROFESSIONALS" },
+      { "label": "Research", "val": "850+", "unit": "PUBLICATIONS" },
+      { "label": "Intake", "val": "1200+", "unit": "ANNUAL" },
+      { "label": "Placement", "val": "90%+", "unit": "AVERAGE" },
+      { "label": "Faculty", "val": "250+", "unit": "EXPERTS" }
+    ],
+    "broadcast": {
+      "spotlight": {
+        "archiveLink": "/spotlight/archive",
+        "items": [
+          { 
+            "name": "Dr. T.S. Bhattacharya", 
+            "role": "Director General", 
+            "qualification": "Ph.D, Senior Member IEEE",
+            "topic": "The Future of Engineering Education in India",
+            "quote": "Architecting excellence for 27 years.", 
+            "videoUrl": "/assets/Video/Alumni/NSEC_Alumni_Video_Promo_2021_09.mp4",
+            "thumbnail": "/assets/Leadership/director.jpg" 
+          }
+        ]
+      },
+      "notices": {
+        "archiveLink": "page.php?id=488",
+        "items": [
+          { "title": "Schedule for Admission through JECA 2025", "date": "04 APR 2026", "link": "/assets/Notices/JECA2025.pdf" },
+          { "title": "NOTICE: Phase II Registration for Students of 1st year BTECH CSE(AIML) will be held on 10.4.26 instead of 3.4.26.", "date": "01 APR 2026", "link": "/assets/Notices/rev_notice_reg_phaseII_260401_132004.pdf" },
+          { "title": "2nd Round Counselling", "date": "01 APR 2026", "link": "/assets/Notices/2ndroundcounselling2025.pdf" },
+          { "title": "Mandatory Documents required at the time of Admission in B-Tech (Through Counseling)-2025-26.", "date": "01 APR 2026", "link": "/assets/Notices/admissiondoc25-26.pdf" },
+          { "title": "1st round document verification and admission.", "date": "01 APR 2026", "link": "/assets/Notices/noticedocveradm-2025.pdf" },
+          { "title": "NOTICE: Commencement of Classes for 1st and 2nd year students from 31st March, 2026", "date": "30 MAR 2026", "link": "/assets/Notices/Notice_30-03-2026.pdf" },
+          { "title": "URGENT NOTICE: Schedule for Phase-II Registration Process for AY 2025-26", "date": "27 MAR 2026", "link": "/assets/Notices/Urgent Notice_260327_163237.pdf" },
+          { "title": "Notice - student ID card distribution for AY 2024-25", "date": "26 MAR 2026", "link": "/assets/Notices/Notice_studentIDcard_24-25.pdf" },
+          { "title": "Career opportunity for Faculty Position", "date": "24 FEB 2026", "link": "/assets/Notices/NSEC_Recruit_260224_140643.pdf" },
+          { "title": "Availability of Degree Certificate and Marksheet on National Academic Depository", "date": "30 JAN 2026", "link": "/assets/Notices/DOC-20260130-WA0038_260130_163608.pdf" },
+          { "title": "Notice regarding Caution Money Deposit", "date": "15 JAN 2026", "link": "/assets/Notices/cautiondepositnotice.pdf" },
+          { "title": "Further NBA Accreditation of Four Programs (BME, CSE, EE, ECE)", "date": "10 JAN 2026", "link": "page.php?id=533" },
+          { "title": "Phase 1 Registration - BTECH - AY 2025-26", "date": "05 JAN 2026", "link": "/assets/Notices/NOTICE_BTECH1STPHASEREGISTRATION25-26.pdf" },
+          { "title": "Notice for Document Verification and Admission Through JELET 2024 (Round-1)", "date": "20 DEC 2025", "link": "/assets/Notices/NOTICEDOCVERIFYJELETROUND1-2024.pdf" },
+          { "title": "Holiday Notice - Durga & Lakshmi Puja 2025", "date": "15 OCT 2025", "link": "/assets/Notices/Notice_DurgaLakshmiPuja2025.pdf" },
+          { "title": "Induction Program B.Tech 1st Year 2024-25", "date": "01 AUG 2025", "link": "/assets/Notices/Notice_Inductionprog_BTech_1styear_2024-25.pdf" },
+          { "title": "Branch Change Notice 2024-25", "date": "15 JUL 2025", "link": "/assets/Notices/Branch_Change_Notice_2024-25.pdf" },
+          { "title": "Academic Calendar Even Semester 2024-25", "date": "10 JAN 2025", "link": "/assets/Notices/academiccalendarevensemester24-25.pdf" },
+          { "title": "Notice for Student ID Card 2024-25", "date": "05 SEP 2024", "link": "/assets/Notices/Notice_studentIDcard_24-25.pdf" },
+          { "title": "Placement Record 2023-24", "date": "30 JUN 2024", "link": "page.php?id=560" }
+        ]
+      }
+    },
+    "specializations": [
+      {
+        "name": "Applied Electronics & Instrumentation Engineering",
+        "code": "AEIE",
+        "icon": "Activity",
+        "desc": "The department of Applied Electronics and Instrumentation Engineering (AEIE) was established in the academic year 2005-2006 with an intake of 60 students and it offers a four-year B Tech degree program under Maulana Abul Kalam Azad University of Technology (MAKAUT, formerly WBUT), West Bengal.",
+        "path": "/aeie/home"
+      },
+      {
+        "name": "Artificial Intelligence (AI) & Data Science",
+        "code": "AIDS",
+        "icon": "Brain",
+        "desc": "AI & DS is a cutting-edge undergraduate program that focuses on developing intelligent systems and data-driven solutions. It combines core computer science with advanced AI, machine learning, and big data technologies to prepare students for the evolving demands of industry and research.",
+        "path": "/aids/home"
+      },
+      {
+        "name": "Biomedical Engineering",
+        "code": "BME",
+        "icon": "HeartPulse",
+        "desc": "Biomedical Engineering is an interdisciplinary emerging field, which combines two dynamic professions: Medical Science and Engineering with the objectives of improving human health by enriching the health-care engineering.",
+        "path": "/bme/home"
+      },
+      {
+        "name": "Civil Engineering",
+        "code": "CE",
+        "icon": "Building2",
+        "desc": "The Civil Engineering Department is one of the prestigious departments of this institute. The department offers four year B-Tech course in Civil Engineering. The focus is to provide application oriented education covering the entire spectrum of Civil Engineering.",
+        "path": "/ce/home"
+      },
+      {
+        "name": "Computer Science & Business Systems (CSBS)",
+        "code": "CSBS",
+        "icon": "Briefcase",
+        "desc": "Tata Consultancy Services (TCS) Induced Computer Science & Business Systems Programme. CSBS is a brand new and a revolutionary branch in engineering designed to produce skilled engineers who stand out from the crowd.",
+        "path": "/csbs/home"
+      },
+      {
+        "name": "Computer Science & Engineering",
+        "code": "CSE",
+        "icon": "Cpu",
+        "desc": "In today's Industrial Environment, the disciplines of Computer Science & Engineering and Information Technology have come to the forefront in providing tools and techniques to the rest of the industry - Heavy Engineering, Science Sector, Finance Sector, Entertainment Sector and all other basic Industries.",
+        "path": "/cse/home"
+      },
+      {
+        "name": "Computer Science and Engineering (AIML)",
+        "code": "AIML",
+        "icon": "Binary",
+        "desc": "Artificial Intelligence & Machine Learning (AIML) is a trending topic in the tech industry. Perhaps more than our daily lives Artificial Intelligence are impacting the business world more. There was about $300 million in venture capital invested in AI start-ups in 2020, a 300% increase than a year before.",
+        "path": "/aiml/home"
+      },
+      {
+        "name": "Computer Science and Engineering (Cyber Security)",
+        "code": "CS",
+        "icon": "ShieldCheck",
+        "desc": "CSE (CS) is a specialized UG program that equips students with the skills to protect digital systems, networks, and data from cyber threats. It covers areas like ethical hacking, cryptography, network security, and cyber laws, preparing graduates for careers in information security and digital forensics.",
+        "path": "/cyber/home"
+      },
+      {
+        "name": "Computer Science and Engineering (Data Science)",
+        "code": "DS",
+        "icon": "Database",
+        "desc": "Data Science is an interdisciplinary undergraduate program that focuses on extracting meaningful insights from data using statistics, machine learning, and computing techniques. It prepares students to solve real-world problems across industries by analyzing and interpreting complex data.",
+        "path": "/ds/home"
+      },
+      {
+        "name": "Computer Science and Engineering (IoT)",
+        "code": "IOT",
+        "icon": "Wifi",
+        "desc": "Internet of Things (IoT) is a future-focused undergraduate program that trains students to design and develop smart connected devices and systems. The curriculum integrates sensors, embedded systems, networking, and data analytics to build solutions for smart homes, cities, industries & healthcare.",
+        "path": "/iot/home"
+      },
+      {
+        "name": "Electronics & Communication Engineering",
+        "code": "ECE",
+        "icon": "Radio",
+        "desc": "The ECE department started its journey during the inception of the institute in 1998 with an intake of sixty (60) B.Tech. students. Since its establishment, the primary objective of the department has been to impart quality education, training and research in various functional areas of electronics and communication.",
+        "path": "/ece/home"
+      },
+      {
+        "name": "Electrical Engineering",
+        "code": "EE",
+        "icon": "Zap",
+        "desc": "The Department of Electrical Engineering, which has a fine blend of renowned as well as young and dynamic faculty, is involved in providing Learning Outcome based UG program. The Department offers B.Tech. Program in EE (intake:120) & EECE (intake:60), M.Tech. in C&I (intake:9) and PS (intake:18), Diploma in EE (intake:60) & EE & EV (intake:30).",
+        "path": "/ee/home"
+      },
+      {
+        "name": "Information Technology",
+        "code": "IT",
+        "icon": "Network",
+        "desc": "Information Technology department has a mission to provide high quality education at undergraduate level based on the excellence of our research. The department encourages all faculty members in research activities such that innovative thinking and new ideas are being produced for creating brilliant IT professionals.",
+        "path": "/it/home"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "code": "ME",
+        "icon": "Settings",
+        "desc": "The department of Mechanical Engineering, Netaji Subhash Engineering College, has commenced its journey in the year 2012. The department has gained its strength over the years and in 2018, it is one of the finest among self-financing engineering colleges in the state of West Bengal.",
+        "path": "/me/home"
+      },
+      {
+        "name": "B.Tech in Electrical & Computer Engineering",
+        "code": "ELCE",
+        "icon": "CircuitBoard",
+        "desc": "A dynamic program that blends core electrical engineering with modern computer technologies like AI, ML, IoT, and advanced programming. Designed with Industry-driven curriculum, Ideal for emerging careers in smart systems, automation, and advanced computing.",
+        "path": "/elce/home",
+        "isNewlyLaunched": true
+      },
+      {
+        "name": "Computer Science and Information Technology",
+        "code": "CSIT",
+        "icon": "Layers",
+        "desc": "A comprehensive UG program that combines the principles of computer science with practical applications of IT. It equips students with skills in software, networking, databases, cybersecurity, & emerging technologies to meet the evolving demands of the industry.",
+        "path": "/csit/home",
+        "isNewlyLaunched": true
+      },
+      {
+        "name": "Computer Application (MCA & BCA)",
+        "code": "CA",
+        "icon": "Terminal",
+        "desc": "The Computer Application department of NSEC started its journey in 2001 with MCA (Master of Computer Application) and BCA (Bachelor of Computer Application) courses. Both the courses are approved by AICTE and affiliated by MAKAUT.",
+        "path": "/ca/home"
+      },
+      {
+        "name": "Bachelor of Computer Application (BCA)",
+        "code": "BCA_SEP",
+        "icon": "Monitor",
+        "desc": "BCA is nearly equivalent to BTech/BE in Computer Science or Information technology as per course curriculum and job prospect. Not only that, it takes three years rather than 4 years BE/BTech courses. Approved by AICTE and affiliated by MAKAUT.",
+        "path": "/bca/home"
+      },
+      {
+        "name": "Management [MBA & BBA]",
+        "code": "MGMT",
+        "icon": "Presentation",
+        "desc": "Department Offers Bachelor of Business Administration & Masters of Business Administration. Both the courses are approved by AICTE and affiliated by MAKAUT.",
+        "path": "/mgmt/home"
+      },
+      {
+        "name": "Basic Engineering Sciences and Humanities",
+        "code": "BESH",
+        "icon": "Beaker",
+        "desc": "Knowledge in basic science is an essential constituent of any professional course. The Department of Basic Engineering Sciences and Humanities aims to fulfill this function more efficiently. This Department is devoted to fostering the fundamental principles.",
+        "path": "/besh/home"
+      }
+    ]
+  },
+  "navigation": [
+    { 
+      "name": "About Us", 
+      "id": "about", 
+      "icon": "Info",
+      "children": [
+        { "name": "Overview", "path": "/about/overview", "desc": "College Profile" },
+        { "name": "Vision & Mission", "path": "/about/vision-mission", "desc": "Our Core Values" },
+        { "name": "Institutional Distinctiveness", "path": "/about/distinctiveness", "desc": "What Makes Us Unique" },
+        { "name": "Accreditation & Affiliation", "path": "/about/accreditation", "desc": "Quality Standards" },
+        { "name": "Message", "path": "/about/message", "desc": "From Leadership" },
+        { "name": "Organisational Structure", "path": "/about/structure", "desc": "Governance Framework" },
+        { "name": "Functionaries", "path": "/about/functionaries", "desc": "Key Personnel" },
+        { "name": "Committees", "path": "/about/committees", "desc": "Specialized Groups" },
+        { "name": "Download", "path": "/about/download", "desc": "Resources & Forms" },
+        { "name": "RTI", "path": "/about/rti", "desc": "Right to Information" },
+        { "name": "Policies", "path": "/about/policies", "desc": "Rules & Guidelines" }
+      ]
+    },
+    { 
+      "name": "Academics", 
+      "id": "academics", 
+      "icon": "BookOpen",
+      "children": [
+        { "name": "Programmes", "path": "/academics/programmes", "desc": "Courses Offered" },
+        { "name": "Curriculum Planning & Implementation", "path": "/academics/curriculum", "desc": "Academic Strategy" },
+        { "name": "Best Practices", "path": "/academics/practices", "desc": "Standard Methods" },
+        { "name": "Academic Calendar", "path": "/academics/calendar", "desc": "Schedules" },
+        { "name": "Feedbacks", "path": "/academics/feedbacks", "desc": "Stakeholder Input" }
+      ]
+    },
+    { 
+      "name": "Admission 2025-26", 
+      "id": "admission", 
+      "icon": "GraduationCap",
+      "path": "/admission",
+      "children": [
+        { "name": "General Information", "path": "/admission/info", "desc": "Entry Guide" },
+        { "name": "Courses Offered & Intake", "path": "/admission/courses", "desc": "Seat Matrix" },
+        { "name": "Eligibility Criteria", "path": "/admission/eligibility", "desc": "Requirements" },
+        { "name": "Download Brochure", "path": "/admission/brochure", "desc": "Prospectus" },
+        { "name": "Documents Required", "path": "/admission/documents", "desc": "Submission List" },
+        { "name": "Online Counselling", "path": "/admission/counselling", "desc": "Booking Portal" },
+        { "name": "Online Admission", "path": "/admission/online", "desc": "Portal Access" }
+      ]
+    },
+    { 
+      "name": "Facilities", 
+      "id": "facilities", 
+      "icon": "Building2",
+      "children": [
+        { "name": "Video Tour", "path": "/facilities/tour", "desc": "Visual Walkthrough" },
+        { "name": "Infrastructure", "path": "/facilities/infrastructure", "desc": "Campus Build" },
+        { "name": "Laboratories", "path": "/facilities/labs", "desc": "Technical Centers" },
+        { "name": "Library", "path": "/facilities/library", "desc": "Knowledge Hub" },
+        { "name": "Online E-Resources", "path": "/facilities/eresources", "desc": "Digital Access" },
+        { "name": "Media Center", "path": "/facilities/media", "desc": "Creative Studio" },
+        { "name": "ED Cell", "path": "/facilities/edcell", "desc": "Entrepreneurship" },
+        { "name": "Welfare Measures", "path": "/facilities/welfare", "desc": "Support Services" },
+        { "name": "Grievance Portal", "path": "/facilities/grievance", "desc": "Redressal System" }
+      ]
+    },
+    { 
+      "name": "Training & Placement", 
+      "id": "placement", 
+      "icon": "Briefcase",
+      "children": [
+        { "name": "Vision Mission", "path": "/placement/vision", "desc": "Strategic Goals" },
+        { "name": "Placement Statistics", "path": "/placement/stats", "desc": "Success Metrics" },
+        { "name": "Achievements", "path": "/placement/achievements", "desc": "Record Breaking" },
+        { "name": "Activities", "path": "/placement/activities", "desc": "Workshops & Seminars" },
+        { "name": "Placement Records", "path": "/placement/records", "desc": "Past Data" },
+        { "name": "Facilities & Infra", "path": "/placement/infra", "desc": "T&P Setup" },
+        { "name": "T & P Committee", "path": "/placement/committee", "desc": "Governance" }
+      ]
+    },
+    { 
+      "name": "Students' Corner", 
+      "id": "students", 
+      "icon": "Users",
+      "children": [
+        { "name": "Achievements", "path": "/students/achievements", "desc": "Excellence" },
+        { "name": "Mentoring System", "path": "/students/mentoring", "desc": "Guidance" },
+        { "name": "Guidance & Support", "path": "/students/support", "desc": "Welfare" },
+        { "name": "Phoenix", "path": "/students/phoenix", "desc": "Student Club" },
+        { "name": "Rotaract Club", "path": "/students/rotaract", "desc": "Social Service" },
+        { "name": "Games & Sports", "path": "/students/sports", "desc": "Physical Wellness" },
+        { "name": "Eco Cultural Club", "path": "/students/eco", "desc": "Sustainability" },
+        { "name": "Code of Conduct", "path": "/students/conduct", "desc": "Ethics" },
+        { "name": "Alumni Association", "path": "/students/alumni", "desc": "Global Reach" }
+      ]
+    },
+    { "name": "NIRF", "path": "/nirf", "id": "nirf", "icon": "Award" },
+    { "name": "Events", "path": "/events", "id": "events", "icon": "Calendar" }
+  ],
+  "successStories": {
+    "alumniVideos": [
+      {
+        "name": "Priyanka Samanta",
+        "designation": "Senior Software Engineer",
+        "company": "Infosys",
+        "logo": "/assets/CompanyLogos/logo-INFOSYS.jpg",
+        "year": "2015",
+        "specialization": "Information Technology",
+        "videoUrl": "/assets/Video/Alumni/NSEC_Alumni_Video_Promo_2021_01.mp4"
+      },
+      {
+        "name": "Biplab Sah",
+        "designation": "Senior Product Engineer",
+        "company": "L&T",
+        "logo": "/assets/CompanyLogos/logo-lnt.jpg",
+        "year": "2012",
+        "specialization": "MCA",
+        "videoUrl": "/assets/Video/Alumni/NSEC_Alumni_Video_Promo_2021_02.mp4"
+      },
+      {
+        "name": "Sanket Sarkar",
+        "designation": "Founder & CEO",
+        "company": "Techno Exponent",
+        "logo": "/assets/CompanyLogos/logo-TechnoExponent.jpg",
+        "year": "2007",
+        "specialization": "Information Technology",
+        "videoUrl": "/assets/Video/Alumni/NSEC_Alumni_Video_Promo_2021_03.mp4"
+      },
+      {
+        "name": "Poulumi Sanyal",
+        "designation": "Fiction Writer",
+        "company": "Author",
+        "logo": "/assets/CompanyLogos/logo-amazon.jpg",
+        "year": "2002",
+        "specialization": "Electrical Engineering",
+        "videoUrl": "/assets/Video/Alumni/NSEC_Alumni_Video_Promo_2021_04.mp4"
+      }
+    ],
+    "alumniSpeak": [
+      {
+        "name": "Akash Adak",
+        "photo": "/assets/Students/2022_EEP_Akash_Adak.jpg",
+        "designation": "Senior Engineer",
+        "company": "Cognizant",
+        "logo": "/assets/CompanyLogos/logo-cts.jpg",
+        "year": "2022",
+        "specialization": "Electrical Engineering",
+        "text": "NSEC provided the foundation for my analytical thinking which I now use in my professional career."
+      },
+      {
+        "name": "Anushka Roy",
+        "photo": "/assets/Students/2022_EEP_Anushka_Roy.jpg",
+        "designation": "Software Developer",
+        "company": "Capgemini",
+        "logo": "/assets/CompanyLogos/logo-capgemini.jpg",
+        "year": "2022",
+        "specialization": "Electrical Engineering",
+        "text": "The academic rigor at NSEC helped me excel in my professional journey and research."
+      },
+      {
+        "name": "Amit Kumar",
+        "photo": "/assets/Students/2022_EEP_Amit_Kumar.jpg",
+        "designation": "Systems Engineer",
+        "company": "TCS",
+        "logo": "/assets/CompanyLogos/logo-tcsdigital.jpg",
+        "year": "2022",
+        "specialization": "Electrical Engineering",
+        "text": "From NSEC to top-tier MNCs, the journey was fueled by the excellent guidance from my professors."
+      },
+      {
+        "name": "Ankita Pramanik",
+        "photo": "/assets/Students/2022_EEP_Ankita_Pramanik.jpg",
+        "designation": "Cloud Architect",
+        "company": "Amazon",
+        "logo": "/assets/CompanyLogos/logo-amazon.jpg",
+        "year": "2022",
+        "specialization": "Electrical Engineering",
+        "text": "The exposure to modern technologies at NSEC was crucial for my role at Amazon."
+      },
+      {
+        "name": "Archisman Debasharma",
+        "photo": "/assets/Students/2022_EEP_Archisman_Debasharma.jpg",
+        "designation": "Data Scientist",
+        "company": "Microsoft",
+        "logo": "/assets/CompanyLogos/logo-microsoft.jpg",
+        "year": "2022",
+        "specialization": "Electrical Engineering",
+        "text": "NSEC's focus on data-driven engineering helped me transition smoothly into the tech industry."
+      },
+      {
+        "name": "Aritra Bhattacharyya",
+        "photo": "/assets/Students/2022_EEP_Aritra_Bhattacharyya.jpg",
+        "designation": "Technical Lead",
+        "company": "Wipro",
+        "logo": "/assets/CompanyLogos/logo-wipro.jpg",
+        "year": "2022",
+        "specialization": "Electrical Engineering",
+        "text": "The leadership skills I developed at NSEC are now helping me manage complex projects."
+      },
+      {
+        "name": "Arriyan Bose",
+        "photo": "/assets/Students/2022_EEP_Arriyan_Bose.jpg",
+        "designation": "Full Stack Dev",
+        "company": "Accenture",
+        "logo": "/assets/CompanyLogos/logo-accenture.jpg",
+        "year": "2022",
+        "specialization": "Electrical Engineering",
+        "text": "NSEC provided a perfect balance of theory and practical knowledge."
+      },
+      {
+        "name": "Bhashkar Datta Chaudhuri",
+        "photo": "/assets/Students/2022_EEP_Bhashkar Datta_Chaudhuri.jpg",
+        "designation": "Product Manager",
+        "company": "IBM",
+        "logo": "/assets/CompanyLogos/logo-ibm.jpg",
+        "year": "2022",
+        "specialization": "Electrical Engineering",
+        "text": "The collaborative environment at NSEC fostered my growth as a professional."
+      },
+      {
+        "name": "Bhaskar Paul",
+        "photo": "/assets/Students/2022_EEP_Bhaskar Paul.jpg",
+        "designation": "Security Analyst",
+        "company": "Infosys",
+        "logo": "/assets/CompanyLogos/logo-INFOSYS.jpg",
+        "year": "2022",
+        "specialization": "Electrical Engineering",
+        "text": "Learning at NSEC was an enriching experience that prepared me for the corporate world."
+      },
+      {
+        "name": "Bijoy Saha",
+        "photo": "/assets/Students/2022_EEP_Bijoy_Saha.jpg",
+        "designation": "DevOps Engineer",
+        "company": "L&T",
+        "logo": "/assets/CompanyLogos/logo-lnt.jpg",
+        "year": "2022",
+        "specialization": "Electrical Engineering",
+        "text": "NSEC's infrastructure and labs are top-notch for engineering students."
+      },
+      {
+        "name": "Bikram Kumar Paul",
+        "photo": "/assets/Students/2022_EEP_Bikram_Kumar_Paul.jpg",
+        "designation": "Hardware Engineer",
+        "company": "Intel",
+        "logo": "/assets/CompanyLogos/logo-intel.jpg",
+        "year": "2022",
+        "specialization": "Electrical Engineering",
+        "text": "The technical foundation laid at NSEC is invaluable."
+      },
+      {
+        "name": "Biplab Naskar",
+        "photo": "/assets/Students/2022_EEP_Biplab_Naskar.jpg",
+        "designation": "Embedded Dev",
+        "company": "Samsung",
+        "logo": "/assets/CompanyLogos/logo-samsung.jpg",
+        "year": "2022",
+        "specialization": "Electrical Engineering",
+        "text": "NSEC encouraged me to push boundaries and innovate."
+      },
+      {
+        "name": "Debapriya Chandra",
+        "photo": "/assets/Students/2022_EEP_Debapriya_Chandra.jpg",
+        "designation": "System Architect",
+        "company": "Dell",
+        "logo": "/assets/CompanyLogos/logo-dell-2025.jpg",
+        "year": "2022",
+        "specialization": "Electrical Engineering",
+        "text": "The exposure to real-world problems at NSEC was eye-opening."
+      },
+      {
+        "name": "Debasish Basak",
+        "photo": "/assets/Students/2022_EEP_Debasish_Basak.jpg",
+        "designation": "QA Lead",
+        "company": "Google",
+        "logo": "/assets/CompanyLogos/logo-google.jpg",
+        "year": "2022",
+        "specialization": "Electrical Engineering",
+        "text": "NSEC's faculty are mentors who truly care about student success."
+      },
+      {
+        "name": "Debayan Pal",
+        "photo": "/assets/Students/2022_EEP_Debayan_Pal.jpg",
+        "designation": "Research Scientist",
+        "company": "EY",
+        "logo": "/assets/CompanyLogos/logo-ernst.jpg",
+        "year": "2022",
+        "specialization": "Electrical Engineering",
+        "text": "The research opportunities at NSEC are unparalleled."
+      },
+      {
+        "name": "Debdeep Bhattacharjee",
+        "photo": "/assets/Students/2022_EEP_Debdeep_Bhattacharjee.jpg",
+        "designation": "SDE-II",
+        "company": "PwC",
+        "logo": "/assets/CompanyLogos/logo-pwc.jpg",
+        "year": "2022",
+        "specialization": "Electrical Engineering",
+        "text": "NSEC provided the perfect platform to launch my career."
+      },
+      {
+        "name": "Debrup Roy",
+        "photo": "/assets/Students/2022_EEP_Debrup_Roy.jpg",
+        "designation": "Automation Engineer",
+        "company": "Tech Mahindra",
+        "logo": "/assets/CompanyLogos/logo-techmahindra.jpg",
+        "year": "2022",
+        "specialization": "Electrical Engineering",
+        "text": "The technical training at NSEC is very industry-focused."
+      },
+      {
+        "name": "Dishani De",
+        "photo": "/assets/Students/2022_EEP_Dishani_De.jpg",
+        "designation": "Frontend Dev",
+        "company": "Mindtree",
+        "logo": "/assets/CompanyLogos/logo-mindtree.jpg",
+        "year": "2022",
+        "specialization": "Electrical Engineering",
+        "text": "I loved the vibrant student community and culture at NSEC."
+      },
+      {
+        "name": "Kamani Kumari Jha",
+        "photo": "/assets/Students/2022_EEP_KAMANI_KUMARI_JHA.jpg",
+        "designation": "Backend Dev",
+        "company": "Hexaware",
+        "logo": "/assets/CompanyLogos/logo-hexaware.jpg",
+        "year": "2022",
+        "specialization": "Electrical Engineering",
+        "text": "NSEC made learning engineering fun and engaging."
+      },
+      {
+        "name": "Maitrayi Ghosh",
+        "photo": "/assets/Students/2022_EEP_Maitrayi_Ghosh.jpg",
+        "designation": "Product Designer",
+        "company": "Bajaj",
+        "logo": "/assets/CompanyLogos/logo-bajaj.jpg",
+        "year": "2022",
+        "specialization": "Electrical Engineering",
+        "text": "The design labs at NSEC are equipped with the latest tools."
+      }
+    ],
+    "marquee": [
+      { "name": "Arnab K. Paul", "designation": "Postdoc Associate", "company": "Amazon", "logo": "/assets/CompanyLogos/logo-amazon.jpg", "year": "2011", "specialization": "CSE" },
+      { "name": "Kinjal Dhar Gupta", "designation": "Data Scientist", "company": "Microsoft", "logo": "/assets/CompanyLogos/logo-microsoft.jpg", "year": "2013", "specialization": "CSE" },
+      { "name": "Ananya Dass", "designation": "Enterprise Data Architect", "company": "IBM", "logo": "/assets/CompanyLogos/logo-ibm.jpg", "year": "2009", "specialization": "CSE" },
+      { "name": "Anirban Sengupta", "designation": "Postdoc Fellow", "company": "Intel", "logo": "/assets/CompanyLogos/logo-intel.jpg", "year": "2012", "specialization": "BME" },
+      { "name": "Rajat Suvra Halder", "designation": "Asst. Manager", "company": "Wipro", "logo": "/assets/CompanyLogos/logo-wipro.jpg", "year": "2010", "specialization": "BME" },
+      { "name": "Shiv Shankar", "designation": "Location In Charge", "company": "Dell", "logo": "/assets/CompanyLogos/logo-dell-2025.jpg", "year": "2008", "specialization": "AEIE" },
+      { "name": "Sanket Sarkar", "designation": "Founder", "company": "Techno Exponent", "logo": "/assets/CompanyLogos/logo-TechnoExponent.jpg", "year": "2007", "specialization": "IT" },
+      { "name": "Sharad Suman", "designation": "Project Manager", "company": "L&T", "logo": "/assets/CompanyLogos/logo-lnt.jpg", "year": "2006", "specialization": "CSE" },
+      { "name": "Mayukh Roy", "designation": "Software Engineer", "company": "Google", "logo": "/assets/CompanyLogos/logo-google.jpg", "year": "2016", "specialization": "IT" },
+      { "name": "Tanmoy Roy", "designation": "Developer", "company": "Cognizant", "logo": "/assets/CompanyLogos/logo-cts_2025.jpg", "year": "2015", "specialization": "CSE" },
+      { "name": "Aditya Sharma", "designation": "SDE-2", "company": "Accenture", "logo": "/assets/CompanyLogos/logo-accenture.jpg", "year": "2017", "specialization": "CSE" },
+      { "name": "Amartya Sen", "designation": "Consultant", "company": "EY", "logo": "/assets/CompanyLogos/logo-ernst_2025.jpg", "year": "2014", "specialization": "IT" },
+      { "name": "Archita Roy", "designation": "Analyst", "company": "PwC", "logo": "/assets/CompanyLogos/logo-pwc.jpg", "year": "2018", "specialization": "CSE" },
+      { "name": "Arijit Das", "designation": "Lead Engineer", "company": "Samsung", "logo": "/assets/CompanyLogos/logo-samsung.jpg", "year": "2013", "specialization": "ECE" },
+      { "name": "Arkapravo Ghosh", "designation": "Senior Dev", "company": "Tech Mahindra", "logo": "/assets/CompanyLogos/logo-techmahindra.jpg", "year": "2012", "specialization": "IT" },
+      { "name": "Debdeep Bhattacharjee", "designation": "Software Engineer", "company": "Mindtree", "logo": "/assets/CompanyLogos/logo-mindtree_2025.jpg", "year": "2019", "specialization": "CSE" },
+      { "name": "Sayanti Sinha", "designation": "Analyst", "company": "Hexaware", "logo": "/assets/CompanyLogos/logo-hexaware.jpg", "year": "2020", "specialization": "IT" },
+      { "name": "Bikram Kumar Paul", "designation": "Lead Dev", "company": "Bajaj", "logo": "/assets/CompanyLogos/logo-bajaj.jpg", "year": "2018", "specialization": "ECE" },
+      { "name": "Upama Dutta", "designation": "Manager", "company": "Virtusa", "logo": "/assets/CompanyLogos/logo-virtusa-2025.jpg", "year": "2017", "specialization": "EE" },
+      { "name": "Maitrayi Ghosh", "designation": "Developer", "company": "Salesforce", "logo": "/assets/CompanyLogos/logo-salesforce_2025.jpg", "year": "2021", "specialization": "CSE" }
+    ]
+  },
+  "footer": {
+    "sections": [
+      {
+        "title": "Directorates",
+        "links": [
+          { "name": "Board of Governors", "path": "/bog" },
+          { "name": "Principal's Office", "path": "/principal" },
+          { "name": "Dean's Portal", "path": "/dean" },
+          { "name": "IQAC Cell", "path": "/iqac" },
+          { "name": "NIRF Submissions", "path": "/nirf" },
+          { "name": "ARIIA Data", "path": "/ariia" }
+        ]
+      },
+      {
+        "title": "Nodes",
+        "links": [
+          { "name": "Academic Calendar", "path": "/calendar" },
+          { "name": "Examinations", "path": "/exams" },
+          { "name": "Research Hub", "path": "/research" },
+          { "name": "Placement Cell", "path": "/placement" },
+          { "name": "Library Portal", "path": "/library" },
+          { "name": "E-Resources", "path": "/eresources" }
+        ]
+      },
+      {
+        "title": "Compliance",
+        "links": [
+          { "name": "Anti-Ragging", "path": "/anti-ragging" },
+          { "name": "RTI Disclosure", "path": "/rti" },
+          { "name": "Service Rules", "path": "/rules" },
+          { "name": "Financials", "path": "/audits" },
+          { "name": "Mandatory Disclosure", "path": "/disclosure" },
+          { "name": "Feedback System", "path": "/feedback" }
+        ]
+      },
+      {
+        "title": "Community",
+        "links": [
+          { "name": "Alumni Node", "path": "/alumni" },
+          { "name": "Phoenix Club", "path": "/phoenix" },
+          { "name": "Rotaract Hub", "path": "/rotaract" },
+          { "name": "IEEE Chapter", "path": "/ieee" },
+          { "name": "Sports Portal", "path": "/sports" },
+          { "name": "NPTEL Chapter", "path": "/nptel" }
+        ]
+      }
+    ]
+  }
+}

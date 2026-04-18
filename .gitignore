@@ -1,0 +1,9 @@
+Old/
+node_modules/
+.next/
+dist/
+build/
+*.zip
+*.mp4
+*.pdf
+*.log
