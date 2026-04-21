@@ -1,0 +1,31 @@
+{
+  "hero": {
+    "title": "Unnat Bharat",
+    "titleHighlight": "Abhiyan",
+    "subtitle": "Rural Development",
+    "description": "Connecting higher education institutions with local communities to address development challenges."
+  },
+  "features": [
+    {
+      "title": "Adopted Villages",
+      "icon": "Heart",
+      "desc": "Working closely with 5 adopted villages for sustainable development."
+    },
+    {
+      "title": "Technology Transfer",
+      "icon": "Zap",
+      "desc": "Applying engineering solutions to rural problems."
+    },
+    {
+      "title": "Awareness Camps",
+      "icon": "Compass",
+      "desc": "Conducting health, hygiene and education campaigns."
+    }
+  ],
+  "media": {
+    "label": "UBA Gallery",
+    "title": "Community<br/>Engagement",
+    "subtitle": "Making an Impact",
+    "image": "https://images.unsplash.com/photo-1593113589914-0755685816da?auto=format&fit=crop&q=80"
+  }
+}

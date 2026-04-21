@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "title": "Innovation",
+    "titleHighlight": "Council",
+    "subtitle": "MoE's Innovation Cell",
+    "description": "Fostering the culture of innovation and start-up ecosystem in the institution."
+  },
+  "features": [
+    {
+      "title": "Ideation Workshops",
+      "icon": "Zap",
+      "desc": "Brainstorming sessions to generate disruptive ideas."
+    },
+    {
+      "title": "Hackathons",
+      "icon": "Coffee",
+      "desc": "24-hour coding and hardware prototyping events."
+    },
+    {
+      "title": "Incubation Support",
+      "icon": "Rocket",
+      "desc": "Mentorship for student startups and patent filing."
+    }
+  ]
+}

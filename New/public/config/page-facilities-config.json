@@ -1,0 +1,62 @@
+{
+  "category": "Infrastructure",
+  "title": "Campus Facilities",
+  "sidebarTitle": "Amenities",
+  "tabs": [
+    {
+      "id": "library",
+      "label": "Central Library",
+      "title": "Central Library",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Over 100,000 volumes, international journals, digital repos, and fully automated borrowing systems."
+        }
+      ]
+    },
+    {
+      "id": "labs",
+      "label": "Laboratories",
+      "title": "State of the Art Labs",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Each department is equipped with modern, specialized labs complying with industry standards. Includes our AICTE IDEA lab."
+        }
+      ]
+    },
+    {
+      "id": "hostel",
+      "label": "Hostel",
+      "title": "Hostel Accommodations",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Separate, secure, and fully equipped hostels for boys and girls with high-speed internet and mess facilities."
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "label": "Sports",
+      "title": "Sports Complex",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Facilities for cricket, football, basketball, table tennis, and a fully equipped indoor gymnasium."
+        }
+      ]
+    },
+    {
+      "id": "cafeteria",
+      "label": "Cafeteria",
+      "title": "Campus Cafeteria",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Hygienic, affordable, and diverse food options available for students and staff throughout the day."
+        }
+      ]
+    }
+  ]
+}

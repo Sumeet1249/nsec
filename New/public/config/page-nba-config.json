@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "title": "NBA",
+    "titleHighlight": "Accreditation",
+    "subtitle": "Quality Assurance"
+  },
+  "content": [
+    {
+      "title": "Computer Science & Engineering",
+      "desc": "NBA Accredited Program ensuring global standards.",
+      "items": [
+        "Tier-1 Equivalent",
+        "Outcome Based Education",
+        "Industry Aligned"
+      ]
+    }
+  ]
+}

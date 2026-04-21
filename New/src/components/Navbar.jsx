@@ -125,11 +125,11 @@ export default function Navbar() {
                           </div>
                         ))}
                       </div>
-                      <div className="mt-1 p-2 bg-brand-blue rounded-xl flex items-center justify-between group cursor-pointer overflow-hidden relative h-8">
+                      <Link to={`/${item.id}`} className="mt-1 p-2 bg-brand-blue rounded-xl flex items-center justify-between group cursor-pointer overflow-hidden relative h-8">
                         <div className="absolute inset-0 bg-brand-accent translate-x-full group-hover:translate-x-0 transition-transform duration-500" />
                         <span className="text-[9px] font-black text-white uppercase tracking-[0.2em] relative z-10">Overview</span>
                         <ChevronRight size={12} className="text-white relative z-10" />
-                      </div>
+                      </Link>
                     </div>
                   </Motion.div>
                 )}

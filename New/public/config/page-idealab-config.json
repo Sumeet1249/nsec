@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "title": "AICTE",
+    "titleHighlight": "IDEA Lab",
+    "subtitle": "Idea Development, Evaluation & Application",
+    "description": "A facility offering 24x7 access to advanced manufacturing and prototyping tools."
+  },
+  "features": [
+    {
+      "title": "3D Printing Hub",
+      "icon": "Zap",
+      "desc": "FDM and SLA printers for rapid prototyping."
+    },
+    {
+      "title": "IoT Workbench",
+      "icon": "Cpu",
+      "desc": "Microcontrollers and sensor kits for smart projects."
+    },
+    {
+      "title": "CNC Machining",
+      "icon": "Compass",
+      "desc": "Precision cutting and milling stations."
+    }
+  ]
+}

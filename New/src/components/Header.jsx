@@ -23,16 +23,16 @@ export default function Header() {
   }, []);
 
   const utilityLinks = [
-    { name: 'IQAC', path: '#' },
-    { name: 'R&D', path: '#' },
-    { name: 'NBA', path: '#' },
-    { name: 'NAAC', path: '#' },
-    { name: 'UBA', path: '#' },
-    { name: 'MOOCs', path: '#' },
-    { name: 'ARIIA', path: '#' },
-    { name: 'IIC', path: '#' },
-    { name: 'IDEA Lab', path: '#' },
-    { name: 'Anti-ragging', path: '#' },
+    { name: 'IQAC', path: '/iqac' },
+    { name: 'R&D', path: '/rd' },
+    { name: 'NBA', path: '/nba' },
+    { name: 'NAAC', path: '/naac' },
+    { name: 'UBA', path: '/uba' },
+    { name: 'MOOCs', path: '/moocs' },
+    { name: 'ARIIA', path: '/ariia' },
+    { name: 'IIC', path: '/iic' },
+    { name: 'IDEA Lab', path: '/idealab' },
+    { name: 'Anti-ragging', path: '/antiragging' },
   ];
 
   const AccreditationLine = () => (
@@ -102,7 +102,7 @@ export default function Header() {
               </React.Fragment>
             ))}
           </div>
-          <Link to="/about" className="flex items-center gap-3 px-4 py-1.5 bg-brand-maroon rounded-full border border-white/20 hover:bg-white hover:text-brand-maroon hover:border-brand-maroon transition-all group shadow-sm">
+          <Link to="/silverjubilee" className="flex items-center gap-3 px-4 py-1.5 bg-brand-maroon rounded-full border border-white/20 hover:bg-white hover:text-brand-maroon hover:border-brand-maroon transition-all group shadow-sm">
             <Zap size={14} className="text-yellow-400 animate-pulse group-hover:text-brand-maroon" />
             <span className="text-[11px] font-black uppercase tracking-widest">25 Years</span>
           </Link>

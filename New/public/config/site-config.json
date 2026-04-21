@@ -12,43 +12,145 @@
   },
   "hero": {
     "phrases": [
-      { "main": "Architecting", "sub": "the Horizon." },
-      { "main": "Engineering", "sub": "the Future." },
-      { "main": "Synthesis", "sub": "of Innovation." },
-      { "main": "Defining", "sub": "the Frontier." },
-      { "main": "Mastering", "sub": "the Core." },
-      { "main": "Precision", "sub": "in Engineering." },
-      { "main": "Evolving", "sub": "Technicality." },
-      { "main": "Pioneering", "sub": "Next-Gen." }
+      {
+        "main": "Architecting",
+        "sub": "the Horizon."
+      },
+      {
+        "main": "Engineering",
+        "sub": "the Future."
+      },
+      {
+        "main": "Synthesis",
+        "sub": "of Innovation."
+      },
+      {
+        "main": "Defining",
+        "sub": "the Frontier."
+      },
+      {
+        "main": "Mastering",
+        "sub": "the Core."
+      },
+      {
+        "main": "Precision",
+        "sub": "in Engineering."
+      },
+      {
+        "main": "Evolving",
+        "sub": "Technicality."
+      },
+      {
+        "main": "Pioneering",
+        "sub": "Next-Gen."
+      }
     ],
     "carousel": {
       "images": [
-        { "path": "/assets/Explore/Boardroom1.webp", "label": "Executive Boardroom" },
-        { "path": "/assets/Explore/Cafeteria1.webp", "label": "Modern Cafeteria" },
-        { "path": "/assets/Explore/Campus_Life1.webp", "label": "Vibrant Campus Life" },
-        { "path": "/assets/Explore/Campus_Life2.webp", "label": "Student Engagement" },
-        { "path": "/assets/Explore/Campus_Life3.webp", "label": "Collaborative Spaces" },
-        { "path": "/assets/Explore/Campus_Life4.webp", "label": "Campus Activities" },
-        { "path": "/assets/Explore/Campus_Life5.webp", "label": "Student Community" },
-        { "path": "/assets/Explore/Campus_Life6.webp", "label": "Campus Interaction" },
-        { "path": "/assets/Explore/Campus1.webp", "label": "Main Campus View" },
-        { "path": "/assets/Explore/Campus2.webp", "label": "Architectural Excellence" },
-        { "path": "/assets/Explore/Classroom1.webp", "label": "Interactive Classroom" },
-        { "path": "/assets/Explore/Classroom2.webp", "label": "Learning Spaces" },
-        { "path": "/assets/Explore/Classroom3.webp", "label": "Academic Environment" },
-        { "path": "/assets/Explore/Laboratories1.webp", "label": "Research & Development Lab" },
-        { "path": "/assets/Explore/Laboratories2.webp", "label": "Advanced Engineering Lab" },
-        { "path": "/assets/Explore/Laboratories3.webp", "label": "Computing Center" },
-        { "path": "/assets/Explore/Laboratories4.webp", "label": "Technical Training Facility" },
-        { "path": "/assets/Explore/Laboratories5.webp", "label": "Innovation Lab" },
-        { "path": "/assets/Explore/Laboratories6.webp", "label": "Specialized Workshop" },
-        { "path": "/assets/Explore/Laboratories7.webp", "label": "High-End Laboratory" },
-        { "path": "/assets/Explore/Laboratories8.webp", "label": "Practical Learning" },
-        { "path": "/assets/Explore/Libary1.webp", "label": "Central Library" },
-        { "path": "/assets/Explore/Libary2.webp", "label": "Resource Center" },
-        { "path": "/assets/Explore/Libary3.webp", "label": "Study Hub" },
-        { "path": "/assets/Explore/Reception1.webp", "label": "Welcoming Reception" },
-        { "path": "/assets/Explore/Seminar1.webp", "label": "Professional Seminar Hall" }
+        {
+          "path": "/assets/Explore/Boardroom1.webp",
+          "label": "Executive Boardroom"
+        },
+        {
+          "path": "/assets/Explore/Cafeteria1.webp",
+          "label": "Modern Cafeteria"
+        },
+        {
+          "path": "/assets/Explore/Campus_Life1.webp",
+          "label": "Vibrant Campus Life"
+        },
+        {
+          "path": "/assets/Explore/Campus_Life2.webp",
+          "label": "Student Engagement"
+        },
+        {
+          "path": "/assets/Explore/Campus_Life3.webp",
+          "label": "Collaborative Spaces"
+        },
+        {
+          "path": "/assets/Explore/Campus_Life4.webp",
+          "label": "Campus Activities"
+        },
+        {
+          "path": "/assets/Explore/Campus_Life5.webp",
+          "label": "Student Community"
+        },
+        {
+          "path": "/assets/Explore/Campus_Life6.webp",
+          "label": "Campus Interaction"
+        },
+        {
+          "path": "/assets/Explore/Campus1.webp",
+          "label": "Main Campus View"
+        },
+        {
+          "path": "/assets/Explore/Campus2.webp",
+          "label": "Architectural Excellence"
+        },
+        {
+          "path": "/assets/Explore/Classroom1.webp",
+          "label": "Interactive Classroom"
+        },
+        {
+          "path": "/assets/Explore/Classroom2.webp",
+          "label": "Learning Spaces"
+        },
+        {
+          "path": "/assets/Explore/Classroom3.webp",
+          "label": "Academic Environment"
+        },
+        {
+          "path": "/assets/Explore/Laboratories1.webp",
+          "label": "Research & Development Lab"
+        },
+        {
+          "path": "/assets/Explore/Laboratories2.webp",
+          "label": "Advanced Engineering Lab"
+        },
+        {
+          "path": "/assets/Explore/Laboratories3.webp",
+          "label": "Computing Center"
+        },
+        {
+          "path": "/assets/Explore/Laboratories4.webp",
+          "label": "Technical Training Facility"
+        },
+        {
+          "path": "/assets/Explore/Laboratories5.webp",
+          "label": "Innovation Lab"
+        },
+        {
+          "path": "/assets/Explore/Laboratories6.webp",
+          "label": "Specialized Workshop"
+        },
+        {
+          "path": "/assets/Explore/Laboratories7.webp",
+          "label": "High-End Laboratory"
+        },
+        {
+          "path": "/assets/Explore/Laboratories8.webp",
+          "label": "Practical Learning"
+        },
+        {
+          "path": "/assets/Explore/Libary1.webp",
+          "label": "Central Library"
+        },
+        {
+          "path": "/assets/Explore/Libary2.webp",
+          "label": "Resource Center"
+        },
+        {
+          "path": "/assets/Explore/Libary3.webp",
+          "label": "Study Hub"
+        },
+        {
+          "path": "/assets/Explore/Reception1.webp",
+          "label": "Welcoming Reception"
+        },
+        {
+          "path": "/assets/Explore/Seminar1.webp",
+          "label": "Professional Seminar Hall"
+        }
       ]
     },
     "description": "NSEC has been set up, keeping in mind the ideals of Netaji Subhash Chandra Bose, whose contribution to the Indian Freedom Movement remains invaluable forever.",
@@ -99,58 +201,182 @@
       ]
     },
     "ticker": [
-      { "label1": "NSEC_ESTD_1998", "label2": "27_YEARS_OF_EXCELLENCE", "icon": "Activity" },
-      { "label1": "ADMISSIONS_OPEN_2025-26", "label2": "ENROLL_NOW", "icon": "Zap" },
-      { "label1": "NAAC_A_GRADE", "label2": "NBA_ACCREDITED", "icon": "Award" },
-      { "label1": "RESEARCH_DRIVEN", "label2": "INNOVATION_HUB", "icon": "Target" },
-      { "label1": "NIRF_RANKED", "label2": "ARIIA_RECOGNIZED", "icon": "Trophy" }
+      {
+        "label1": "NSEC_ESTD_1998",
+        "label2": "27_YEARS_OF_EXCELLENCE",
+        "icon": "Activity"
+      },
+      {
+        "label1": "ADMISSIONS_OPEN_2025-26",
+        "label2": "ENROLL_NOW",
+        "icon": "Zap"
+      },
+      {
+        "label1": "NAAC_A_GRADE",
+        "label2": "NBA_ACCREDITED",
+        "icon": "Award"
+      },
+      {
+        "label1": "RESEARCH_DRIVEN",
+        "label2": "INNOVATION_HUB",
+        "icon": "Target"
+      },
+      {
+        "label1": "NIRF_RANKED",
+        "label2": "ARIIA_RECOGNIZED",
+        "icon": "Trophy"
+      }
     ],
     "metrics": [
-      { "label": "Legacy", "val": "27Y", "unit": "YEARS" },
-      { "label": "Alumni", "val": "15K+", "unit": "PROFESSIONALS" },
-      { "label": "Research", "val": "850+", "unit": "PUBLICATIONS" },
-      { "label": "Intake", "val": "1200+", "unit": "ANNUAL" },
-      { "label": "Placement", "val": "90%+", "unit": "AVERAGE" },
-      { "label": "Faculty", "val": "250+", "unit": "EXPERTS" }
+      {
+        "label": "Legacy",
+        "val": "27Y",
+        "unit": "YEARS"
+      },
+      {
+        "label": "Alumni",
+        "val": "15K+",
+        "unit": "PROFESSIONALS"
+      },
+      {
+        "label": "Research",
+        "val": "850+",
+        "unit": "PUBLICATIONS"
+      },
+      {
+        "label": "Intake",
+        "val": "1200+",
+        "unit": "ANNUAL"
+      },
+      {
+        "label": "Placement",
+        "val": "90%+",
+        "unit": "AVERAGE"
+      },
+      {
+        "label": "Faculty",
+        "val": "250+",
+        "unit": "EXPERTS"
+      }
     ],
     "broadcast": {
       "spotlight": {
         "archiveLink": "/spotlight/archive",
         "items": [
-          { 
-            "name": "Dr. T.S. Bhattacharya", 
-            "role": "Director General", 
+          {
+            "name": "Dr. T.S. Bhattacharya",
+            "role": "Director General",
             "qualification": "Ph.D, Senior Member IEEE",
             "topic": "The Future of Engineering Education in India",
-            "quote": "Architecting excellence for 27 years.", 
+            "quote": "Architecting excellence for 27 years.",
             "videoUrl": "/assets/Video/Alumni/NSEC_Alumni_Video_Promo_2021_09.mp4",
-            "thumbnail": "/assets/Leadership/director.jpg" 
+            "thumbnail": "/assets/Leadership/director.jpg"
           }
         ]
       },
       "notices": {
         "archiveLink": "page.php?id=488",
         "items": [
-          { "title": "Schedule for Admission through JECA 2025", "date": "04 APR 2026", "link": "/assets/Notices/JECA2025.pdf" },
-          { "title": "NOTICE: Phase II Registration for Students of 1st year BTECH CSE(AIML) will be held on 10.4.26 instead of 3.4.26.", "date": "01 APR 2026", "link": "/assets/Notices/rev_notice_reg_phaseII_260401_132004.pdf" },
-          { "title": "2nd Round Counselling", "date": "01 APR 2026", "link": "/assets/Notices/2ndroundcounselling2025.pdf" },
-          { "title": "Mandatory Documents required at the time of Admission in B-Tech (Through Counseling)-2025-26.", "date": "01 APR 2026", "link": "/assets/Notices/admissiondoc25-26.pdf" },
-          { "title": "1st round document verification and admission.", "date": "01 APR 2026", "link": "/assets/Notices/noticedocveradm-2025.pdf" },
-          { "title": "NOTICE: Commencement of Classes for 1st and 2nd year students from 31st March, 2026", "date": "30 MAR 2026", "link": "/assets/Notices/Notice_30-03-2026.pdf" },
-          { "title": "URGENT NOTICE: Schedule for Phase-II Registration Process for AY 2025-26", "date": "27 MAR 2026", "link": "/assets/Notices/Urgent Notice_260327_163237.pdf" },
-          { "title": "Notice - student ID card distribution for AY 2024-25", "date": "26 MAR 2026", "link": "/assets/Notices/Notice_studentIDcard_24-25.pdf" },
-          { "title": "Career opportunity for Faculty Position", "date": "24 FEB 2026", "link": "/assets/Notices/NSEC_Recruit_260224_140643.pdf" },
-          { "title": "Availability of Degree Certificate and Marksheet on National Academic Depository", "date": "30 JAN 2026", "link": "/assets/Notices/DOC-20260130-WA0038_260130_163608.pdf" },
-          { "title": "Notice regarding Caution Money Deposit", "date": "15 JAN 2026", "link": "/assets/Notices/cautiondepositnotice.pdf" },
-          { "title": "Further NBA Accreditation of Four Programs (BME, CSE, EE, ECE)", "date": "10 JAN 2026", "link": "page.php?id=533" },
-          { "title": "Phase 1 Registration - BTECH - AY 2025-26", "date": "05 JAN 2026", "link": "/assets/Notices/NOTICE_BTECH1STPHASEREGISTRATION25-26.pdf" },
-          { "title": "Notice for Document Verification and Admission Through JELET 2024 (Round-1)", "date": "20 DEC 2025", "link": "/assets/Notices/NOTICEDOCVERIFYJELETROUND1-2024.pdf" },
-          { "title": "Holiday Notice - Durga & Lakshmi Puja 2025", "date": "15 OCT 2025", "link": "/assets/Notices/Notice_DurgaLakshmiPuja2025.pdf" },
-          { "title": "Induction Program B.Tech 1st Year 2024-25", "date": "01 AUG 2025", "link": "/assets/Notices/Notice_Inductionprog_BTech_1styear_2024-25.pdf" },
-          { "title": "Branch Change Notice 2024-25", "date": "15 JUL 2025", "link": "/assets/Notices/Branch_Change_Notice_2024-25.pdf" },
-          { "title": "Academic Calendar Even Semester 2024-25", "date": "10 JAN 2025", "link": "/assets/Notices/academiccalendarevensemester24-25.pdf" },
-          { "title": "Notice for Student ID Card 2024-25", "date": "05 SEP 2024", "link": "/assets/Notices/Notice_studentIDcard_24-25.pdf" },
-          { "title": "Placement Record 2023-24", "date": "30 JUN 2024", "link": "page.php?id=560" }
+          {
+            "title": "Schedule for Admission through JECA 2025",
+            "date": "04 APR 2026",
+            "link": "/assets/Notices/JECA2025.pdf"
+          },
+          {
+            "title": "NOTICE: Phase II Registration for Students of 1st year BTECH CSE(AIML) will be held on 10.4.26 instead of 3.4.26.",
+            "date": "01 APR 2026",
+            "link": "/assets/Notices/rev_notice_reg_phaseII_260401_132004.pdf"
+          },
+          {
+            "title": "2nd Round Counselling",
+            "date": "01 APR 2026",
+            "link": "/assets/Notices/2ndroundcounselling2025.pdf"
+          },
+          {
+            "title": "Mandatory Documents required at the time of Admission in B-Tech (Through Counseling)-2025-26.",
+            "date": "01 APR 2026",
+            "link": "/assets/Notices/admissiondoc25-26.pdf"
+          },
+          {
+            "title": "1st round document verification and admission.",
+            "date": "01 APR 2026",
+            "link": "/assets/Notices/noticedocveradm-2025.pdf"
+          },
+          {
+            "title": "NOTICE: Commencement of Classes for 1st and 2nd year students from 31st March, 2026",
+            "date": "30 MAR 2026",
+            "link": "/assets/Notices/Notice_30-03-2026.pdf"
+          },
+          {
+            "title": "URGENT NOTICE: Schedule for Phase-II Registration Process for AY 2025-26",
+            "date": "27 MAR 2026",
+            "link": "/assets/Notices/Urgent Notice_260327_163237.pdf"
+          },
+          {
+            "title": "Notice - student ID card distribution for AY 2024-25",
+            "date": "26 MAR 2026",
+            "link": "/assets/Notices/Notice_studentIDcard_24-25.pdf"
+          },
+          {
+            "title": "Career opportunity for Faculty Position",
+            "date": "24 FEB 2026",
+            "link": "/assets/Notices/NSEC_Recruit_260224_140643.pdf"
+          },
+          {
+            "title": "Availability of Degree Certificate and Marksheet on National Academic Depository",
+            "date": "30 JAN 2026",
+            "link": "/assets/Notices/DOC-20260130-WA0038_260130_163608.pdf"
+          },
+          {
+            "title": "Notice regarding Caution Money Deposit",
+            "date": "15 JAN 2026",
+            "link": "/assets/Notices/cautiondepositnotice.pdf"
+          },
+          {
+            "title": "Further NBA Accreditation of Four Programs (BME, CSE, EE, ECE)",
+            "date": "10 JAN 2026",
+            "link": "page.php?id=533"
+          },
+          {
+            "title": "Phase 1 Registration - BTECH - AY 2025-26",
+            "date": "05 JAN 2026",
+            "link": "/assets/Notices/NOTICE_BTECH1STPHASEREGISTRATION25-26.pdf"
+          },
+          {
+            "title": "Notice for Document Verification and Admission Through JELET 2024 (Round-1)",
+            "date": "20 DEC 2025",
+            "link": "/assets/Notices/NOTICEDOCVERIFYJELETROUND1-2024.pdf"
+          },
+          {
+            "title": "Holiday Notice - Durga & Lakshmi Puja 2025",
+            "date": "15 OCT 2025",
+            "link": "/assets/Notices/Notice_DurgaLakshmiPuja2025.pdf"
+          },
+          {
+            "title": "Induction Program B.Tech 1st Year 2024-25",
+            "date": "01 AUG 2025",
+            "link": "/assets/Notices/Notice_Inductionprog_BTech_1styear_2024-25.pdf"
+          },
+          {
+            "title": "Branch Change Notice 2024-25",
+            "date": "15 JUL 2025",
+            "link": "/assets/Notices/Branch_Change_Notice_2024-25.pdf"
+          },
+          {
+            "title": "Academic Calendar Even Semester 2024-25",
+            "date": "10 JAN 2025",
+            "link": "/assets/Notices/academiccalendarevensemester24-25.pdf"
+          },
+          {
+            "title": "Notice for Student ID Card 2024-25",
+            "date": "05 SEP 2024",
+            "link": "/assets/Notices/Notice_studentIDcard_24-25.pdf"
+          },
+          {
+            "title": "Placement Record 2023-24",
+            "date": "30 JUN 2024",
+            "link": "page.php?id=560"
+          }
         ]
       }
     },
@@ -300,99 +526,301 @@
     ]
   },
   "navigation": [
-    { 
-      "name": "About Us", 
-      "id": "about", 
+    {
+      "name": "About Us",
+      "id": "about",
       "icon": "Info",
       "children": [
-        { "name": "Overview", "path": "/about/overview", "desc": "College Profile" },
-        { "name": "Vision & Mission", "path": "/about/vision-mission", "desc": "Our Core Values" },
-        { "name": "Institutional Distinctiveness", "path": "/about/distinctiveness", "desc": "What Makes Us Unique" },
-        { "name": "Accreditation & Affiliation", "path": "/about/accreditation", "desc": "Quality Standards" },
-        { "name": "Message", "path": "/about/message", "desc": "From Leadership" },
-        { "name": "Organisational Structure", "path": "/about/structure", "desc": "Governance Framework" },
-        { "name": "Functionaries", "path": "/about/functionaries", "desc": "Key Personnel" },
-        { "name": "Committees", "path": "/about/committees", "desc": "Specialized Groups" },
-        { "name": "Download", "path": "/about/download", "desc": "Resources & Forms" },
-        { "name": "RTI", "path": "/about/rti", "desc": "Right to Information" },
-        { "name": "Policies", "path": "/about/policies", "desc": "Rules & Guidelines" }
+        {
+          "name": "Overview",
+          "path": "/about#overview",
+          "desc": "College Profile"
+        },
+        {
+          "name": "Vision & Mission",
+          "path": "/about#vision-mission",
+          "desc": "Our Core Values"
+        },
+        {
+          "name": "Institutional Distinctiveness",
+          "path": "/about#distinctiveness",
+          "desc": "What Makes Us Unique"
+        },
+        {
+          "name": "Accreditation & Affiliation",
+          "path": "/about#accreditation",
+          "desc": "Quality Standards"
+        },
+        {
+          "name": "Message",
+          "path": "/about#message",
+          "desc": "From Leadership"
+        },
+        {
+          "name": "Organisational Structure",
+          "path": "/about#structure",
+          "desc": "Governance Framework"
+        },
+        {
+          "name": "Functionaries",
+          "path": "/about#functionaries",
+          "desc": "Key Personnel"
+        },
+        {
+          "name": "Committees",
+          "path": "/about#committees",
+          "desc": "Specialized Groups"
+        },
+        {
+          "name": "Download",
+          "path": "/about#download",
+          "desc": "Resources & Forms"
+        },
+        {
+          "name": "RTI",
+          "path": "/about#rti",
+          "desc": "Right to Information"
+        },
+        {
+          "name": "Policies",
+          "path": "/about#policies",
+          "desc": "Rules & Guidelines"
+        }
       ]
     },
-    { 
-      "name": "Academics", 
-      "id": "academics", 
+    {
+      "name": "Academics",
+      "id": "academics",
       "icon": "BookOpen",
       "children": [
-        { "name": "Programmes", "path": "/academics/programmes", "desc": "Courses Offered" },
-        { "name": "Curriculum Planning & Implementation", "path": "/academics/curriculum", "desc": "Academic Strategy" },
-        { "name": "Best Practices", "path": "/academics/practices", "desc": "Standard Methods" },
-        { "name": "Academic Calendar", "path": "/academics/calendar", "desc": "Schedules" },
-        { "name": "Feedbacks", "path": "/academics/feedbacks", "desc": "Stakeholder Input" }
+        {
+          "name": "Programmes",
+          "path": "/academics#programmes",
+          "desc": "Courses Offered"
+        },
+        {
+          "name": "Curriculum Planning & Implementation",
+          "path": "/academics#curriculum",
+          "desc": "Academic Strategy"
+        },
+        {
+          "name": "Best Practices",
+          "path": "/academics#practices",
+          "desc": "Standard Methods"
+        },
+        {
+          "name": "Academic Calendar",
+          "path": "/academics#calendar",
+          "desc": "Schedules"
+        },
+        {
+          "name": "Feedbacks",
+          "path": "/academics#feedbacks",
+          "desc": "Stakeholder Input"
+        }
       ]
     },
-    { 
-      "name": "Admission 2025-26", 
-      "id": "admission", 
+    {
+      "name": "Admission 2025-26",
+      "id": "admission",
       "icon": "GraduationCap",
       "path": "/admission",
       "children": [
-        { "name": "General Information", "path": "/admission/info", "desc": "Entry Guide" },
-        { "name": "Courses Offered & Intake", "path": "/admission/courses", "desc": "Seat Matrix" },
-        { "name": "Eligibility Criteria", "path": "/admission/eligibility", "desc": "Requirements" },
-        { "name": "Download Brochure", "path": "/admission/brochure", "desc": "Prospectus" },
-        { "name": "Documents Required", "path": "/admission/documents", "desc": "Submission List" },
-        { "name": "Online Counselling", "path": "/admission/counselling", "desc": "Booking Portal" },
-        { "name": "Online Admission", "path": "/admission/online", "desc": "Portal Access" }
+        {
+          "name": "General Information",
+          "path": "/admission/info",
+          "desc": "Entry Guide"
+        },
+        {
+          "name": "Courses Offered & Intake",
+          "path": "/admission/courses",
+          "desc": "Seat Matrix"
+        },
+        {
+          "name": "Eligibility Criteria",
+          "path": "/admission/eligibility",
+          "desc": "Requirements"
+        },
+        {
+          "name": "Download Brochure",
+          "path": "/admission/brochure",
+          "desc": "Prospectus"
+        },
+        {
+          "name": "Documents Required",
+          "path": "/admission/documents",
+          "desc": "Submission List"
+        },
+        {
+          "name": "Online Counselling",
+          "path": "/admission/counselling",
+          "desc": "Booking Portal"
+        },
+        {
+          "name": "Online Admission",
+          "path": "/admission/online",
+          "desc": "Portal Access"
+        }
       ]
     },
-    { 
-      "name": "Facilities", 
-      "id": "facilities", 
+    {
+      "name": "Facilities",
+      "id": "facilities",
       "icon": "Building2",
       "children": [
-        { "name": "Video Tour", "path": "/facilities/tour", "desc": "Visual Walkthrough" },
-        { "name": "Infrastructure", "path": "/facilities/infrastructure", "desc": "Campus Build" },
-        { "name": "Laboratories", "path": "/facilities/labs", "desc": "Technical Centers" },
-        { "name": "Library", "path": "/facilities/library", "desc": "Knowledge Hub" },
-        { "name": "Online E-Resources", "path": "/facilities/eresources", "desc": "Digital Access" },
-        { "name": "Media Center", "path": "/facilities/media", "desc": "Creative Studio" },
-        { "name": "ED Cell", "path": "/facilities/edcell", "desc": "Entrepreneurship" },
-        { "name": "Welfare Measures", "path": "/facilities/welfare", "desc": "Support Services" },
-        { "name": "Grievance Portal", "path": "/facilities/grievance", "desc": "Redressal System" }
+        {
+          "name": "Video Tour",
+          "path": "/facilities#tour",
+          "desc": "Visual Walkthrough"
+        },
+        {
+          "name": "Infrastructure",
+          "path": "/facilities#infrastructure",
+          "desc": "Campus Build"
+        },
+        {
+          "name": "Laboratories",
+          "path": "/facilities#labs",
+          "desc": "Technical Centers"
+        },
+        {
+          "name": "Library",
+          "path": "/facilities#library",
+          "desc": "Knowledge Hub"
+        },
+        {
+          "name": "Online E-Resources",
+          "path": "/facilities#eresources",
+          "desc": "Digital Access"
+        },
+        {
+          "name": "Media Center",
+          "path": "/facilities#media",
+          "desc": "Creative Studio"
+        },
+        {
+          "name": "ED Cell",
+          "path": "/facilities#edcell",
+          "desc": "Entrepreneurship"
+        },
+        {
+          "name": "Welfare Measures",
+          "path": "/facilities#welfare",
+          "desc": "Support Services"
+        },
+        {
+          "name": "Grievance Portal",
+          "path": "/facilities#grievance",
+          "desc": "Redressal System"
+        }
       ]
     },
-    { 
-      "name": "Training & Placement", 
-      "id": "placement", 
+    {
+      "name": "Training & Placement",
+      "id": "placement",
       "icon": "Briefcase",
       "children": [
-        { "name": "Vision Mission", "path": "/placement/vision", "desc": "Strategic Goals" },
-        { "name": "Placement Statistics", "path": "/placement/stats", "desc": "Success Metrics" },
-        { "name": "Achievements", "path": "/placement/achievements", "desc": "Record Breaking" },
-        { "name": "Activities", "path": "/placement/activities", "desc": "Workshops & Seminars" },
-        { "name": "Placement Records", "path": "/placement/records", "desc": "Past Data" },
-        { "name": "Facilities & Infra", "path": "/placement/infra", "desc": "T&P Setup" },
-        { "name": "T & P Committee", "path": "/placement/committee", "desc": "Governance" }
+        {
+          "name": "Vision Mission",
+          "path": "/placement#vision",
+          "desc": "Strategic Goals"
+        },
+        {
+          "name": "Placement Statistics",
+          "path": "/placement#stats",
+          "desc": "Success Metrics"
+        },
+        {
+          "name": "Achievements",
+          "path": "/placement#achievements",
+          "desc": "Record Breaking"
+        },
+        {
+          "name": "Activities",
+          "path": "/placement#activities",
+          "desc": "Workshops & Seminars"
+        },
+        {
+          "name": "Placement Records",
+          "path": "/placement#records",
+          "desc": "Past Data"
+        },
+        {
+          "name": "Facilities & Infra",
+          "path": "/placement#infra",
+          "desc": "T&P Setup"
+        },
+        {
+          "name": "T & P Committee",
+          "path": "/placement#committee",
+          "desc": "Governance"
+        }
       ]
     },
-    { 
-      "name": "Students' Corner", 
-      "id": "students", 
+    {
+      "name": "Students' Corner",
+      "id": "students",
       "icon": "Users",
       "children": [
-        { "name": "Achievements", "path": "/students/achievements", "desc": "Excellence" },
-        { "name": "Mentoring System", "path": "/students/mentoring", "desc": "Guidance" },
-        { "name": "Guidance & Support", "path": "/students/support", "desc": "Welfare" },
-        { "name": "Phoenix", "path": "/students/phoenix", "desc": "Student Club" },
-        { "name": "Rotaract Club", "path": "/students/rotaract", "desc": "Social Service" },
-        { "name": "Games & Sports", "path": "/students/sports", "desc": "Physical Wellness" },
-        { "name": "Eco Cultural Club", "path": "/students/eco", "desc": "Sustainability" },
-        { "name": "Code of Conduct", "path": "/students/conduct", "desc": "Ethics" },
-        { "name": "Alumni Association", "path": "/students/alumni", "desc": "Global Reach" }
+        {
+          "name": "Achievements",
+          "path": "/students#achievements",
+          "desc": "Excellence"
+        },
+        {
+          "name": "Mentoring System",
+          "path": "/students#mentoring",
+          "desc": "Guidance"
+        },
+        {
+          "name": "Guidance & Support",
+          "path": "/students#support",
+          "desc": "Welfare"
+        },
+        {
+          "name": "Phoenix",
+          "path": "/students#phoenix",
+          "desc": "Student Club"
+        },
+        {
+          "name": "Rotaract Club",
+          "path": "/students#rotaract",
+          "desc": "Social Service"
+        },
+        {
+          "name": "Games & Sports",
+          "path": "/students#sports",
+          "desc": "Physical Wellness"
+        },
+        {
+          "name": "Eco Cultural Club",
+          "path": "/students#eco",
+          "desc": "Sustainability"
+        },
+        {
+          "name": "Code of Conduct",
+          "path": "/students#conduct",
+          "desc": "Ethics"
+        },
+        {
+          "name": "Alumni Association",
+          "path": "/students#alumni",
+          "desc": "Global Reach"
+        }
       ]
     },
-    { "name": "NIRF", "path": "/nirf", "id": "nirf", "icon": "Award" },
-    { "name": "Events", "path": "/events", "id": "events", "icon": "Calendar" }
+    {
+      "name": "NIRF",
+      "path": "/nirf",
+      "id": "nirf",
+      "icon": "Award"
+    },
+    {
+      "name": "Events",
+      "path": "/events",
+      "id": "events",
+      "icon": "Calendar"
+    }
   ],
   "successStories": {
     "alumniVideos": [
@@ -636,26 +1064,166 @@
       }
     ],
     "marquee": [
-      { "name": "Arnab K. Paul", "designation": "Postdoc Associate", "company": "Amazon", "logo": "/assets/CompanyLogos/logo-amazon.jpg", "year": "2011", "specialization": "CSE" },
-      { "name": "Kinjal Dhar Gupta", "designation": "Data Scientist", "company": "Microsoft", "logo": "/assets/CompanyLogos/logo-microsoft.jpg", "year": "2013", "specialization": "CSE" },
-      { "name": "Ananya Dass", "designation": "Enterprise Data Architect", "company": "IBM", "logo": "/assets/CompanyLogos/logo-ibm.jpg", "year": "2009", "specialization": "CSE" },
-      { "name": "Anirban Sengupta", "designation": "Postdoc Fellow", "company": "Intel", "logo": "/assets/CompanyLogos/logo-intel.jpg", "year": "2012", "specialization": "BME" },
-      { "name": "Rajat Suvra Halder", "designation": "Asst. Manager", "company": "Wipro", "logo": "/assets/CompanyLogos/logo-wipro.jpg", "year": "2010", "specialization": "BME" },
-      { "name": "Shiv Shankar", "designation": "Location In Charge", "company": "Dell", "logo": "/assets/CompanyLogos/logo-dell-2025.jpg", "year": "2008", "specialization": "AEIE" },
-      { "name": "Sanket Sarkar", "designation": "Founder", "company": "Techno Exponent", "logo": "/assets/CompanyLogos/logo-TechnoExponent.jpg", "year": "2007", "specialization": "IT" },
-      { "name": "Sharad Suman", "designation": "Project Manager", "company": "L&T", "logo": "/assets/CompanyLogos/logo-lnt.jpg", "year": "2006", "specialization": "CSE" },
-      { "name": "Mayukh Roy", "designation": "Software Engineer", "company": "Google", "logo": "/assets/CompanyLogos/logo-google.jpg", "year": "2016", "specialization": "IT" },
-      { "name": "Tanmoy Roy", "designation": "Developer", "company": "Cognizant", "logo": "/assets/CompanyLogos/logo-cts_2025.jpg", "year": "2015", "specialization": "CSE" },
-      { "name": "Aditya Sharma", "designation": "SDE-2", "company": "Accenture", "logo": "/assets/CompanyLogos/logo-accenture.jpg", "year": "2017", "specialization": "CSE" },
-      { "name": "Amartya Sen", "designation": "Consultant", "company": "EY", "logo": "/assets/CompanyLogos/logo-ernst_2025.jpg", "year": "2014", "specialization": "IT" },
-      { "name": "Archita Roy", "designation": "Analyst", "company": "PwC", "logo": "/assets/CompanyLogos/logo-pwc.jpg", "year": "2018", "specialization": "CSE" },
-      { "name": "Arijit Das", "designation": "Lead Engineer", "company": "Samsung", "logo": "/assets/CompanyLogos/logo-samsung.jpg", "year": "2013", "specialization": "ECE" },
-      { "name": "Arkapravo Ghosh", "designation": "Senior Dev", "company": "Tech Mahindra", "logo": "/assets/CompanyLogos/logo-techmahindra.jpg", "year": "2012", "specialization": "IT" },
-      { "name": "Debdeep Bhattacharjee", "designation": "Software Engineer", "company": "Mindtree", "logo": "/assets/CompanyLogos/logo-mindtree_2025.jpg", "year": "2019", "specialization": "CSE" },
-      { "name": "Sayanti Sinha", "designation": "Analyst", "company": "Hexaware", "logo": "/assets/CompanyLogos/logo-hexaware.jpg", "year": "2020", "specialization": "IT" },
-      { "name": "Bikram Kumar Paul", "designation": "Lead Dev", "company": "Bajaj", "logo": "/assets/CompanyLogos/logo-bajaj.jpg", "year": "2018", "specialization": "ECE" },
-      { "name": "Upama Dutta", "designation": "Manager", "company": "Virtusa", "logo": "/assets/CompanyLogos/logo-virtusa-2025.jpg", "year": "2017", "specialization": "EE" },
-      { "name": "Maitrayi Ghosh", "designation": "Developer", "company": "Salesforce", "logo": "/assets/CompanyLogos/logo-salesforce_2025.jpg", "year": "2021", "specialization": "CSE" }
+      {
+        "name": "Arnab K. Paul",
+        "designation": "Postdoc Associate",
+        "company": "Amazon",
+        "logo": "/assets/CompanyLogos/logo-amazon.jpg",
+        "year": "2011",
+        "specialization": "CSE"
+      },
+      {
+        "name": "Kinjal Dhar Gupta",
+        "designation": "Data Scientist",
+        "company": "Microsoft",
+        "logo": "/assets/CompanyLogos/logo-microsoft.jpg",
+        "year": "2013",
+        "specialization": "CSE"
+      },
+      {
+        "name": "Ananya Dass",
+        "designation": "Enterprise Data Architect",
+        "company": "IBM",
+        "logo": "/assets/CompanyLogos/logo-ibm.jpg",
+        "year": "2009",
+        "specialization": "CSE"
+      },
+      {
+        "name": "Anirban Sengupta",
+        "designation": "Postdoc Fellow",
+        "company": "Intel",
+        "logo": "/assets/CompanyLogos/logo-intel.jpg",
+        "year": "2012",
+        "specialization": "BME"
+      },
+      {
+        "name": "Rajat Suvra Halder",
+        "designation": "Asst. Manager",
+        "company": "Wipro",
+        "logo": "/assets/CompanyLogos/logo-wipro.jpg",
+        "year": "2010",
+        "specialization": "BME"
+      },
+      {
+        "name": "Shiv Shankar",
+        "designation": "Location In Charge",
+        "company": "Dell",
+        "logo": "/assets/CompanyLogos/logo-dell-2025.jpg",
+        "year": "2008",
+        "specialization": "AEIE"
+      },
+      {
+        "name": "Sanket Sarkar",
+        "designation": "Founder",
+        "company": "Techno Exponent",
+        "logo": "/assets/CompanyLogos/logo-TechnoExponent.jpg",
+        "year": "2007",
+        "specialization": "IT"
+      },
+      {
+        "name": "Sharad Suman",
+        "designation": "Project Manager",
+        "company": "L&T",
+        "logo": "/assets/CompanyLogos/logo-lnt.jpg",
+        "year": "2006",
+        "specialization": "CSE"
+      },
+      {
+        "name": "Mayukh Roy",
+        "designation": "Software Engineer",
+        "company": "Google",
+        "logo": "/assets/CompanyLogos/logo-google.jpg",
+        "year": "2016",
+        "specialization": "IT"
+      },
+      {
+        "name": "Tanmoy Roy",
+        "designation": "Developer",
+        "company": "Cognizant",
+        "logo": "/assets/CompanyLogos/logo-cts_2025.jpg",
+        "year": "2015",
+        "specialization": "CSE"
+      },
+      {
+        "name": "Aditya Sharma",
+        "designation": "SDE-2",
+        "company": "Accenture",
+        "logo": "/assets/CompanyLogos/logo-accenture.jpg",
+        "year": "2017",
+        "specialization": "CSE"
+      },
+      {
+        "name": "Amartya Sen",
+        "designation": "Consultant",
+        "company": "EY",
+        "logo": "/assets/CompanyLogos/logo-ernst_2025.jpg",
+        "year": "2014",
+        "specialization": "IT"
+      },
+      {
+        "name": "Archita Roy",
+        "designation": "Analyst",
+        "company": "PwC",
+        "logo": "/assets/CompanyLogos/logo-pwc.jpg",
+        "year": "2018",
+        "specialization": "CSE"
+      },
+      {
+        "name": "Arijit Das",
+        "designation": "Lead Engineer",
+        "company": "Samsung",
+        "logo": "/assets/CompanyLogos/logo-samsung.jpg",
+        "year": "2013",
+        "specialization": "ECE"
+      },
+      {
+        "name": "Arkapravo Ghosh",
+        "designation": "Senior Dev",
+        "company": "Tech Mahindra",
+        "logo": "/assets/CompanyLogos/logo-techmahindra.jpg",
+        "year": "2012",
+        "specialization": "IT"
+      },
+      {
+        "name": "Debdeep Bhattacharjee",
+        "designation": "Software Engineer",
+        "company": "Mindtree",
+        "logo": "/assets/CompanyLogos/logo-mindtree_2025.jpg",
+        "year": "2019",
+        "specialization": "CSE"
+      },
+      {
+        "name": "Sayanti Sinha",
+        "designation": "Analyst",
+        "company": "Hexaware",
+        "logo": "/assets/CompanyLogos/logo-hexaware.jpg",
+        "year": "2020",
+        "specialization": "IT"
+      },
+      {
+        "name": "Bikram Kumar Paul",
+        "designation": "Lead Dev",
+        "company": "Bajaj",
+        "logo": "/assets/CompanyLogos/logo-bajaj.jpg",
+        "year": "2018",
+        "specialization": "ECE"
+      },
+      {
+        "name": "Upama Dutta",
+        "designation": "Manager",
+        "company": "Virtusa",
+        "logo": "/assets/CompanyLogos/logo-virtusa-2025.jpg",
+        "year": "2017",
+        "specialization": "EE"
+      },
+      {
+        "name": "Maitrayi Ghosh",
+        "designation": "Developer",
+        "company": "Salesforce",
+        "logo": "/assets/CompanyLogos/logo-salesforce_2025.jpg",
+        "year": "2021",
+        "specialization": "CSE"
+      }
     ]
   },
   "footer": {
@@ -663,45 +1231,117 @@
       {
         "title": "Directorates",
         "links": [
-          { "name": "Board of Governors", "path": "/bog" },
-          { "name": "Principal's Office", "path": "/principal" },
-          { "name": "Dean's Portal", "path": "/dean" },
-          { "name": "IQAC Cell", "path": "/iqac" },
-          { "name": "NIRF Submissions", "path": "/nirf" },
-          { "name": "ARIIA Data", "path": "/ariia" }
+          {
+            "name": "Board of Governors",
+            "path": "/bog"
+          },
+          {
+            "name": "Principal's Office",
+            "path": "/principal"
+          },
+          {
+            "name": "Dean's Portal",
+            "path": "/dean"
+          },
+          {
+            "name": "IQAC Cell",
+            "path": "/iqac"
+          },
+          {
+            "name": "NIRF Submissions",
+            "path": "/nirf"
+          },
+          {
+            "name": "ARIIA Data",
+            "path": "/ariia"
+          }
         ]
       },
       {
         "title": "Nodes",
         "links": [
-          { "name": "Academic Calendar", "path": "/calendar" },
-          { "name": "Examinations", "path": "/exams" },
-          { "name": "Research Hub", "path": "/research" },
-          { "name": "Placement Cell", "path": "/placement" },
-          { "name": "Library Portal", "path": "/library" },
-          { "name": "E-Resources", "path": "/eresources" }
+          {
+            "name": "Academic Calendar",
+            "path": "/calendar"
+          },
+          {
+            "name": "Examinations",
+            "path": "/exams"
+          },
+          {
+            "name": "Research Hub",
+            "path": "/research"
+          },
+          {
+            "name": "Placement Cell",
+            "path": "/placement"
+          },
+          {
+            "name": "Library Portal",
+            "path": "/library"
+          },
+          {
+            "name": "E-Resources",
+            "path": "/eresources"
+          }
         ]
       },
       {
         "title": "Compliance",
         "links": [
-          { "name": "Anti-Ragging", "path": "/anti-ragging" },
-          { "name": "RTI Disclosure", "path": "/rti" },
-          { "name": "Service Rules", "path": "/rules" },
-          { "name": "Financials", "path": "/audits" },
-          { "name": "Mandatory Disclosure", "path": "/disclosure" },
-          { "name": "Feedback System", "path": "/feedback" }
+          {
+            "name": "Anti-Ragging",
+            "path": "/anti-ragging"
+          },
+          {
+            "name": "RTI Disclosure",
+            "path": "/rti"
+          },
+          {
+            "name": "Service Rules",
+            "path": "/rules"
+          },
+          {
+            "name": "Financials",
+            "path": "/audits"
+          },
+          {
+            "name": "Mandatory Disclosure",
+            "path": "/disclosure"
+          },
+          {
+            "name": "Feedback System",
+            "path": "/feedback"
+          }
         ]
       },
       {
         "title": "Community",
         "links": [
-          { "name": "Alumni Node", "path": "/alumni" },
-          { "name": "Phoenix Club", "path": "/phoenix" },
-          { "name": "Rotaract Hub", "path": "/rotaract" },
-          { "name": "IEEE Chapter", "path": "/ieee" },
-          { "name": "Sports Portal", "path": "/sports" },
-          { "name": "NPTEL Chapter", "path": "/nptel" }
+          {
+            "name": "Alumni Node",
+            "path": "/alumni"
+          },
+          {
+            "name": "Phoenix Club",
+            "path": "/phoenix"
+          },
+          {
+            "name": "Rotaract Hub",
+            "path": "/rotaract"
+          },
+          {
+            "name": "IEEE Chapter",
+            "path": "/ieee"
+          },
+          {
+            "name": "Sports Portal",
+            "path": "/sports"
+          },
+          {
+            "name": "NPTEL Chapter",
+            "path": "/nptel"
+          }
         ]
       }
     ]

@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "title": "Anti",
+    "titleHighlight": "Ragging",
+    "subtitle": "Zero Tolerance",
+    "description": "NSEC Maintains a strict zero-tolerance policy towards ragging in any form."
+  },
+  "features": [
+    {
+      "title": "Helpline",
+      "icon": "Heart",
+      "desc": "24x7 dedicated helpline for students."
+    },
+    {
+      "title": "Squads",
+      "icon": "Shield",
+      "desc": "Regular patrols in campus and hostels."
+    },
+    {
+      "title": "Counselling",
+      "icon": "Coffee",
+      "desc": "Professional support for freshers."
+    }
+  ]
+}

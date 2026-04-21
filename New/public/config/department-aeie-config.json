@@ -1,0 +1,87 @@
+{
+  "department": {
+    "name": "Applied Electronics & Instrumentation Engineering",
+    "code": "AEIE",
+    "description": "The department aims at producing engineering graduates with adequate knowledge in the area of Applied Electronics and Instrumentation Engineering.",
+    "stats": {
+      "students": 240,
+      "faculty": 15,
+      "labs": 8,
+      "placementRate": "92%"
+    },
+    "contact": {
+      "head": "Dr. John Doe",
+      "email": "hod_aeie@nsec.ac.in"
+    },
+    "faculty": [
+      {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "designation": "Professor & HOD",
+        "qualification": "Ph.D, M.Tech"
+      },
+      {
+        "id": 2,
+        "name": "Dr. Jane Smith",
+        "designation": "Associate Professor",
+        "qualification": "Ph.D"
+      },
+      {
+        "id": 3,
+        "name": "Prof. Alan Turing",
+        "designation": "Assistant Professor",
+        "qualification": "M.Tech"
+      },
+      {
+        "id": 4,
+        "name": "Prof. Ada Lovelace",
+        "designation": "Assistant Professor",
+        "qualification": "M.Tech"
+      }
+    ],
+    "curriculum": [
+      {
+        "sem": "Semester 1",
+        "subjects": [
+          "Mathematics I",
+          "Physics I",
+          "Basic Electrical Engineering"
+        ]
+      },
+      {
+        "sem": "Semester 2",
+        "subjects": [
+          "Mathematics II",
+          "Chemistry I",
+          "Programming for Problem Solving"
+        ]
+      },
+      {
+        "sem": "Semester 3",
+        "subjects": [
+          "Analog Electronics",
+          "Digital Electronics",
+          "Sensors and Transducers"
+        ]
+      }
+    ],
+    "labs": [
+      {
+        "name": "Process Control Lab",
+        "img": ""
+      },
+      {
+        "name": "Sensors Lab",
+        "img": ""
+      },
+      {
+        "name": "Microprocessor Lab",
+        "img": ""
+      },
+      {
+        "name": "Industrial Instrumentation Lab",
+        "img": ""
+      }
+    ]
+  }
+}

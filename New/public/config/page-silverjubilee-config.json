@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "title": "Silver",
+    "titleHighlight": "Jubilee",
+    "subtitle": "25 Years of NSEC",
+    "description": "Celebrating a quarter century of academic excellence and engineering brilliance."
+  },
+  "features": [
+    {
+      "title": "Alumni Meet",
+      "icon": "Music",
+      "desc": "Grand reunion of batches from 1998 onwards."
+    },
+    {
+      "title": "Tech Symposium",
+      "icon": "Zap",
+      "desc": "Conferences featuring distinguished alumni."
+    },
+    {
+      "title": "Cultural Gala",
+      "icon": "Camera",
+      "desc": "Star-studded performances and celebrations."
+    }
+  ]
+}

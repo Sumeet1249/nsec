@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "title": "Training &",
+    "titleHighlight": "Placement",
+    "subtitle": "Career Success",
+    "description": "Dedicated cell ensuring excellent placement opportunities in top MNCs."
+  },
+  "features": [
+    {
+      "title": "Pre-Placement Training",
+      "icon": "Zap",
+      "desc": "Aptitude, coding, and soft skills preparation."
+    },
+    {
+      "title": "Top Recruiters",
+      "icon": "Heart",
+      "desc": "TCS, Cognizant, Wipro, Infosys, Capgemini, and more."
+    },
+    {
+      "title": "Internships",
+      "icon": "Compass",
+      "desc": "Industry internships starting from 3rd year."
+    }
+  ]
+}
