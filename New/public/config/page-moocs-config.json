@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "MOOCs",
+    "titleHighlight": "& NPTEL",
+    "subtitle": "Digital Learning"
+  },
+  "content": [
+    {
+      "title": "NPTEL Local Chapter",
+      "desc": "Access to IIT & IISc curated courses.",
+      "items": [
+        "Certification",
+        "Credit Transfer",
+        "Proctored Exams"
+      ]
+    },
+    {
+      "title": "Coursera for Campus",
+      "desc": "Global university courses for students.",
+      "items": [
+        "Specializations",
+        "Guided Projects",
+        "Professional Certificates"
+      ]
+    }
+  ]
+}

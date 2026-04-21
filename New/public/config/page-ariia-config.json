@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "title": "ARIIA",
+    "titleHighlight": "Ranking",
+    "subtitle": "Atal Ranking of Institutions",
+    "description": "Recognized for Innovation Achievements and Entrepreneurship Development."
+  },
+  "features": [
+    {
+      "title": "Band Excellent",
+      "icon": "Zap",
+      "desc": "Ranked in the 'Excellent' band in the private institutions category."
+    }
+  ]
+}

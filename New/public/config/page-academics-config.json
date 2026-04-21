@@ -1,0 +1,79 @@
+{
+  "category": "Education",
+  "title": "Academic Excellence",
+  "sidebarTitle": "Academics",
+  "tabs": [
+    {
+      "id": "programmes",
+      "label": "Programmes",
+      "title": "Academic Programmes",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We offer a diverse range of undergraduate, postgraduate, and diploma programs tailored to modern industry needs. Please use the Departments menu to navigate to specific branches."
+        }
+      ]
+    },
+    {
+      "id": "curriculum",
+      "label": "Curriculum Planning",
+      "title": "Curriculum Planning & Implementation",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Our curriculum is continuously updated in line with AICTE and MAKAUT guidelines. We integrate project-based learning and industry internships into core academics."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Value Added Technical Programs (VATP)",
+            "Structured Induction Program for First Years",
+            "Choice Based Credit System (CBCS) Integration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "practices",
+      "label": "Best Practices",
+      "title": "Academic Best Practices",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Continuous Internal Evaluation",
+            "Flipped Classroom methodology",
+            "Mandatory NPTEL certification",
+            "Peer-assisted learning (PAL)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calendar",
+      "label": "Academic Calendar",
+      "title": "Academic Calendar",
+      "content": [
+        {
+          "type": "download",
+          "link": "/assets/Notices/academiccalendarevensemester24-25.pdf"
+        },
+        {
+          "type": "paragraph",
+          "text": "The calendar is subject to modifications based on MAKAUT notifications."
+        }
+      ]
+    },
+    {
+      "id": "feedbacks",
+      "label": "Feedbacks",
+      "title": "Feedback Analysis System",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We regularly collect feedback from students, alumni, and industry partners to refine our Teaching Learning Process (TLP). Read our latest action taken reports."
+        }
+      ]
+    }
+  ]
+}

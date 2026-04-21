@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "title": "Campus",
+    "titleHighlight": "Events",
+    "subtitle": "Activities & Fests",
+    "description": "A vibrant calendar of technical, cultural, and sports events throughout the year."
+  },
+  "features": [
+    {
+      "title": "Avenir",
+      "icon": "Zap",
+      "desc": "Annual Tech Fest."
+    },
+    {
+      "title": "Mesmerizer",
+      "icon": "Music",
+      "desc": "Annual Cultural Fest."
+    },
+    {
+      "title": "Pheonix",
+      "icon": "Camera",
+      "desc": "Official Tech Club Events."
+    }
+  ]
+}

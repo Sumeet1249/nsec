@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "title": "Internal Quality",
+    "titleHighlight": "Assurance Cell.",
+    "subtitle": "IQAC: NSEC"
+  },
+  "content": [
+    {
+      "title": "Annual Quality Assurance Reports",
+      "desc": "Reports submitted to NAAC.",
+      "items": [
+        "AQAR 2022-23",
+        "AQAR 2021-22",
+        "AQAR 2020-21",
+        "AQAR 2019-20"
+      ]
+    },
+    {
+      "title": "IQAC Meetings",
+      "desc": "Minutes of the meetings and action taken reports.",
+      "items": [
+        "Minutes 2023",
+        "Minutes 2022",
+        "Minutes 2021"
+      ]
+    }
+  ]
+}

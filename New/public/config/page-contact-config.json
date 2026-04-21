@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "title": "Contact",
+    "titleHighlight": "Us",
+    "subtitle": "Get in touch",
+    "description": "Reach out to us for admissions, queries, or just to say hello."
+  },
+  "features": [
+    {
+      "title": "Campus Address",
+      "icon": "Compass",
+      "desc": "Technocity, Panchpota, Garia, Kolkata, West Bengal 700152"
+    },
+    {
+      "title": "Phone Numbers",
+      "icon": "Heart",
+      "desc": "+91-33-24361285, +91-33-24361286"
+    },
+    {
+      "title": "Email",
+      "icon": "Heart",
+      "desc": "info@nsec.ac.in"
+    }
+  ]
+}

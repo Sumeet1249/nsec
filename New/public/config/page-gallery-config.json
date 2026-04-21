@@ -1,0 +1,39 @@
+{
+  "hero": {
+    "title": "Photo",
+    "titleHighlight": "Gallery.",
+    "subtitle": "Campus Visuals"
+  },
+  "images": [
+    {
+      "id": 1,
+      "url": "https://source.unsplash.com/random/800x600?university,college,1",
+      "category": "Campus Life",
+      "title": "Campus Entrance"
+    },
+    {
+      "id": 2,
+      "url": "https://source.unsplash.com/random/800x800?university,college,2",
+      "category": "Tech Fest",
+      "title": "Avenir 2024 Opening"
+    },
+    {
+      "id": 3,
+      "url": "https://source.unsplash.com/random/800x1200?university,college,3",
+      "category": "Labs",
+      "title": "Computer Lab Session"
+    },
+    {
+      "id": 4,
+      "url": "https://source.unsplash.com/random/800x600?university,college,4",
+      "category": "Library",
+      "title": "Central Library Reading Room"
+    },
+    {
+      "id": 5,
+      "url": "https://source.unsplash.com/random/800x1000?university,college,5",
+      "category": "Campus Life",
+      "title": "Student Activities"
+    }
+  ]
+}

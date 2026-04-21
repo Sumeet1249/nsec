@@ -1,0 +1,45 @@
+{
+  "category": "Career",
+  "title": "Training & Placement",
+  "sidebarTitle": "Placement Cell",
+  "tabs": [
+    {
+      "id": "records",
+      "label": "Placement Records",
+      "title": "Placement Records",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "NSEC enjoys stellar placement records. With over 90% placement year on year, our alumni are placed in premier MNCs like TCS, CTS, Infosys, Capgemini, Amazon, and Microsoft."
+        }
+      ]
+    },
+    {
+      "id": "mou",
+      "label": "MoU Partners",
+      "title": "Industry Collaborations",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "TCS - Initial learning programs",
+            "Infosys - Campus Connect",
+            "L&T - Edutech",
+            "NASSCOM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "label": "Career Opportunities",
+      "title": "Internships & Careers",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The T&P Cell organizes exhaustive Pre-Placement Training (PPT) encompassing aptitude, coding, logic, and soft skills to bridge the gap between academia and industry."
+        }
+      ]
+    }
+  ]
+}
