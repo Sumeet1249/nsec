@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Map, ArrowRight, PlayCircle } from 'lucide-react';
+import { Map, ArrowRight, PlayCircle, Calendar } from 'lucide-react';
 
 export default function VTourPage() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -82,28 +82,44 @@ export default function VTourPage() {
          </div>
 
          {/* Campus Map CTA */}
-         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="glass-card p-12 flex flex-col md:flex-row items-center gap-8 group">
-               <div className="w-20 h-20 rounded-2xl bg-brand-accent/10 flex items-center justify-center text-brand-accent group-hover:bg-brand-accent group-hover:text-white transition-colors">
-                  <Map className="w-10 h-10" />
-               </div>
-               <div>
-                  <h3 className="text-2xl font-bold text-white mb-2">Campus Map</h3>
-                  <p className="text-brand-muted mb-4 leading-relaxed">Download our detailed campus map to easily locate departments, labs, and amenities.</p>
-                  <button className="text-brand-accent font-bold inline-flex items-center gap-2 group-hover:gap-4 transition-all">Download PDF <ArrowRight className="w-4 h-4" /></button>
-               </div>
+          {/* CTA Section */}
+        <motion.div 
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+          className="grid grid-cols-1 md:grid-cols-2 gap-8"
+        >
+          <div className="group relative p-8 rounded-2xl overflow-hidden cursor-pointer transition-all duration-300 hover:shadow-2xl border-2" style={{ borderColor: 'rgb(128, 0, 0)', backgroundColor: 'rgba(128, 0, 0, 0.05)' }}>
+            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" style={{ background: 'linear-gradient(135deg, rgba(128, 0, 0, 0.1), rgba(178, 137, 37, 0.1))' }}></div>
+            <div className="relative z-10">
+              <div className="w-14 h-14 rounded-xl flex items-center justify-center mb-6 transition-all duration-300" style={{ backgroundColor: 'rgb(128, 0, 0)' }}>
+                <Map className="w-7 h-7 text-white" />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">Campus Map</h3>
+              <p className="text-gray-600 mb-6 leading-relaxed">Download our detailed campus map to navigate all departments, laboratories, facilities, and key amenities.</p>
+              <button className="font-bold inline-flex items-center gap-2 group-hover:gap-4 transition-all duration-300" style={{ color: 'rgb(128, 0, 0)' }}>
+                Download PDF <ArrowRight className="w-5 h-5" />
+              </button>
             </div>
-            
-            <div className="glass-card p-12 bg-white/5 border border-brand-accent/30 relative overflow-hidden">
-               <div className="absolute top-0 right-0 w-64 h-64 bg-brand-accent/10 rounded-full blur-3xl" />
-               <div className="relative z-10">
-                  <h3 className="text-2xl font-bold text-white mb-2">Schedule a Visit</h3>
-                  <p className="text-brand-muted mb-6 leading-relaxed">Prefer to see it in person? Book a guided campus tour with our admission counselors.</p>
-                  <button className="btn-primary">Book Campus Tour</button>
-               </div>
+          </div>
+          
+          <div className="group relative p-8 rounded-2xl overflow-hidden cursor-pointer transition-all duration-300 hover:shadow-2xl border-2" style={{ borderColor: 'rgb(178, 137, 37)', backgroundColor: 'rgba(178, 137, 37, 0.08)' }}>
+            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" style={{ background: 'linear-gradient(135deg, rgba(178, 137, 37, 0.2), rgba(128, 0, 0, 0.1))' }}></div>
+            <div className="relative z-10">
+              <div className="w-14 h-14 rounded-xl flex items-center justify-center mb-6 transition-all duration-300 group-hover:shadow-lg" style={{ backgroundColor: 'rgb(178, 137, 37)' }}>
+                <Calendar className="w-7 h-7 text-white" />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">Schedule a Campus Visit</h3>
+              <p className="text-gray-600 mb-6 leading-relaxed">Experience our campus firsthand. Book a guided tour with our admission counselors and explore in person.</p>
+              <button className="font-bold inline-flex items-center gap-2 group-hover:gap-4 transition-all duration-300 px-6 py-2 rounded-lg text-white" style={{ backgroundColor: 'rgb(178, 137, 37)' }}>
+                Book Now <ArrowRight className="w-5 h-5" />
+              </button>
             </div>
-         </div>
+          </div>
+        </motion.div>
       </section>
+
+      {/* Footer accent */}
     </div>
   );
 }

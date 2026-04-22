@@ -1,25 +1,186 @@
 {
-  "hero": {
-    "title": "Innovation",
-    "titleHighlight": "Council",
-    "subtitle": "MoE's Innovation Cell",
-    "description": "Fostering the culture of innovation and start-up ecosystem in the institution."
-  },
-  "features": [
-    {
-      "title": "Ideation Workshops",
-      "icon": "Zap",
-      "desc": "Brainstorming sessions to generate disruptive ideas."
+  "iic": {
+    "about": {
+      "overview": "MHRD's Innovation Cell (MIC) was established to foster innovation culture in Higher Education Institutions. It supports students in developing ideas into prototypes during their academic years.",
+      "vision": "To establish Institution's Innovation Councils (IICs) across HEIs and build a network that promotes innovation ecosystems in campuses.",
+      "institution_context": "The Institution's Innovation Council (IIC) at Netaji Subhash Engineering College was established in October 2019 to promote innovation, startups, and entrepreneurial activities among students."
     },
-    {
-      "title": "Hackathons",
-      "icon": "Coffee",
-      "desc": "24-hour coding and hardware prototyping events."
-    },
-    {
-      "title": "Incubation Support",
-      "icon": "Rocket",
-      "desc": "Mentorship for student startups and patent filing."
-    }
-  ]
+    "major_focus": [
+      "Create a vibrant local innovation ecosystem",
+      "Support startup mechanisms in HEIs",
+      "Prepare institute for ARIIA ranking",
+      "Establish ecosystem for idea scouting and pre-incubation",
+      "Develop cognitive and technical abilities of students"
+    ],
+    "functions": [
+      "Conduct innovation and entrepreneurship activities as per MIC guidelines",
+      "Identify and reward innovations and share success stories",
+      "Organize workshops, seminars, and mentorship programs",
+      "Collaborate with national entrepreneurship organizations",
+      "Create innovation portal for projects",
+      "Organize hackathons, competitions, and industry-driven challenges"
+    ],
+    "members": [
+      {
+        "name": "Dr. H.K. Mandal",
+        "designation": "Director",
+        "role": "Advisor"
+      },
+      {
+        "name": "Prof. Tirthankar Datta",
+        "designation": "Principal",
+        "role": "Advisor"
+      },
+      {
+        "name": "Mr. Sumit Roy",
+        "designation": "Registrar",
+        "role": "President, IIC"
+      },
+      {
+        "name": "Mr. Shilpi Bose",
+        "designation": "Assistant Professor",
+        "role": "Convener and ARIIA Coordinator"
+      },
+      {
+        "name": "Mr. Dhritiman Mandal",
+        "designation": "Assistant Professor",
+        "role": "Startup Activity Coordinator"
+      },
+      {
+        "name": "Dr. Tridibesh Nag",
+        "designation": "Assistant Professor",
+        "role": "Innovation Activity & Internship Coordinator"
+      },
+      {
+        "name": "Dr. Atanu Das",
+        "designation": "Assistant Professor",
+        "role": "Member"
+      },
+      {
+        "name": "Dr. Indranil Ghosh",
+        "designation": "Associate Professor",
+        "role": "Member"
+      },
+      {
+        "name": "Dr. Animesh Bhattacharyay",
+        "designation": "Assistant Professor",
+        "role": "Member"
+      },
+      {
+        "name": "Mr. Arnab Datta",
+        "designation": "Assistant Professor",
+        "role": "Member"
+      },
+      {
+        "name": "Mr. Debdip Bhanjachoudhury",
+        "designation": "Technical Assistant",
+        "role": "Member"
+      },
+      {
+        "name": "Mr. Deborshi Datta",
+        "designation": "Placement Office",
+        "role": "Member"
+      },
+      {
+        "name": "Mr. Diptiman Das",
+        "designation": "Senior Executive",
+        "role": "Member"
+      },
+      {
+        "name": "Mr. Maloy Naskar",
+        "designation": "Assistant Professor",
+        "role": "Member"
+      },
+      {
+        "name": "Mr. Saurav Mitra",
+        "designation": "Assistant Professor",
+        "role": "Member"
+      },
+      {
+        "name": "Mr. Tarak Das",
+        "designation": "Assistant Professor",
+        "role": "Member"
+      },
+      {
+        "name": "Mr. Trishit Banerjee",
+        "designation": "Assistant Professor",
+        "role": "Member"
+      },
+      {
+        "name": "Dr. Partha Sarathi Pal",
+        "designation": "Associate Professor",
+        "role": "NIRF Coordinator"
+      },
+      {
+        "name": "Dr. Swapna Roy",
+        "designation": "Assistant Professor",
+        "role": "IPR Activity Coordinator"
+      },
+      {
+        "name": "Mrs. Ina Bose",
+        "designation": "External Expert",
+        "role": "Member"
+      },
+      {
+        "name": "Mr. Subhabrata Bhattacharya",
+        "designation": "External Expert",
+        "role": "Member"
+      },
+      {
+        "name": "Mr. Sanket Sarkar",
+        "designation": "External Expert",
+        "role": "Member"
+      },
+      {
+        "name": "Mr. Rictor Bhowmik",
+        "designation": "External Expert",
+        "role": "Member"
+      },
+      {
+        "name": "Dr. Jnui Deb Mallick Datta",
+        "designation": "External Expert",
+        "role": "Member"
+      },
+      {
+        "name": "Naseem Ahmad",
+        "designation": "Student",
+        "role": "Innovation Activity Coordinator"
+      },
+      {
+        "name": "Astha Gupta",
+        "designation": "Student",
+        "role": "IPR Activity Coordinator"
+      },
+      {
+        "name": "Vishal Kunwar",
+        "designation": "Student",
+        "role": "Startup Activity Coordinator"
+      },
+      {
+        "name": "Ujjayini DeyChowdhuri",
+        "designation": "Student",
+        "role": "Social Media Coordinator"
+      },
+      {
+        "name": "Roni Das",
+        "designation": "Student",
+        "role": "Member"
+      },
+      {
+        "name": "Adrish Dey",
+        "designation": "Student",
+        "role": "Internship Coordinator"
+      },
+      {
+        "name": "Supriya Dhabal",
+        "designation": "Assistant Professor",
+        "role": "Member"
+      },
+      {
+        "name": "Mr. Prodip Mukhopadhyay",
+        "designation": "External Expert",
+        "role": "Member"
+      }
+    ]
+  }
 }

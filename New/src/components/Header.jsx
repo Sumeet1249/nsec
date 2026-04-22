@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { cn } from '../utils/cn';
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'framer-motion';
 import { 
   Phone, 
   Mail, 
@@ -11,6 +10,19 @@ import {
   ShieldCheck,
   Zap
 } from 'lucide-react';
+
+const AccreditationLine = () => (
+  <div className="flex items-center gap-12 whitespace-nowrap">
+    <span className="text-[11px] font-bold text-brand-blue/80 uppercase tracking-tight">
+      Approved by <span className="text-brand-accent">AICTE</span> • 
+      Affiliated to <span className="text-brand-accent">MAKAUT</span> • 
+      Accredited by <span className="text-brand-accent">NBA</span> (Programmes) and 
+      <span className="text-brand-accent ml-1">NAAC</span> • 
+      Ranked by <span className="text-brand-accent ml-1">NIRF</span> [2020] & 
+      <span className="text-brand-accent ml-1">ARIIA</span>
+    </span>
+  </div>
+);
 
 export default function Header() {
   const [config, setConfig] = useState(null);
@@ -32,21 +44,8 @@ export default function Header() {
     { name: 'ARIIA', path: '/ariia' },
     { name: 'IIC', path: '/iic' },
     { name: 'IDEA Lab', path: '/idealab' },
-    { name: 'Anti-ragging', path: '/antiragging' },
+    { name: 'Anti-ragging', path: '/anti-ragging' },
   ];
-
-  const AccreditationLine = () => (
-    <div className="flex items-center gap-12 whitespace-nowrap">
-      <span className="text-[11px] font-bold text-brand-blue/80 uppercase tracking-tight">
-        Approved by <span className="text-brand-accent">AICTE</span> • 
-        Affiliated to <span className="text-brand-accent">MAKAUT</span> • 
-        Accredited by <span className="text-brand-accent">NBA</span> (Programmes) and 
-        <span className="text-brand-accent ml-1">NAAC</span> • 
-        Ranked by <span className="text-brand-accent ml-1">NIRF</span> [2020] & 
-        <span className="text-brand-accent ml-1">ARIIA</span>
-      </span>
-    </div>
-  );
 
   if (!config) return <div className="h-22 bg-white" />;
 
@@ -103,7 +102,11 @@ export default function Header() {
             ))}
           </div>
           <Link to="/silverjubilee" className="flex items-center gap-3 px-4 py-1.5 bg-brand-maroon rounded-full border border-white/20 hover:bg-white hover:text-brand-maroon hover:border-brand-maroon transition-all group shadow-sm">
-            <Zap size={14} className="text-yellow-400 animate-pulse group-hover:text-brand-maroon" />
+            <img
+              src="/assets/HeroFocus/25-years-nsec-logo-3.png"
+              alt="25 Years"
+              className="w-4 h-4 object-contain"
+            />
             <span className="text-[11px] font-black uppercase tracking-widest">25 Years</span>
           </Link>
         </div>
@@ -113,30 +116,24 @@ export default function Header() {
       <header className="bg-white h-22 flex flex-col justify-center border-b border-brand-accent/10 shadow-lg relative overflow-hidden">
         <div className="px-12 flex items-center justify-between h-full">
           {/* LOGOS_LEFT */}
-          <div className="flex items-center gap-8 h-full">
+          <div className="flex-1 flex items-center justify-start h-full py-2">
             <Link to="/" className="w-auto h-full flex items-center justify-center p-0 group">
               <img src={config.header.primaryLogo} alt="NSEC Logo" className="h-full w-auto object-contain transition-transform group-hover:scale-105" />
             </Link>
           </div>
 
-          {/* COLLEGE_NAME_RIGHT & MODERN MARQUEE */}
-          <div className="text-right flex flex-col items-end flex-1 pl-20 h-full justify-center">
-            <div className="flex items-center gap-6 h-full">
-              <div className="flex items-center gap-4 h-full py-2">
-                <img src={config.header.secondaryLogo} alt="AICTE Logo" className="h-full w-auto object-contain opacity-90" />
-                <img src={config.header.tertiaryLogo} alt="ICCE Logo" className="h-full w-auto object-contain opacity-90" />
-              </div>
-              <h1 className="text-3xl lg:text-4xl font-black text-brand-maroon leading-none tracking-tighter uppercase italic">
-                Netaji Subhash Engineering <span className="text-brand-accent">College</span>
-              </h1>
-            </div>
+          {/* CENTER: COLLEGE NAME & MARQUEE */}
+          <div className="flex flex-col items-center justify-center shrink-0 px-4">
+            <h1 className="text-3xl lg:text-4xl font-black text-brand-maroon leading-none tracking-tighter uppercase italic whitespace-nowrap">
+              NETAJI SUBHASH ENGINEERING <span className="text-brand-accent">COLLEGE</span>
+            </h1>
             
             {/* NEW AGE SCROLLING TEXT */}
-            <div className="w-full max-w-2xl h-6 bg-brand-bg rounded-full border border-brand-accent/5 overflow-hidden relative flex items-center px-6 group">
+            <div className="w-full max-w-2xl h-6 mt-1.5 bg-brand-bg rounded-full border border-brand-accent/5 overflow-hidden relative flex items-center px-6 group">
               <div className="absolute left-0 top-0 bottom-0 w-12 bg-gradient-to-r from-brand-bg to-transparent z-10" />
               <div className="absolute right-0 top-0 bottom-0 w-12 bg-gradient-to-l from-brand-bg to-transparent z-10" />
               
-              <motion.div 
+              <Motion.div 
                 animate={{ x: [0, -800] }}
                 transition={{ 
                   duration: 25, 
@@ -147,8 +144,14 @@ export default function Header() {
               >
                 <AccreditationLine />
                 <AccreditationLine />
-              </motion.div>
+              </Motion.div>
             </div>
+          </div>
+
+          {/* LOGOS_RIGHT */}
+          <div className="flex-1 flex items-center justify-end gap-4 h-full py-2">
+            <img src={config.header.secondaryLogo} alt="AICTE Logo" className="h-full w-auto object-contain opacity-90" />
+            <img src={config.header.tertiaryLogo} alt="ICCE Logo" className="h-full w-auto object-contain opacity-90" />
           </div>
         </div>
       </header>

@@ -1,25 +1,18 @@
 {
-  "hero": {
-    "title": "AICTE",
-    "titleHighlight": "IDEA Lab",
-    "subtitle": "Idea Development, Evaluation & Application",
-    "description": "A facility offering 24x7 access to advanced manufacturing and prototyping tools."
-  },
-  "features": [
+  "section": "aicte_idea_lab",
+  "heading": "AICTE-IDEA Lab at Netaji Subhash Engineering College",
+  "subheading": "NSEC AICTE IDEA LAB",
+  "content": [
+    "Netaji Subhash Engineering College (NSEC) has established the AICTE IDEA (Idea Development, Evaluation and Application) Lab under the AICTE IDEA Scheme 2024-25. This facility focuses on fostering innovation, creativity, and entrepreneurship among students and faculty.",
+    "The AICTE IDEA Lab provides an ecosystem for hands-on learning, research, and real-world project development. It enables students to collaborate with industry professionals and transform ideas into practical solutions.",
+    "Supported by AICTE, the lab helps students convert concepts into prototypes, products, or services while strengthening the connection between academia and industry.",
+    "The initiative promotes design thinking, experimentation, and interdisciplinary growth, reinforcing the institution's commitment to education, research, and innovation."
+  ],
+  "documents": [
     {
-      "title": "3D Printing Hub",
-      "icon": "Zap",
-      "desc": "FDM and SLA printers for rapid prototyping."
-    },
-    {
-      "title": "IoT Workbench",
-      "icon": "Cpu",
-      "desc": "Microcontrollers and sensor kits for smart projects."
-    },
-    {
-      "title": "CNC Machining",
-      "icon": "Compass",
-      "desc": "Precision cutting and milling stations."
+      "title": "Tender Document for AICTE-IDEA Lab Equipment Procurement",
+      "url": "notice/Tender-Document-for-AICTE-IDEA-LAB_03-09-2025_compressed.pdf",
+      "type": "pdf"
     }
   ]
 }

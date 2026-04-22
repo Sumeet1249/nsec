@@ -1,15 +1,20 @@
 {
-  "hero": {
-    "title": "ARIIA",
-    "titleHighlight": "Ranking",
-    "subtitle": "Atal Ranking of Institutions",
-    "description": "Recognized for Innovation Achievements and Entrepreneurship Development."
+  "section": "ariia_2020",
+  "title": "ARIIA 2020",
+  "image": {
+    "src": "images/ariia-2020-result.jpg",
+    "link": "images/ARIIA Rankings 2020 Report.pdf",
+    "alt": "ARIIA 2020 Result"
   },
-  "features": [
-    {
-      "title": "Band Excellent",
-      "icon": "Zap",
-      "desc": "Ranked in the 'Excellent' band in the private institutions category."
-    }
+  "contacts": {
+    "emails": [
+      "principal@nsec.ac.in",
+      "bose.shilpi08@gmail.com"
+    ],
+    "description": "Email addresses for comments and feedback related to Submitted Data for ARIIA 2020"
+  },
+  "content": [
+    "The institution will proactively and objectively examine feedback received and make corrections if required within the timeline specified by ARIIA.",
+    "The institution ensures that the submitted ARIIA 2020 data displayed on the website is accurate and up to date."
   ]
 }

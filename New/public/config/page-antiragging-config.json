@@ -1,25 +1,29 @@
 {
-  "hero": {
-    "title": "Anti",
-    "titleHighlight": "Ragging",
-    "subtitle": "Zero Tolerance",
-    "description": "NSEC Maintains a strict zero-tolerance policy towards ragging in any form."
-  },
-  "features": [
-    {
-      "title": "Helpline",
-      "icon": "Heart",
-      "desc": "24x7 dedicated helpline for students."
-    },
-    {
-      "title": "Squads",
-      "icon": "Shield",
-      "desc": "Regular patrols in campus and hostels."
-    },
-    {
-      "title": "Counselling",
-      "icon": "Coffee",
-      "desc": "Professional support for freshers."
-    }
+  "section": "anti_ragging",
+  "title": "Anti-Ragging Policy",
+  "what_constitutes_ragging": [
+    "Any conduct by students involving teasing, rude behavior, or improper handling of a fresher or another student.",
+    "Engaging in disorderly or undisciplined activities causing annoyance, hardship, physical or psychological harm, or fear.",
+    "Forcing a student to perform acts causing shame, embarrassment, or mental distress.",
+    "Any act by a senior that disrupts academic activities of other students.",
+    "Exploiting students to complete academic tasks assigned to others.",
+    "Financial extortion or forcing students to spend money.",
+    "Physical abuse including sexual abuse, assault, stripping, or any act causing bodily harm.",
+    "Verbal or written abuse including emails, posts, or public insults causing humiliation or distress.",
+    "Any act affecting mental health, self-confidence, or dignity, including abuse of power or authority."
+  ],
+  "punishments": [
+    "Cancellation of admission",
+    "Suspension from attending classes",
+    "Withdrawal or withholding of scholarship/fellowship and other benefits",
+    "Debarment from examinations or evaluation processes",
+    "Withholding of results",
+    "Debarment from representing the institution in events or competitions",
+    "Suspension or expulsion from hostel",
+    "Rustication for 1 to 4 semesters",
+    "Expulsion from the institution and ban from admission elsewhere",
+    "Fine of Rs. 25,000",
+    "Denial of placement assistance",
+    "FIR to be filed by the institution"
   ]
 }

@@ -1,28 +1,58 @@
 {
-  "hero": {
-    "title": "Internal Quality",
-    "titleHighlight": "Assurance Cell.",
-    "subtitle": "IQAC: NSEC"
-  },
-  "content": [
-    {
-      "title": "Annual Quality Assurance Reports",
-      "desc": "Reports submitted to NAAC.",
-      "items": [
-        "AQAR 2022-23",
-        "AQAR 2021-22",
-        "AQAR 2020-21",
-        "AQAR 2019-20"
-      ]
-    },
-    {
-      "title": "IQAC Meetings",
-      "desc": "Minutes of the meetings and action taken reports.",
-      "items": [
-        "Minutes 2023",
-        "Minutes 2022",
-        "Minutes 2021"
-      ]
-    }
-  ]
+  "research_and_development": {
+    "general": [
+      {
+        "title": "R&D Projects and Awards",
+        "url": "impdoc/313_1.pdf"
+      },
+      {
+        "title": "Innovation Ecosystem",
+        "url": "impdoc/321.pdf"
+      },
+      {
+        "title": "R&D Guidelines",
+        "url": "impdoc/331.pdf"
+      },
+      {
+        "title": "Ph.D. Awarded",
+        "url": "impdoc/333.pdf"
+      },
+      {
+        "title": "Publications",
+        "url": "impdoc/334.pdf"
+      },
+      {
+        "title": "Faculty Exchange",
+        "url": "impdoc/351.pdf"
+      }
+    ],
+    "mous": [
+      {
+        "organization": "Remedy Hospital",
+        "url": "impdoc/352_1.pdf"
+      },
+      {
+        "organization": "Electrixia Energy",
+        "url": "impdoc/352_2.pdf"
+      },
+      {
+        "organization": "Orient Infotech",
+        "url": "impdoc/352_3.pdf"
+      },
+      {
+        "organization": "Photonix Solar",
+        "url": "impdoc/352_4.pdf"
+      },
+      {
+        "organization": "Suncraft Energy",
+        "url": "impdoc/352_5.pdf"
+      }
+    ],
+    "other": [
+      {
+        "title": "MODROB Projects",
+        "url": null
+      }
+    ]
+  }
 }

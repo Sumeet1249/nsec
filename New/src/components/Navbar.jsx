@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { motion as Motion, AnimatePresence } from 'framer-motion';
 import * as Lucide from 'lucide-react';
 import { 
@@ -10,10 +10,12 @@ import {
 import { cn } from '../utils/cn';
 
 export default function Navbar() {
-  const location = useLocation();
   const [navItems, setNavItems] = useState([]);
   const [hoveredItem, setHoveredItem] = useState(null);
   const [hoveredChild, setHoveredChild] = useState(null);
+
+  const admissionItem = navItems.find(item => item.id === 'admission');
+  const admissionLabel = admissionItem?.name?.replace(/\s*\d{4}-\d{2}\s*$/, '') || 'Admission';
 
   useEffect(() => {
     fetch('/config/site-config.json')
@@ -29,8 +31,19 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-[126px] left-0 right-0 z-[110] bg-white border-b border-brand-accent/10 shadow-md">
-      <div className="max-w-[1920px] mx-auto px-12 h-[60px] flex items-center justify-between">
-        <div className="flex items-center gap-0.5">
+      <div className="max-w-[1920px] mx-auto px-8 xl:px-10 h-[60px] flex items-center justify-between">
+        <div className="flex items-center gap-0">
+          <Link
+            to="/"
+            className="px-2.5 py-2 flex items-center gap-1.5 cursor-pointer rounded-lg transition-all duration-300 mr-1 border-2 bg-white text-brand-blue border-transparent hover:border-brand-accent/20 hover:bg-brand-accent/5"
+            aria-label="Go to home"
+          >
+            <div className="w-7 h-7 rounded-md flex items-center justify-center transition-colors shrink-0 bg-brand-accent/10 text-brand-accent">
+              <Lucide.Home size={14} strokeWidth={2.5} />
+            </div>
+            <span className="text-[10.5px] font-black uppercase tracking-wider whitespace-nowrap">Home</span>
+          </Link>
+
           {navItems.map((item) => (
             <div 
               key={item.id}
@@ -42,23 +55,39 @@ export default function Navbar() {
               className="relative h-[60px] flex items-center"
             >
               {/* MAIN_BUTTON */}
-              <div className={cn(
-                "px-3 py-2 flex items-center gap-2 cursor-pointer rounded-lg transition-all duration-300 mx-0.5 border-2",
-                hoveredItem === item.id 
-                  ? "bg-brand-blue text-white border-brand-blue shadow-md" 
-                  : "bg-white text-brand-blue border-transparent hover:border-brand-accent/20 hover:bg-brand-accent/5"
-              )}>
+              {/* MAIN_BUTTON */}
+              {item.children ? (
                 <div className={cn(
-                  "w-7 h-7 rounded-md flex items-center justify-center transition-colors shrink-0",
-                  hoveredItem === item.id ? "bg-brand-accent text-white" : "bg-brand-accent/10 text-brand-accent"
+                  "px-2.5 py-2 flex items-center gap-1.5 cursor-pointer rounded-lg transition-all duration-300 mx-0.25 border-2",
+                  hoveredItem === item.id 
+                    ? "bg-brand-blue text-white border-brand-blue shadow-md" 
+                    : "bg-white text-brand-blue border-transparent hover:border-brand-accent/20 hover:bg-brand-accent/5"
                 )}>
-                  {getIcon(item.icon)}
-                </div>
-                <span className="text-[11px] font-black uppercase tracking-wider whitespace-nowrap">{item.name}</span>
-                {item.children && (
+                  <div className={cn(
+                    "w-7 h-7 rounded-md flex items-center justify-center transition-colors shrink-0",
+                    hoveredItem === item.id ? "bg-brand-accent text-white" : "bg-brand-accent/10 text-brand-accent"
+                  )}>
+                    {getIcon(item.icon)}
+                  </div>
+                  <span className="text-[10.5px] font-black uppercase tracking-wider whitespace-nowrap">{item.name}</span>
                   <ChevronDown size={12} className={cn("transition-transform duration-500 opacity-40 shrink-0", hoveredItem === item.id && "rotate-180 opacity-100")} />
-                )}
-              </div>
+                </div>
+              ) : (
+                <Link to={item.path || '#'} onClick={() => setHoveredItem(null)} className={cn(
+                  "px-2.5 py-2 flex items-center gap-1.5 cursor-pointer rounded-lg transition-all duration-300 mx-0.25 border-2",
+                  hoveredItem === item.id 
+                    ? "bg-brand-blue text-white border-brand-blue shadow-md" 
+                    : "bg-white text-brand-blue border-transparent hover:border-brand-accent/20 hover:bg-brand-accent/5"
+                )}>
+                  <div className={cn(
+                    "w-7 h-7 rounded-md flex items-center justify-center transition-colors shrink-0",
+                    hoveredItem === item.id ? "bg-brand-accent text-white" : "bg-brand-accent/10 text-brand-accent"
+                  )}>
+                    {getIcon(item.icon)}
+                  </div>
+                  <span className="text-[10.5px] font-black uppercase tracking-wider whitespace-nowrap">{item.name}</span>
+                </Link>
+              )}
 
               {/* DROPDOWN */}
               <AnimatePresence>
@@ -80,6 +109,10 @@ export default function Navbar() {
                           >
                             <Link
                               to={child.path}
+                              onClick={() => {
+                                setHoveredItem(null);
+                                setHoveredChild(null);
+                              }}
                               className="flex items-center justify-between py-2 px-3 rounded-xl hover:bg-brand-accent/5 group transition-all"
                             >
                               <div className="flex flex-col">
@@ -113,6 +146,10 @@ export default function Navbar() {
                                       <Link
                                         key={sub.name}
                                         to={sub.path}
+                                        onClick={() => {
+                                          setHoveredItem(null);
+                                          setHoveredChild(null);
+                                        }}
                                         className="flex items-center py-1.5 px-2.5 rounded-lg hover:bg-brand-accent/5 text-[10.5px] font-black text-brand-blue uppercase tracking-tight hover:text-brand-accent transition-all leading-none"
                                       >
                                         {sub.name}
@@ -125,7 +162,14 @@ export default function Navbar() {
                           </div>
                         ))}
                       </div>
-                      <Link to={`/${item.id}`} className="mt-1 p-2 bg-brand-blue rounded-xl flex items-center justify-between group cursor-pointer overflow-hidden relative h-8">
+                      <Link 
+                        to={`/${item.id}`} 
+                        onClick={() => {
+                          setHoveredItem(null);
+                          setHoveredChild(null);
+                        }}
+                        className="mt-1 p-2 bg-brand-blue rounded-xl flex items-center justify-between group cursor-pointer overflow-hidden relative h-8"
+                      >
                         <div className="absolute inset-0 bg-brand-accent translate-x-full group-hover:translate-x-0 transition-transform duration-500" />
                         <span className="text-[9px] font-black text-white uppercase tracking-[0.2em] relative z-10">Overview</span>
                         <ChevronRight size={12} className="text-white relative z-10" />
@@ -138,11 +182,11 @@ export default function Navbar() {
           ))}
         </div>
 
-        <div className="flex items-center h-full">
+        <div className="flex items-center h-full shrink-0 ml-2 xl:ml-4">
           {/* Industrial Admission Button - Driven from Config */}
           <Link 
-            to={navItems.find(item => item.id === 'admission')?.path || '/admission'} 
-            className="h-full px-12 bg-brand-blue text-white flex items-center justify-center gap-5 relative group overflow-hidden shadow-[0_0_30px_rgba(0,139,139,0.3)]"
+            to={admissionItem?.path || '/admission'} 
+            className="h-full px-4 xl:px-6 w-[152px] xl:w-[184px] shrink-0 bg-brand-blue text-white flex items-center justify-center gap-2 xl:gap-3 relative group overflow-hidden shadow-[0_0_30px_rgba(0,139,139,0.3)]"
             style={{ clipPath: 'polygon(15% 0, 100% 0, 85% 100%, 0 100%)' }}
           >
             {/* Darker internal shadow for depth */}
@@ -151,15 +195,15 @@ export default function Navbar() {
             {/* Hover Slide Effect */}
             <div className="absolute inset-0 bg-brand-accent -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out" />
             
-            <div className="w-7 h-7 bg-brand-accent/20 flex items-center justify-center border border-brand-accent/30 relative z-10 transition-colors group-hover:bg-white/20">
+            <div className="w-6 h-6 xl:w-7 xl:h-7 bg-brand-accent/20 flex items-center justify-center border border-brand-accent/30 relative z-10 transition-colors group-hover:bg-white/20 shrink-0">
               <Lucide.GraduationCap size={16} className="text-brand-accent group-hover:text-white transition-colors" />
             </div>
             
-            <span className="font-black text-[12px] uppercase tracking-[0.4em] italic relative z-10 group-hover:text-white transition-colors">
-              {navItems.find(item => item.id === 'admission')?.name || 'Admission'}
+            <span className="font-black text-[8px] xl:text-[9.5px] 2xl:text-[10.5px] uppercase tracking-[0.08em] xl:tracking-[0.12em] 2xl:tracking-[0.16em] italic leading-none whitespace-nowrap relative z-10 group-hover:text-white transition-colors max-w-full">
+              {admissionLabel }
             </span>
             
-            <Lucide.MoveRight size={16} className="text-brand-accent relative z-10 opacity-40 group-hover:opacity-100 group-hover:text-white transition-all group-hover:translate-x-1" />
+            <Lucide.MoveRight size={15} className="text-brand-accent relative z-10 opacity-40 group-hover:opacity-100 group-hover:text-white transition-all group-hover:translate-x-1 shrink-0" />
           </Link>
         </div>
       </div>

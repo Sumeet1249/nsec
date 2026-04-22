@@ -1,28 +1,68 @@
 {
-  "hero": {
-    "title": "Internal Quality",
-    "titleHighlight": "Assurance Cell.",
-    "subtitle": "IQAC: NSEC"
-  },
-  "content": [
-    {
-      "title": "Annual Quality Assurance Reports",
-      "desc": "Reports submitted to NAAC.",
-      "items": [
-        "AQAR 2022-23",
-        "AQAR 2021-22",
-        "AQAR 2020-21",
-        "AQAR 2019-20"
-      ]
+  "iqac": {
+    "links": [
+      {
+        "title": "IQAC: Composition & Functions",
+        "url": "impdoc/190618 IQAC Committee_Reconstituted.pdf"
+      },
+      {
+        "title": "IQAC Meeting & Action Taken Report",
+        "url": "page.php?id=514"
+      },
+      {
+        "title": "AQAR Reports",
+        "items": [
+          {
+            "title": "AQAR 1st Cycle Report 2018-19",
+            "url": "page.php?id=512"
+          },
+          {
+            "title": "AQAR 2nd Cycle Report 2019-20",
+            "url": "page.php?id=512"
+          }
+        ]
+      }
+    ],
+    "annual_reports": [
+      { "year": "2013-14", "url": "impdoc/A.Y. 2013-14.pdf" },
+      { "year": "2014-15", "url": "impdoc/A.Y. 2014-15.pdf" },
+      { "year": "2015-16", "url": "impdoc/A.Y. 2015-16.pdf" },
+      { "year": "2016-17", "url": "impdoc/A.Y. 2016-17.pdf" },
+      { "year": "2017-18", "url": "impdoc/A.Y. 2017-18.pdf" },
+      { "year": "2018-19", "url": "impdoc/A.Y. 2018-19.pdf" },
+      { "year": "2019-20", "url": "impdoc/A.Y. 2019-20.pdf" }
+    ],
+    "about": "Internal Quality Assurance Cell (IQAC) was established in 2013 to enhance and sustain quality in teaching-learning and overall institutional performance. It focuses on continuous improvement, outcome-based education, student-centric learning, and stakeholder participation. The institution emphasizes excellence in education, research, and entrepreneurship.",
+    "major_focus": [
+      "Develop a quality system for improvement in academic, research, and administrative performance",
+      "Promote innovation, startups, entrepreneurship, and networking with institutions",
+      "Enhance academic excellence through quality culture and best practices"
+    ],
+    "functions": [
+      "Define quality benchmarks for academic and administrative activities",
+      "Promote quality culture in teaching and assessment",
+      "Disseminate information on quality parameters in higher education",
+      "Encourage learner-centric education methods",
+      "Collect feedback from stakeholders",
+      "Monitor and document academic activities",
+      "Maintain institutional database",
+      "Organize workshops, seminars, and training",
+      "Prepare AQAR reports as per NAAC guidelines"
+    ],
+    "members_image": "images/iqac-member-2021.jpg",
+    "coordinator_message": {
+      "summary": "The institution focuses on quality education, student development, and producing responsible professionals. It emphasizes faculty strength, infrastructure, and continuous improvement through IQAC policies.",
+      "invitation": "Stakeholders are encouraged to provide suggestions for improving academics, infrastructure, and research to create a better learning environment."
     },
-    {
-      "title": "IQAC Meetings",
-      "desc": "Minutes of the meetings and action taken reports.",
-      "items": [
-        "Minutes 2023",
-        "Minutes 2022",
-        "Minutes 2021"
-      ]
+    "contact": {
+      "name": "Dr. Sukumar Roy",
+      "designation": "Professor, Dept. of Biomedical Engineering",
+      "role": "Coordinator, IQAC",
+      "email": [
+        "coordinator.iqac@nsec.ac.in",
+        "sroybme@gmail.com"
+      ],
+      "phone": "9433408287"
     }
-  ]
+  }
 }

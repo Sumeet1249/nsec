@@ -1,24 +1,62 @@
 {
-  "hero": {
-    "title": "NIRF",
-    "titleHighlight": "Data",
-    "subtitle": "National Institutional Ranking Framework"
+  "section": "nirf",
+  "title": "NIRF Submitted Data",
+  "description": [
+    "As per point no. 3.2 in the India Ranking document, the institution has uploaded submitted data on its public website to ensure transparency.",
+    "The institution will review feedback received and make corrections if required within the timeline specified by NIRF.",
+    "The institution ensures that the submitted NIRF data displayed on the website is accurate."
+  ],
+  "current_year": {
+    "year": "2026",
+    "categories": [
+      {
+        "name": "Engineering",
+        "url": null
+      },
+      {
+        "name": "Innovation",
+        "url": null
+      }
+    ]
   },
-  "content": [
+  "external_reference": {
+    "title": "NIRF Engineering Ranking",
+    "url": "https://www.nirfindia.org/2020/EngineeringRanking200.html",
+    "note": "Search for Netaji Subhash Engineering College"
+  },
+  "contacts": {
+    "emails": [
+      "principal@nsec.ac.in",
+      "pspal@nsec.ac.in"
+    ],
+    "description": "Email addresses for comments and feedback related to NIRF submitted data"
+  },
+  "archives": [
     {
-      "title": "NIRF 2023",
-      "desc": "Submitted data for the year 2023.",
-      "items": [
-        "Engineering Category",
-        "Innovation Category"
-      ]
+      "year": "2025",
+      "categories": ["Engineering", "Innovation"]
     },
     {
-      "title": "NIRF 2022",
-      "desc": "Submitted data for the year 2022.",
-      "items": [
-        "Engineering Category"
-      ]
+      "year": "2024",
+      "categories": ["Engineering", "Innovation"]
+    },
+    {
+      "year": "2023"
+    },
+    {
+      "year": "2022"
+    },
+    {
+      "year": "2021"
+    },
+    {
+      "year": "2020"
+    },
+    {
+      "year": "2019"
+    },
+    {
+      "year": "2018"
     }
   ]
 }
