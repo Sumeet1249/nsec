@@ -552,6 +552,11 @@
           "desc": "Quality Standards"
         },
         {
+          "name": "NIRF",
+          "path": "/nirf",
+          "desc": "Ranking Data"
+        },
+        {
           "name": "Message",
           "path": "/about#message",
           "desc": "From Leadership"
@@ -670,7 +675,7 @@
       "children": [
         {
           "name": "Video Tour",
-          "path": "/facilities#tour",
+          "path": "/vtour",
           "desc": "Visual Walkthrough"
         },
         {

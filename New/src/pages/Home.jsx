@@ -377,6 +377,7 @@ const getLucideIcon = (name, size = 20, className = "text-brand-accent") => {
                 <span className="text-[8px] font-black uppercase tracking-[0.3em] text-slate-400 [writing-mode:vertical-lr] group-hover:text-brand-accent transition-colors">Location</span>
               </a>
               
+              
               <a href="mailto:info@nsec.ac.in" className="flex flex-col items-center gap-3 group">
                 <div className="w-10 h-10 rounded-full bg-brand-accent/5 flex items-center justify-center border border-brand-accent/20 group-hover:bg-brand-accent group-hover:border-brand-accent transition-all duration-500 shadow-sm">
                   <Mail size={14} className="text-brand-accent group-hover:text-white transition-colors" />

@@ -13,8 +13,16 @@ import NoticePage from './pages/NoticePage';
 import GalleryPage from './pages/GalleryPage';
 import VTourPage from './pages/VTourPage';
 import IqacPage from './pages/IqacPage';
+import IIC from './pages/IIC';
+import IdeaLab from './pages/IdeaLab';
+import Ariia from './pages/ariia';
 import GenericLifePage from './pages/GenericLifePage';
 import StandardInfoPage from './pages/StandardInfoPage';
+import AntiRagging from './pages/AntiRagging';
+import Uba from './pages/uba';
+import RDPage from './pages/rd';
+import NirfPage from './pages/nirf';
+
 
 function App() {
   return (
@@ -46,19 +54,19 @@ function App() {
           {/* Programs/Iqac style cloned routes */}
           <Route path="iqac" element={<IqacPage configPath="/config/page-iqac-config.json" />} />
           <Route path="naac" element={<IqacPage configPath="/config/page-naac-config.json" />} />
-          <Route path="rd" element={<IqacPage configPath="/config/page-rd-config.json" />} />
+          <Route path="rd" element={<RDPage configPath="/config/page-rd-config.json" />} />
           <Route path="nba" element={<IqacPage configPath="/config/page-nba-config.json" />} />
           <Route path="moocs" element={<IqacPage configPath="/config/page-moocs-config.json" />} />
-          <Route path="nirf" element={<IqacPage configPath="/config/page-nirf-config.json" />} />
+          <Route path="nirf" element={<NirfPage />} />
 
           {/* Life style cloned routes */}
-          <Route path="uba" element={<GenericLifePage configPath="/config/page-uba-config.json" />} />
-          <Route path="iic" element={<GenericLifePage configPath="/config/page-iic-config.json" />} />
-          <Route path="idealab" element={<GenericLifePage configPath="/config/page-idealab-config.json" />} />
-          <Route path="antiragging" element={<GenericLifePage configPath="/config/page-antiragging-config.json" />} />
+          <Route path="uba" element={<Uba />} />
+          <Route path="iic" element={<IIC />} />
+          <Route path="idealab" element={<IdeaLab />} />
+          <Route path="anti-ragging" element={<AntiRagging />} />
           <Route path="silverjubilee" element={<GenericLifePage configPath="/config/page-silverjubilee-config.json" />} />
           <Route path="events" element={<GenericLifePage configPath="/config/page-events-config.json" />} />
-          <Route path="ariia" element={<GenericLifePage configPath="/config/page-ariia-config.json" />} />
+          <Route path="ariia" element={<Ariia />} />
           <Route path="contact" element={<GenericLifePage configPath="/config/page-contact-config.json" />} />
           <Route path="training-placement" element={<GenericLifePage configPath="/config/page-tnp-config.json" />} />
 

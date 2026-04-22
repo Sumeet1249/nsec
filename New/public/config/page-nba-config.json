@@ -1,18 +1,123 @@
 {
-  "hero": {
-    "title": "NBA",
-    "titleHighlight": "Accreditation",
-    "subtitle": "Quality Assurance"
-  },
-  "content": [
-    {
-      "title": "Computer Science & Engineering",
-      "desc": "NBA Accredited Program ensuring global standards.",
-      "items": [
-        "Tier-1 Equivalent",
-        "Outcome Based Education",
-        "Industry Aligned"
-      ]
+  "about_us": {
+    "approvals": {
+      "aicte": {
+        "title": "AICTE Approval",
+        "logo": "images/aicte_logo.png",
+        "documents": [
+          {
+            "title": "Engineering & MBA Programs [2020-21]",
+            "url": "notice/EOA_Report_2020-21_C.PDF"
+          },
+          {
+            "title": "MCA Program [2020-21]",
+            "url": "circular/EOA_Report_2020-21_MCA.PDF"
+          },
+          {
+            "title": "Vocational Courses [2018-19]",
+            "url": "notice/LoA_Vocational_2018-19.PDF"
+          }
+        ]
+      },
+      "makaut": {
+        "title": "MAKAUT Affiliation",
+        "logo": "images/wbut_logo.png",
+        "documents": [
+          {
+            "title": "All B.Tech Programs [2020-21]",
+            "url": "notice/MAKAUT_2020_109-B.TECH.pdf"
+          },
+          {
+            "title": "All M.Tech Programs [2020-21]",
+            "url": "notice/MAKAUT_2020_109-M.TECH.pdf"
+          },
+          {
+            "title": "MCA Program [2020-21]",
+            "url": "notice/291-MCA-MAKAUT-2020-21.pdf"
+          },
+          {
+            "title": "MBA Program [2020-21]",
+            "url": "notice/MAKAUT_2020_109-MBA.pdf"
+          },
+          {
+            "title": "BCA, BBA, BSc Cyber Security & Data Science [2020-21]",
+            "url": "notice/MAKAUT_2020_292-BBA-BCA.pdf"
+          },
+          {
+            "title": "B.Voc Programs [2020-21]",
+            "url": "notice/MAKAUT_2020_109-B.VOC.pdf"
+          }
+        ]
+      }
+    },
+    "accreditations": {
+      "nba": {
+        "title": "NBA Accreditation",
+        "logo": "images/nba_logo_3.gif",
+        "programs": [
+          "Biomedical Engineering",
+          "Electronics & Communication Engineering",
+          "Electrical Engineering",
+          "Computer Science & Engineering"
+        ],
+        "documents": [
+          {
+            "title": "Accreditation 2019-2022",
+            "url": "impdoc/nba-nsec-2019-2022.pdf"
+          },
+          {
+            "title": "Accreditation 2005-2019",
+            "url": "impdoc/NBA_Accreditation_2005-2019_opt.pdf"
+          }
+        ]
+      },
+      "naac": {
+        "title": "NAAC Accreditation",
+        "logo": "images/naac_logo_01.png",
+        "grade": "B+",
+        "effective_date": "28-03-2019",
+        "documents": [
+          {
+            "title": "AQAR Reports",
+            "url": "page.php?id=512"
+          },
+          {
+            "title": "NAAC Certificate",
+            "url": "notice/NAAC-NSEC.pdf"
+          },
+          {
+            "title": "IIQA Information",
+            "url": "external_link"
+          },
+          {
+            "title": "SSR Information",
+            "url": "external_link"
+          },
+          {
+            "title": "Peer Team Report",
+            "url": "external_link"
+          },
+          {
+            "title": "Grade Sheet",
+            "url": "external_link"
+          }
+        ]
+      }
+    },
+    "rankings": {
+      "nptel": {
+        "title": "NPTEL AA Ranking",
+        "logo": "images/nptel-logo-big-size.png",
+        "certificate": "images/NPTEL Rating Certificate_Local Chapter .pdf",
+        "details_page": "page.php?id=492"
+      },
+      "nirf": {
+        "title": "NIRF Ranking",
+        "logo": "images/nifr_logo.png",
+        "rank_year": "2020",
+        "note": "Submitted Data to NIRF 2021 Ranking",
+        "details_page": "page.php?id=501"
+      }
     }
-  ]
+  }
 }
