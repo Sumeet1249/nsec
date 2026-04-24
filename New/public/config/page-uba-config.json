@@ -1,31 +1,96 @@
 {
-  "hero": {
-    "title": "Unnat Bharat",
-    "titleHighlight": "Abhiyan",
-    "subtitle": "Rural Development",
-    "description": "Connecting higher education institutions with local communities to address development challenges."
+  "section": "uba_cell",
+  "title": "Unnat Bharat Abhiyan (UBA) Cell",
+  "images": {
+    "emblem": "/New/public/assets/uba/emblem.png",
+    "logo": "/New/public/assets/uba/logo.png",
+    "institution_logo": "/New/public/assets/uba/nsec-logo.png",
+    "map": "/New/public/assets/uba/uba-map-01.jpg"
   },
-  "features": [
+  "about": [
+    "Unnat Bharat Abhiyan (UBA) is a flagship programme by the Ministry of Human Resource Development (MHRD), Government of India, aimed at enriching rural India through technological and knowledge-based interventions.",
+    "It enables higher education institutions to study rural conditions, identify local problems, and implement innovative solutions to improve the quality of life.",
+    "Netaji Subhash Engineering College (NSEC) is a participating institute under UBA, mentored by IIT Kharagpur as a Regional Coordinating Institute."
+  ],
+  "adopted_villages": [
+    "Ranabhutia",
+    "Jagatipata",
+    "Kantipota",
+    "Kamdebpur",
+    "Paschim Sripatinagar"
+  ],
+  "mission": [
+    "Empower underprivileged communities through knowledge and technology",
+    "Promote social responsibility through community engagement",
+    "Develop sustainable solutions for rural development"
+  ],
+  "major_focus": [
+    "Develop linkages with rural clusters and participate in planning",
+    "Promote science and technology interventions",
+    "Train and orient working groups",
+    "Enhance capabilities of organizations",
+    "Bring transformational change in rural development"
+  ],
+  "functions": [
+    "Engage students and faculty in rural understanding",
+    "Identify and assess local problems",
+    "Customize indigenous technologies",
+    "Develop implementation strategies for solutions",
+    "Support execution of government programs"
+  ],
+  "intervention_areas": {
+    "human_development": [
+      "Health",
+      "Education and culture",
+      "Values",
+      "Skills and entrepreneurship"
+    ],
+    "economic_development": [
+      "Organic agriculture",
+      "Water management",
+      "Renewable energy",
+      "Rural industries",
+      "Natural resource development",
+      "Basic amenities",
+      "IT-enabled services"
+    ]
+  },
+  "coordinator_message": [
+    "The UBA Cell focuses on improving rural life through innovative, eco-friendly, and affordable technological solutions.",
+    "Students and faculty actively engage in studying rural conditions and implementing sustainable solutions in areas like education, healthcare, agriculture, and skill development.",
+    "The initiative also enhances students’ real-world problem-solving skills and promotes community-based learning.",
+    "Stakeholders are invited to contribute towards socio-economic development of rural communities."
+  ],
+  "documents": [
     {
-      "title": "Adopted Villages",
-      "icon": "Heart",
-      "desc": "Working closely with 5 adopted villages for sustainable development."
-    },
-    {
-      "title": "Technology Transfer",
-      "icon": "Zap",
-      "desc": "Applying engineering solutions to rural problems."
-    },
-    {
-      "title": "Awareness Camps",
-      "icon": "Compass",
-      "desc": "Conducting health, hygiene and education campaigns."
+      "title": "Invitation to Participate in Rural Development",
+      "url": "notice/Invitation to Particiapate and Contribute in Rural Development.pdf",
+      "type": "pdf"
     }
   ],
-  "media": {
-    "label": "UBA Gallery",
-    "title": "Community<br/>Engagement",
-    "subtitle": "Making an Impact",
-    "image": "https://images.unsplash.com/photo-1593113589914-0755685816da?auto=format&fit=crop&q=80"
-  }
+  "contacts": [
+    {
+      "name": "Dr. Sukumar Roy",
+      "designation": "Professor, Dept. of Biomedical Engineering",
+      "role": "Coordinator, UBA Cell",
+      "email": [
+        "sroybme@gmail.com",
+        "sukumar.roy@nsec.ac.in"
+      ],
+      "phone": "9433408287"
+    },
+    {
+      "name": "Dr. P.S. Pal",
+      "designation": "Associate Professor, Dept. of Electrical Engineering",
+      "role": "Co-coordinator, UBA Cell",
+      "email": [
+        "pspal2k@gmail.com",
+        "pspal@nsec.ac.in"
+      ],
+      "phone": [
+        "9433250651",
+        "7003007051"
+      ]
+    }
+  ]
 }

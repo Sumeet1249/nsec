@@ -1,25 +1,27 @@
 {
-  "hero": {
-    "title": "Anti",
-    "titleHighlight": "Ragging",
-    "subtitle": "Zero Tolerance",
-    "description": "NSEC Maintains a strict zero-tolerance policy towards ragging in any form."
-  },
-  "features": [
-    {
-      "title": "Helpline",
-      "icon": "Heart",
-      "desc": "24x7 dedicated helpline for students."
-    },
-    {
-      "title": "Squads",
-      "icon": "Shield",
-      "desc": "Regular patrols in campus and hostels."
-    },
-    {
-      "title": "Counselling",
-      "icon": "Coffee",
-      "desc": "Professional support for freshers."
-    }
+  "what_constitutes_ragging": [
+    "Any conduct by any student or students whether by words spoken or written or by an act which has the effect of teasing, treating or handling with rudeness a fresher or any other student.",
+    "Indulging in rowdy or in disciplined activities by any student or students which causes or is likely to cause annoyance, hardship, physical or psychological harm or to raise fear or apprehension thereof in any fresher or any other student.",
+    "Asking any student to do any act which such student will not in the ordinary course do and which has the effect of causing or generating a sense of shame, or torment or embarrassment so as to adversely affect the physique or psyche of such fresher or any other student.",
+    "Any act by a senior student that prevents, disrupts or disturbs the regular academic activity of any other student or a fresher.",
+    "Exploiting the services of a fresher or any other student for completing the academic tasks assigned to an individual or a group of students.",
+    "Any act of financial extortion or forceful expenditure burden put on a fresher or any other student by students",
+    "Any act of physical abuse including all variants of it: sexual abuse, homosexual assaults, stripping, forcing obscene and lewd acts, gestures, causing bodily harm or any other danger to health or person;",
+    "Any act or abuse by spoken words, emails, post, public insults which would also include deriving perverted pleasure, vicarious or sadistic thrill from actively or passively participating in the discomfiture to fresher or any other student.",
+    "Any act that affects the mental health and self-confidence of a fresher or any other student with or without an intent to derive a sadistic pleasure or showing off power, authority or superiority by a student over any fresher"
+  ],
+  "punishments": [
+    "Cancellation of admission",
+    "Suspension from attending classes",
+    "Withdrawing/Withholding scholarship/fellowship and other benefits",
+    "Debarring from appearing in any test/ examination or any other evaluation process",
+    "Withholding results",
+    "Debarring from representing the institution in any regional, national or international meet, tournament, youth festival, etc.",
+    "Suspension/expulsion from hostel",
+    "Rustication from the institution for a period ranging from 1 to 4 semesters",
+    "Expulsion from the institution and consequent debarring from admission in any other institution",
+    "Fine of Rs. 25,000/-",
+    "Declination of any placement assistance",
+    "FIR to be filed without exception by the institution"
   ]
 }

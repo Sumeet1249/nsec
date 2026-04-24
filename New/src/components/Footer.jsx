@@ -12,7 +12,6 @@ import {
   Clock,
   ExternalLink,
   ShieldCheck,
-  Zap,
   Globe
 } from 'lucide-react';
 
@@ -49,7 +48,11 @@ export default function Footer() {
             <div className="flex flex-col">
               <div className="flex items-center gap-4 mb-6">
                 <div className="w-12 h-12 bg-brand-maroon flex items-center justify-center border border-white/20">
-                  <Zap size={24} className="text-white" />
+                  <img
+                    src="/assets/uba/nsec_logo_w962xh1280.jpeg"
+                    alt="NSEC Logo"
+                    className="w-9 h-9 object-contain"
+                  />
                 </div>
                 <div className="h-[1px] flex-1 bg-gradient-to-r from-brand-maroon to-transparent" />
               </div>
