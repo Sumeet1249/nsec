@@ -155,7 +155,7 @@ export default function PageHero({
   rightContent = null,
 }) {
   return (
-    <section className="relative w-full overflow-hidden bg-brand-blue" style={{ minHeight: '38vh' }}>
+    <section className="relative w-full overflow-hidden bg-brand-blue" style={{ minHeight: '10vh' }}>
       <ThreeBackground />
 
       <div
@@ -163,7 +163,7 @@ export default function PageHero({
         style={{ background: 'linear-gradient(135deg, transparent 40%, rgba(0,139,139,0.04) 100%)' }}
       />
 
-      <div className="relative z-10 px-4 lg:px-12 flex flex-col lg:flex-row items-center justify-between gap-12 h-full" style={{ minHeight: '38vh', paddingBlock: '3.5rem' }}>
+      <div className="relative z-10 px-4 lg:px-12 flex flex-col lg:flex-row items-center justify-between gap-12 h-full" style={{ minHeight: '10vh', paddingBlock: '1rem' }}>
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}

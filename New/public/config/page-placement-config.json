@@ -1,43 +1,57 @@
 {
-  "category": "Career",
-  "title": "Training & Placement",
-  "sidebarTitle": "Placement Cell",
+  "category": "Career Growth",
+  "title": "Placement",
+  "sidebarTitle": "Career Node",
   "tabs": [
     {
-      "id": "records",
-      "label": "Placement Records",
-      "title": "Placement Records",
+      "id": "statistics",
+      "label": "Statistics",
+      "title": "Placement Statistics",
       "content": [
         {
           "type": "paragraph",
-          "text": "NSEC enjoys stellar placement records. With over 90% placement year on year, our alumni are placed in premier MNCs like TCS, CTS, Infosys, Capgemini, Amazon, and Microsoft."
-        }
-      ]
-    },
-    {
-      "id": "mou",
-      "label": "MoU Partners",
-      "title": "Industry Collaborations",
-      "content": [
+          "text": "NSEC has a consistent record of high placements. Our students are recruited by top national and international companies every year."
+        },
         {
           "type": "list",
           "items": [
-            "TCS - Initial learning programs",
-            "Infosys - Campus Connect",
-            "L&T - Edutech",
-            "NASSCOM"
+            "Over 85% placement record for the last 5 years",
+            "Highest Package: 42 LPA",
+            "Average Package: 5.5 LPA",
+            "Top Recruiters: TCS, Cognizant, Wipro, Infosys, Amazon, Microsoft"
           ]
         }
       ]
     },
     {
-      "id": "career",
-      "label": "Career Opportunities",
-      "title": "Internships & Careers",
+      "id": "activities",
+      "label": "Activities",
+      "title": "T&P Activities",
       "content": [
         {
           "type": "paragraph",
-          "text": "The T&P Cell organizes exhaustive Pre-Placement Training (PPT) encompassing aptitude, coding, logic, and soft skills to bridge the gap between academia and industry."
+          "text": "The Training & Placement cell conducts various activities to prepare students for the corporate world."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Soft Skills and Aptitude Training",
+            "Mock Interviews and Group Discussions",
+            "Industry Expert Talks and Workshops",
+            "Internship assistance in reputed firms"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "records",
+      "label": "Records",
+      "title": "Historical Placement Data",
+      "content": [
+        {
+          "type": "download",
+          "link": "/docs/Placement_Records_2023.pdf",
+          "text": "Download 2023 Placement Report"
         }
       ]
     }

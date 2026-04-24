@@ -1,8 +1,28 @@
 {
-  "category": "Life at NSEC",
-  "title": "Students' Corner",
-  "sidebarTitle": "Student Life",
+  "category": "Student Welfare",
+  "title": "Students Corner",
+  "sidebarTitle": "Student Node",
   "tabs": [
+    {
+      "id": "clubs",
+      "label": "Clubs & Soc",
+      "title": "Student Clubs and Societies",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "At NSEC, we believe in the holistic development of students. Our various clubs provide a platform for students to showcase their talents and leadership skills."
+        },
+        {
+          "type": "list",
+          "items": [
+            "**PHOENIX:** The official tech club of NSEC",
+            "**Rotaract Club:** For social service and community building",
+            "**Eco Cultural Club:** Promoting cultural awareness and environmental sustainability",
+            "**Sports Club:** Organizing annual sports meets and tournaments"
+          ]
+        }
+      ]
+    },
     {
       "id": "achievements",
       "label": "Achievements",
@@ -10,51 +30,23 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "Our students routinely perform stellar feats at Smart India Hackathon, NPTEL exams, and global coding championships."
+          "text": "Our students have won numerous accolades in national and international competitions, hackathons, and sports events."
         }
       ]
     },
     {
-      "id": "mentoring",
-      "label": "Mentoring System",
-      "title": "Dedicated Mentoring",
+      "id": "code-of-conduct",
+      "label": "Code of Conduct",
+      "title": "Student Rules & Regulations",
       "content": [
         {
           "type": "paragraph",
-          "text": "A robust 1:20 Teacher-Student mentoring ratio ensures personalized academic and psychological support."
-        }
-      ]
-    },
-    {
-      "id": "phoenix",
-      "label": "PHOENIX Club",
-      "title": "Official Tech Club",
-      "content": [
+          "text": "Students are expected to maintain discipline and adhere to the institutional code of conduct at all times."
+        },
         {
-          "type": "paragraph",
-          "text": "The official technical club of NSEC hosting AVENIR, the annual tech fest, alongside regular hackathons and coding bootcamps."
-        }
-      ]
-    },
-    {
-      "id": "rotaract",
-      "label": "Rotaract Club",
-      "title": "Rotaract Club of NSEC",
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "Engaging in impactful social service, blood donation camps, and rural outreach."
-        }
-      ]
-    },
-    {
-      "id": "alumni",
-      "label": "Alumni Association",
-      "title": "NSEC Alumni Network",
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "A strong global network of 15,000+ alumni supporting our students with mentorships, referrals, and career guidance."
+          "type": "download",
+          "link": "/docs/Student_Code_of_Conduct.pdf",
+          "text": "View Code of Conduct"
         }
       ]
     }

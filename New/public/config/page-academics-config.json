@@ -1,77 +1,96 @@
 {
-  "category": "Education",
-  "title": "Academic Excellence",
-  "sidebarTitle": "Academics",
+  "category": "Academic Framework",
+  "title": "Academics",
+  "sidebarTitle": "Academic Node",
   "tabs": [
     {
       "id": "programmes",
       "label": "Programmes",
-      "title": "Academic Programmes",
+      "title": "Educational Offerings",
       "content": [
         {
           "type": "paragraph",
-          "text": "We offer a diverse range of undergraduate, postgraduate, and diploma programs tailored to modern industry needs. Please use the Departments menu to navigate to specific branches."
-        }
-      ]
-    },
-    {
-      "id": "curriculum",
-      "label": "Curriculum Planning",
-      "title": "Curriculum Planning & Implementation",
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "Our curriculum is continuously updated in line with AICTE and MAKAUT guidelines. We integrate project-based learning and industry internships into core academics."
+          "text": "Netaji Subhash Engineering College offers a wide range of undergraduate and postgraduate programs that are designed to meet the evolving needs of the industry and society."
         },
         {
           "type": "list",
           "items": [
-            "Value Added Technical Programs (VATP)",
-            "Structured Induction Program for First Years",
-            "Choice Based Credit System (CBCS) Integration"
+            "**B.Tech Programs:** AEIE, BME, Civil, CSBS, CSE, CSE (AIML), EE, ECE, IT, Mechanical",
+            "**M.Tech Programs:** CSE, Control & Instrumentation, ECE, Power Systems",
+            "**Management:** MBA, BBA",
+            "**Computer Applications:** MCA, BCA",
+            "**Diploma:** EE, EEEVT, CE, CSE"
           ]
         }
       ]
     },
     {
-      "id": "practices",
+      "id": "curriculum",
+      "label": "Curriculum",
+      "title": "Curriculum Planning & Implementation",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The curriculum is designed and updated by MAKAUT. NSEC ensures its effective implementation through structured lesson plans, regular assessments, and industry integration."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Academic Activities-A Ready Reckoner",
+            "Value Added Training Programs (VATP)",
+            "Induction Program for Freshers",
+            "Choice Based Credit System (CBCS)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "best-practices",
       "label": "Best Practices",
       "title": "Academic Best Practices",
       "content": [
         {
           "type": "list",
           "items": [
-            "Continuous Internal Evaluation",
-            "Flipped Classroom methodology",
-            "Mandatory NPTEL certification",
-            "Peer-assisted learning (PAL)"
+            "Flipped Classroom and Active Learning",
+            "Industry-Institute Partnership for Internships",
+            "Student Peer Mentoring System",
+            "Focus on Multi-disciplinary Projects"
           ]
         }
       ]
     },
     {
       "id": "calendar",
-      "label": "Academic Calendar",
+      "label": "Calendar",
       "title": "Academic Calendar",
       "content": [
         {
-          "type": "download",
-          "link": "/assets/Notices/academiccalendarevensemester24-25.pdf"
+          "type": "paragraph",
+          "text": "The academic calendar provides a detailed schedule of academic activities, including commencement of classes, internal assessments, and university examinations."
         },
         {
-          "type": "paragraph",
-          "text": "The calendar is subject to modifications based on MAKAUT notifications."
+          "type": "download",
+          "link": "/docs/Academic_Calendar.pdf"
         }
       ]
     },
     {
-      "id": "feedbacks",
-      "label": "Feedbacks",
+      "id": "feedback",
+      "label": "Feedback",
       "title": "Feedback Analysis System",
       "content": [
         {
           "type": "paragraph",
-          "text": "We regularly collect feedback from students, alumni, and industry partners to refine our Teaching Learning Process (TLP). Read our latest action taken reports."
+          "text": "We value the feedback from our stakeholders (students, faculty, alumni, and employers) to continuously improve our educational standards."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Feedback Analysis on Curriculum",
+            "Stakeholders' Feedback on Curriculum",
+            "Teaching-Learning Process Evaluation"
+          ]
         }
       ]
     }

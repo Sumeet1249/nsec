@@ -10,7 +10,7 @@ export default function Layout() {
       <Header />
       <Navbar />
       
-      <div className="flex-1 flex flex-col min-w-0 transition-all duration-500 pt-[186px]">
+      <div className="flex-1 flex flex-col min-w-0 transition-all duration-500 pt-[236px]">
         <main className="flex-1 relative">
           <Outlet />
         </main>

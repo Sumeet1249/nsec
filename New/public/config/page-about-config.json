@@ -1,7 +1,7 @@
 {
-  "category": "Institution",
+  "category": "Institutional Overview",
   "title": "About NSEC",
-  "sidebarTitle": "The NSEC Panel",
+  "sidebarTitle": "Institution Node",
   "tabs": [
     {
       "id": "overview",
@@ -10,44 +10,68 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "Netaji Subhash Engineering College (NSEC) is one of the pioneer self-financed engineering colleges in West Bengal. It was established in the year 1998, under the umbrella of the Techno India Group. The college is affiliated to Maulana Abul Kalam Azad University of Technology (MAKAUT) and approved by AICTE."
+          "text": "Netaji Subhash Engineering College (NSEC) was established in 1998 under the aegis of the Techno India Group. Since its inception, NSEC has emerged as one of the premier self-financed engineering colleges in West Bengal. The institute is dedicated to providing high-quality technical education and fostering a spirit of innovation among its students."
         },
         {
           "type": "paragraph",
-          "text": "The institute has earned NBA Accreditation for four major departments. NSEC also holds the prestigious NAAC Accreditation and is focused on research-driven education."
+          "text": "Affiliated with the Maulana Abul Kalam Azad University of Technology (MAKAUT) and approved by the All India Council for Technical Education (AICTE), NSEC offers a wide range of undergraduate and postgraduate programs in engineering, technology, and management."
+        },
+        {
+          "type": "paragraph",
+          "text": "The college is located in Garia, Kolkata, providing a serene yet accessible environment for learning and research. With a sprawling campus, state-of-the-art laboratories, and a rich library, NSEC ensures that students have access to the best possible resources for their academic and personal growth."
         }
       ]
     },
     {
       "id": "vision-mission",
       "label": "Vision & Mission",
-      "title": "Our Vision & Mission",
+      "title": "Institutional Vision & Mission",
       "content": [
         {
           "type": "paragraph",
-          "text": "Vision: To be a center of excellence in education and research, producing global leaders in science, technology and management."
+          "text": "VISION: To be a center of excellence in education and research, producing global leaders in science, technology and management."
+        },
+        {
+          "type": "paragraph",
+          "text": "MISSION:"
         },
         {
           "type": "list",
           "items": [
-            "Mission 1: Imparting quality education and developing technical skills.",
-            "Mission 2: Fostering innovation and entrepreneurship.",
-            "Mission 3: Inculcating ethical values and social responsibility."
+            "To provide high quality education and training in science, technology and management.",
+            "To create an environment conducive to research and innovation.",
+            "To foster entrepreneurship and leadership skills among students.",
+            "To instill ethical values and a sense of social responsibility.",
+            "To collaborate with industry and other academic institutions for mutual growth."
           ]
         }
       ]
     },
     {
-      "id": "message",
-      "label": "Messages",
-      "title": "Message from Leadership",
+      "id": "messages",
+      "label": "Leadership Messages",
+      "title": "From the Leadership Desk",
       "content": [
         {
           "type": "person",
           "name": "Prof. (Dr.) T.S. Bhattacharya",
           "role": "Director",
-          "bio": "Quality education is the foundation of a progressive society. At NSEC, we constantly strive to empower students with technical wisdom.",
+          "bio": "Quality education is the foundation of a progressive society. At NSEC, we constantly strive to empower students with technical wisdom and professional ethics. Our goal is to create engineers who are not only technically proficient but also socially responsible individuals.",
           "image": "/assets/Leadership/director.jpg"
+        },
+        {
+          "type": "person",
+          "name": "Prof. (Dr.) H. K. Mandal",
+          "role": "Principal",
+          "bio": "Our institution is committed to academic excellence and holistic development. We focus on bridging the gap between industry and academia through continuous improvement in our curriculum and teaching methodologies.",
+          "image": "/assets/Leadership/principal.jpg"
+        },
+        {
+          "type": "person",
+          "name": "Prof. (Dr.) S. Roy",
+          "role": "Dean (Academic)",
+          "bio": "Academic rigor and research focus are the pillars of NSEC. We encourage our students and faculty to engage in cutting-edge research and innovation that contributes to the advancement of technology and society.",
+          "image": "/assets/Leadership/dean.jpg"
         }
       ]
     },
@@ -59,11 +83,84 @@
         {
           "type": "list",
           "items": [
-            "Approved by All India Council for Technical Education (AICTE), New Delhi.",
-            "Affiliated to Maulana Abul Kalam Azad University of Technology (MAKAUT), West Bengal.",
-            "Four B.Tech programs (CSE, ECE, EE, BME) accredited by National Board of Accreditation (NBA).",
-            "Accredited by National Assessment and Accreditation Council (NAAC)."
+            "Approved by **AICTE**, New Delhi.",
+            "Affiliated to **MAKAUT**, West Bengal.",
+            "**NAAC** Accredited Institution.",
+            "**NBA** Accredited Programs (CSE, ECE, EE, BME).",
+            "Ranked among the top engineering colleges in Eastern India."
           ]
+        }
+      ]
+    },
+    {
+      "id": "distinctiveness",
+      "label": "Institutional Distinctiveness",
+      "title": "Our Unique Identity",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "NSEC stands out for its strong emphasis on research and development. The college has established various research cells and innovation centers (like IIC, IDEA Lab) to promote a culture of discovery among students."
+        },
+        {
+          "type": "paragraph",
+          "text": "Our alumni are placed in top-tier global companies, and many have pursued higher education at world-renowned universities. This strong network and record of success reflect the quality of education provided at NSEC."
+        }
+      ]
+    },
+    {
+      "id": "org-structure",
+      "label": "Org Structure",
+      "title": "Organizational Hierarchy",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The college follows a structured hierarchy to ensure efficient administration and academic excellence. The Board of Governors provides strategic direction, while the Director and Principal lead the academic and administrative wings."
+        }
+      ]
+    },
+    {
+      "id": "committees",
+      "label": "Committees",
+      "title": "Committees & Cells",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Internal Quality Assurance Cell (IQAC)",
+            "Anti-Ragging Committee",
+            "Grievance Redressal Cell",
+            "Internal Complaint Committee",
+            "SC/ST Cell",
+            "Research & Development Committee",
+            "Training & Placement Cell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "downloads",
+      "label": "Downloads",
+      "title": "Mandatory Disclosures & Reports",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "<a href='/docs/Mandatory_Disclosure.pdf' target='_blank'>AICTE Mandatory Disclosure</a>",
+            "<a href='/docs/Audited_Report.pdf' target='_blank'>Audited Statement of Accounts</a>",
+            "<a href='/docs/Service_Rules.pdf' target='_blank'>Service Rules & Regulations</a>",
+            "<a href='/docs/Core_Values.pdf' target='_blank'>Institutional Core Values</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rti",
+      "label": "RTI",
+      "title": "Right to Information",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "In accordance with the RTI Act 2005, Netaji Subhash Engineering College has established an RTI cell to ensure transparency and accountability. The Public Information Officer handles all inquiries as per the statutory guidelines."
         }
       ]
     }

@@ -30,7 +30,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed top-[126px] left-0 right-0 z-[110] bg-white border-b border-brand-accent/10 shadow-md">
+    <nav className="fixed top-[176px] left-0 right-0 z-[110] bg-white border-b border-brand-accent/10 shadow-md">
       <div className="max-w-[1920px] mx-auto px-8 xl:px-10 h-[60px] flex items-center justify-between">
         <div className="flex items-center gap-0">
           <Link

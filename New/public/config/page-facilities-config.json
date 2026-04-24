@@ -1,60 +1,82 @@
 {
-  "category": "Infrastructure",
-  "title": "Campus Facilities",
-  "sidebarTitle": "Amenities",
+  "category": "Campus Life",
+  "title": "Facilities",
+  "sidebarTitle": "Infrastructure Node",
   "tabs": [
     {
-      "id": "library",
-      "label": "Central Library",
-      "title": "Central Library",
+      "id": "infrastructure",
+      "label": "Infrastructure",
+      "title": "Campus Infrastructure",
       "content": [
         {
           "type": "paragraph",
-          "text": "Over 100,000 volumes, international journals, digital repos, and fully automated borrowing systems."
+          "text": "NSEC provides a robust infrastructure that supports both academic and extra-curricular activities. The campus is equipped with modern classrooms, seminar halls, and common rooms."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Smart Classrooms with Audio-Visual aids",
+            "High-speed Wi-Fi across the campus",
+            "State-of-the-art Seminar and Conference Halls",
+            "Cafeteria and Student Activity Center"
+          ]
         }
       ]
     },
     {
-      "id": "labs",
+      "id": "laboratories",
       "label": "Laboratories",
-      "title": "State of the Art Labs",
+      "title": "Advanced Laboratories",
       "content": [
         {
           "type": "paragraph",
-          "text": "Each department is equipped with modern, specialized labs complying with industry standards. Includes our AICTE IDEA lab."
+          "text": "Each department at NSEC has dedicated laboratories equipped with the latest software and hardware to provide hands-on training to students."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Central Computing Facility",
+            "Advanced Electronics and Communication Lab",
+            "Electrical Machines and Power Systems Lab",
+            "Mechanical Workshop and Fluid Mechanics Lab",
+            "Biomedical Engineering Simulation Lab"
+          ]
         }
       ]
     },
     {
-      "id": "hostel",
-      "label": "Hostel",
-      "title": "Hostel Accommodations",
+      "id": "library",
+      "label": "Library",
+      "title": "Central Library & Resources",
       "content": [
         {
           "type": "paragraph",
-          "text": "Separate, secure, and fully equipped hostels for boys and girls with high-speed internet and mess facilities."
+          "text": "The central library is a knowledge hub with a vast collection of books, journals, and digital resources. It provides a quiet environment for study and research."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Over 100,000 volumes of books",
+            "Subscription to IEEE, Springer, and ScienceDirect",
+            "Digital Library with access to NPTEL and Swayam",
+            "Automated library management system (Koha)"
+          ]
         }
       ]
     },
     {
-      "id": "sports",
-      "label": "Sports",
-      "title": "Sports Complex",
+      "id": "video-tour",
+      "label": "Video Tour",
+      "title": "Explore Our Campus",
       "content": [
         {
           "type": "paragraph",
-          "text": "Facilities for cricket, football, basketball, table tennis, and a fully equipped indoor gymnasium."
-        }
-      ]
-    },
-    {
-      "id": "cafeteria",
-      "label": "Cafeteria",
-      "title": "Campus Cafeteria",
-      "content": [
+          "text": "Take a virtual tour of our campus and experience the vibrant life at Netaji Subhash Engineering College."
+        },
         {
-          "type": "paragraph",
-          "text": "Hygienic, affordable, and diverse food options available for students and staff throughout the day."
+          "type": "download",
+          "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "text": "Watch Campus Video"
         }
       ]
     }

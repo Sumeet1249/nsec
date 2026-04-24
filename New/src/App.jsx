@@ -41,7 +41,7 @@ function App() {
           <Route path="notices/archive" element={<ComingSoon />} />
           
           {/* New Feature Routes */}
-          <Route path="about" element={<StandardInfoPage configPath="/config/page-about-config.json" />} />
+          <Route path="about" element={<AboutPage />} />
           <Route path="academics" element={<StandardInfoPage configPath="/config/page-academics-config.json" />} />
           <Route path="facilities" element={<StandardInfoPage configPath="/config/page-facilities-config.json" />} />
           <Route path="placement" element={<StandardInfoPage configPath="/config/page-placement-config.json" />} />
