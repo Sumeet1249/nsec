@@ -155,7 +155,7 @@ export default function StandardInfoPage({ configPath }) {
           </div>
           
         </div>
-      </div>
+      </section>
     </div>
   );
 }
