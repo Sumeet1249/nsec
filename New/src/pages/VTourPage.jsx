@@ -17,7 +17,6 @@ export default function VTourPage() {
   if (!config) return <div className="h-screen bg-brand-bg flex items-center justify-center text-brand-muted">Loading tour...</div>;
 
   return (
-  return (
     <div className="w-full min-h-screen bg-brand-bg pb-24">
       {/* HERO SECTION */}
       <PageHero 

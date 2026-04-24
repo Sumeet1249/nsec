@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Shield, AlertTriangle, ChevronRight, Eye, Download, ExternalLink, Phone, ArrowUpRight } from 'lucide-react';
 import { cn } from '../utils/cn';
 import PageHero from '../components/PageHero';
@@ -53,7 +53,21 @@ function PolicyListItem({ index, text, variant }) {
 ═══════════════════════════════════════════════════════════ */
 export default function AntiRagging() {
   const [config, setConfig] = useState(null);
+  const [currentSentenceIdx, setCurrentSentenceIdx] = useState(0);
   const PDF_SRC = '/assets/pdfs/Anti-Ragging-Committee-NSEC-2024-2025.pdf';
+
+  const carouselPhrases = [
+    { main: "STRICT ZERO TOLERANCE", highlight: "AGAINST RAGGING" },
+    { main: "REPORT ANY INCIDENT", highlight: "WITHOUT FEAR" },
+    { main: "ENSURING A SECURE", highlight: "CAMPUS ENVIRONMENT" }
+  ];
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentSentenceIdx((prev) => (prev + 1) % carouselPhrases.length);
+    }, 4000);
+    return () => clearInterval(timer);
+  }, [carouselPhrases.length]);
 
   useEffect(() => {
     fetch('/config/page-antiragging-config.json')
@@ -139,7 +153,7 @@ export default function AntiRagging() {
             </div>
 
             {/* Line 3 — softer */}
-            <div className="flex flex-wrap gap-x-[0.35em] gap-y-1">
+            <div className="flex flex-wrap gap-x-[0.35em] gap-y-1 mb-6 mt-2">
               {['Every', 'student', 'deserves', 'a', 'safe', 'and', 'dignified', 'campus', 'experience.'].map((word, i) => (
                 <motion.span
                   key={i}
@@ -152,6 +166,38 @@ export default function AntiRagging() {
                 </motion.span>
               ))}
             </div>
+
+            {/* Carousel */}
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.5, delay: 1.8 }}
+              className="h-8 relative w-full mt-2"
+            >
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={currentSentenceIdx}
+                  initial={{ opacity: 0, y: 10, filter: 'blur(4px)' }}
+                  animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+                  exit={{ opacity: 0, y: -10, filter: 'blur(4px)' }}
+                  transition={{ duration: 0.8, ease: "easeInOut" }}
+                  className="absolute inset-0 flex items-center flex-wrap gap-2"
+                >
+                  <span
+                    className="font-heading font-black italic uppercase tracking-tighter text-white"
+                    style={{ fontSize: 'clamp(0.9rem, 1.8vw, 1.5rem)' }}
+                  >
+                    {carouselPhrases[currentSentenceIdx].main}
+                  </span>
+                  <span
+                    className="font-heading font-black italic uppercase tracking-tighter text-[var(--color-brand-accent)]"
+                    style={{ fontSize: 'clamp(0.9rem, 1.8vw, 1.5rem)' }}
+                  >
+                    {carouselPhrases[currentSentenceIdx].highlight}
+                  </span>
+                </motion.div>
+              </AnimatePresence>
+            </motion.div>
           </div>
         }
       />

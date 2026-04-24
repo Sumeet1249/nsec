@@ -24,7 +24,6 @@ export default function GalleryPage() {
   );
 
   return (
-  return (
     <div className="w-full min-h-screen bg-brand-bg pb-24">
       {/* HERO SECTION */}
       <PageHero 

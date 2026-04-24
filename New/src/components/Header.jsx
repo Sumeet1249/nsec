@@ -115,16 +115,20 @@ export default function Header() {
       {/* LAYER 02: BRANDING BAR */}
       <header className="bg-white h-22 flex flex-col justify-center border-b border-brand-accent/10 shadow-lg relative overflow-hidden">
         <div className="px-12 flex items-center justify-between h-full">
-          {/* LOGOS_LEFT */}
-          <div className="flex-1 flex items-center justify-start h-full py-2">
-            <Link to="/" className="w-auto h-full flex items-center justify-center p-0 group">
-              <img src={config.header.primaryLogo} alt="NSEC Logo" className="h-full w-auto object-contain transition-transform group-hover:scale-105" />
+          {/* LOGOS */}
+          <div className="flex items-center justify-start gap-6 h-full py-2">
+            <Link to="/" className="w-auto h-full flex items-center justify-center p-0 group border-r-2 border-brand-accent/20 pr-6">
+              <img src={config.header.primaryLogo} alt="NSEC Logo" className="h-[90%] w-auto object-contain transition-transform group-hover:scale-105" />
             </Link>
+            <div className="flex items-center gap-4 h-full py-2">
+              <img src={config.header.secondaryLogo} alt="AICTE Logo" className="h-[85%] w-auto object-contain opacity-90" />
+              <img src={config.header.tertiaryLogo} alt="ICCE Logo" className="h-[85%] w-auto object-contain opacity-90" />
+            </div>
           </div>
 
-          {/* CENTER: COLLEGE NAME & MARQUEE */}
-          <div className="flex flex-col items-center justify-center shrink-0 px-4">
-            <h1 className="text-3xl lg:text-4xl font-black text-brand-maroon leading-none tracking-tighter uppercase italic whitespace-nowrap">
+          {/* COLLEGE NAME & MARQUEE */}
+          <div className="flex flex-col items-end justify-center shrink-0">
+            <h1 className="text-3xl lg:text-4xl font-black text-brand-maroon leading-none tracking-tighter uppercase italic whitespace-nowrap text-right">
               NETAJI SUBHASH ENGINEERING <span className="text-brand-accent">COLLEGE</span>
             </h1>
             
@@ -146,12 +150,6 @@ export default function Header() {
                 <AccreditationLine />
               </Motion.div>
             </div>
-          </div>
-
-          {/* LOGOS_RIGHT */}
-          <div className="flex-1 flex items-center justify-end gap-4 h-full py-2">
-            <img src={config.header.secondaryLogo} alt="AICTE Logo" className="h-full w-auto object-contain opacity-90" />
-            <img src={config.header.tertiaryLogo} alt="ICCE Logo" className="h-full w-auto object-contain opacity-90" />
           </div>
         </div>
       </header>

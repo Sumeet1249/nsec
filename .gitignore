@@ -5,5 +5,4 @@ dist/
 build/
 *.zip
 *.mp4
-*.pdf
 *.log

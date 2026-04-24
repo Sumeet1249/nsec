@@ -13,7 +13,6 @@ import PageHero from '../components/PageHero';
 
 export default function Admissions() {
   return (
-  return (
     <div className="flex flex-col w-full min-h-screen bg-brand-bg pb-24">
       {/* HERO SECTION */}
       <PageHero 
