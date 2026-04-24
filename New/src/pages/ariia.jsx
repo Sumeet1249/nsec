@@ -80,7 +80,6 @@ export default function Ariia() {
 					</div>
 				</div>
 			</section>
-			</section>
 		</div>
 	);
 }
