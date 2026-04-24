@@ -155,7 +155,7 @@ export default function PageHero({
   rightContent = null,
 }) {
   return (
-    <section className="relative w-full overflow-hidden bg-brand-blue" style={{ minHeight: '33vh' }}>
+    <section className="relative w-full overflow-hidden bg-brand-blue" style={{ minHeight: '30vh' }}>
       <ThreeBackground />
 
       <div
@@ -163,7 +163,7 @@ export default function PageHero({
         style={{ background: 'linear-gradient(135deg, transparent 40%, rgba(0,139,139,0.04) 100%)' }}
       />
 
-      <div className="relative z-10 px-8 lg:px-24 flex flex-col lg:flex-row items-center justify-between gap-16 h-full" style={{ minHeight: '33vh', paddingBlock: '4rem' }}>
+      <div className="relative z-10 px-4 lg:px-12 flex flex-col lg:flex-row items-center justify-between gap-12 h-full" style={{ minHeight: '30vh', paddingBlock: '2.5rem' }}>
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
@@ -220,7 +220,7 @@ export default function PageHero({
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.18, ease: [0.16, 1, 0.3, 1] }}
-          className="flex-shrink-0 lg:w-[32%] flex flex-col gap-5 lg:translate-x-14 py-8"
+          className="flex-shrink-0 lg:w-[35%] flex flex-col gap-5 py-8"
         >
           {rightLabel && (
             <div className="flex items-center gap-3">
