@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronRight } from 'lucide-react';
 import { useLocation, Link, useNavigate } from 'react-router-dom';
+import PageHero from '../components/PageHero';
 
 export default function StandardInfoPage({ configPath }) {
   const [config, setConfig] = useState(null);
@@ -34,20 +35,36 @@ export default function StandardInfoPage({ configPath }) {
 
   const activeTab = config.tabs.find(t => t.id === activeTabId) || config.tabs[0];
 
-  return (
-    <div className="flex flex-col w-full min-h-screen bg-brand-bg pt-32">
-      <div className="bg-brand-surface border-b border-white/5 py-12">
-        <div className="max-w-[1400px] mx-auto px-6">
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <span className="section-label">{config.category}</span>
-            <h1 className="text-5xl lg:text-7xl font-black text-brand-maroon uppercase tracking-tighter">
-              {config.title}
-            </h1>
-          </motion.div>
-        </div>
-      </div>
+  const titleParts = config.title.split(' ');
+  const titleStroke = titleParts[0].toUpperCase();
+  const titleFill = titleParts.slice(1).join(' ').toUpperCase();
 
-      <div className="max-w-[1400px] mx-auto px-6 py-12 w-full">
+  return (
+    <div className="flex flex-col w-full min-h-screen bg-brand-bg">
+      {/* HERO SECTION */}
+      <PageHero 
+        titleStroke={titleStroke}
+        titleFill={titleFill}
+        statutoryLabel={config.category}
+        policyLabel={config.sidebarTitle || "Information Panel"}
+        rightLabel="Information.Node"
+        rightContent={
+          <div className="space-y-4">
+            <p className="text-white/70 text-[15px] font-body font-medium leading-relaxed">
+              Accessing <span className="text-brand-accent">institutional data</span> and formal documentation for Netaji Subhash Engineering College.
+            </p>
+            <div className="h-px w-12 bg-brand-maroon/40" />
+            <p className="text-white/45 text-[11px] font-mono uppercase tracking-[0.2em]">Verified.Institutional.Framework</p>
+          </div>
+        }
+      />
+
+      <section className="px-6 lg:px-24 py-20 max-w-[1800px] mx-auto w-full">
+        <div className="flex items-center gap-3 mb-16">
+          <div className="w-12 h-[1.5px] bg-brand-accent" />
+          <span className="text-xs font-mono font-black text-brand-accent uppercase tracking-[0.3em]">Institutional Life</span>
+        </div>
+
         <div className="flex flex-col lg:flex-row gap-12 items-start">
           
           {/* T2 SIDEBAR: YELLOW ACCENT NAVIGATION */}

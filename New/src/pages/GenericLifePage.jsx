@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Camera, Music, Coffee, Heart, Compass, Zap, ArrowUpRight } from 'lucide-react';
+import PageHero from '../components/PageHero';
 
 const iconMap = {
   Camera: Camera,
@@ -24,34 +25,34 @@ export default function GenericLifePage({ configPath }) {
   if (!config) return <div className="min-h-screen bg-brand-bg flex items-center justify-center text-brand-muted">Loading...</div>;
 
   return (
-    <div className="flex flex-col w-full min-h-screen bg-brand-bg pt-32">
-      <section className="px-6 lg:px-12 py-32 max-w-[1800px] mx-auto w-full">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-end mb-24">
-          <div className="lg:col-span-8 space-y-8">
-            <motion.div 
-               initial={{ opacity: 0, x: -20 }}
-               animate={{ opacity: 1, x: 0 }}
-               className="flex items-center gap-4"
-             >
-               <span className="section-label !mb-0">{config.hero.subtitle}</span>
-               <div className="h-px w-12 bg-brand-accent/20" />
-             </motion.div>
-             
-             <motion.h1 
-               initial={{ opacity: 0, y: 30 }}
-               animate={{ opacity: 1, y: 0 }}
-               className="text-7xl lg:text-9xl text-brand-maroon font-black uppercase tracking-tighter"
-             >
-               {config.hero.title} <br />
-               <span className="hero-serif text-brand-accent italic">{config.hero.titleHighlight}</span>
-             </motion.h1>
+    <div className="flex flex-col w-full min-h-screen bg-brand-bg">
+      {/* HERO SECTION */}
+      <PageHero 
+        titleStroke={config.hero.title.toUpperCase()}
+        titleFill={config.hero.titleHighlight.toUpperCase()}
+        statutoryLabel={config.hero.subtitle}
+        policyLabel="Campus Lifestyle"
+        rightLabel="Lifestyle.Node"
+        rightContent={
+          <div className="space-y-4">
+            <p className="text-white/70 text-[15px] font-body font-medium leading-relaxed">
+              {config.hero.description}
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {['Vibrant', 'Social', 'Cultural'].map((tag, i) => (
+                <span key={i} className="text-[9px] font-mono font-black text-brand-accent px-2 py-1 border border-brand-accent/30 uppercase tracking-widest">
+                  {tag}
+                </span>
+              ))}
+            </div>
           </div>
-          
-          <div className="lg:col-span-4 pb-4">
-             <p className="text-xl text-brand-muted font-medium leading-relaxed border-l-2 border-brand-accent pl-8">
-               {config.hero.description}
-             </p>
-          </div>
+        }
+      />
+
+      <section className="px-6 lg:px-24 py-20 max-w-[1800px] mx-auto w-full">
+        <div className="flex items-center gap-3 mb-16">
+          <div className="w-12 h-[1.5px] bg-brand-accent" />
+          <span className="text-xs font-mono font-black text-brand-accent uppercase tracking-[0.3em]">Institutional Life</span>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-32">
