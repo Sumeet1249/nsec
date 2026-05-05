@@ -180,6 +180,11 @@ function EventCard({ index, date, text, alternate, hasDetails, onViewDetails }) 
 export default function Events() {
   const [currentSentenceIdx, setCurrentSentenceIdx] = useState(0);
   const [selectedPdf, setSelectedPdf] = useState(null);
+  const [showAllEvents, setShowAllEvents] = useState({});
+
+  const toggleShowAll = (yearIdx) => {
+    setShowAllEvents(prev => ({ ...prev, [yearIdx]: !prev[yearIdx] }));
+  };
 
   const carouselPhrases = [
     { main: "VIBRANT CAMPUS", highlight: "ACTIVITIES" },
@@ -316,10 +321,18 @@ export default function Events() {
               title={`Events of`}
               tagline={yearData.year}
             />
-            <div className="mb-12" />
+            <div className="flex justify-end mb-4 pr-0 max-w-5xl mx-auto">
+              <button 
+                onClick={() => toggleShowAll(yearIdx)}
+                className="inline-flex items-center gap-2 text-[10px] font-mono font-black text-brand-accent uppercase tracking-[0.2em] hover:translate-x-2 transition-transform shrink-0"
+              >
+                {showAllEvents[yearIdx] ? 'View Less' : 'View All Archives'} <ChevronRight size={14} className={`transition-transform ${showAllEvents[yearIdx] ? 'rotate-90' : ''}`} />
+              </button>
+            </div>
+            <div className="mb-8" />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12 max-w-5xl mx-auto relative pt-4">
-              {yearData.events.map((item, i) => {
+              {yearData.events.slice(0, showAllEvents[yearIdx] ? undefined : 2).map((item, i) => {
                 const hasDetails = item.desc !== "Intra College Sports Tournament “ZEST 2026” will be held from 09.04.2026 to 12.04.2026 within the college premises";
                 return (
                   <EventCard 

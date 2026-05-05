@@ -5,6 +5,7 @@ import PageHero from '../components/PageHero';
 
 export default function NirfPage() {
 	const [config, setConfig] = useState(null);
+	const [showAllArchives, setShowAllArchives] = useState(false);
 
 	useEffect(() => {
 		fetch('/config/page-nirf-config.json')
@@ -155,15 +156,23 @@ export default function NirfPage() {
 
 						{/* ARCHIVES */}
 						<section>
-							<div className="flex items-center gap-4 mb-8">
-								<div className="w-14 h-14 rounded-2xl bg-[#008b8b]/10 flex items-center justify-center text-[#008b8b] shadow-inner">
-									<Archive size={28} />
+							<div className="flex items-center justify-between mb-8">
+								<div className="flex items-center gap-4">
+									<div className="w-14 h-14 rounded-2xl bg-[#008b8b]/10 flex items-center justify-center text-[#008b8b] shadow-inner">
+										<Archive size={28} />
+									</div>
+									<h2 className="text-3xl md:text-4xl font-black text-[#800000] tracking-tight">Archives</h2>
 								</div>
-								<h2 className="text-3xl md:text-4xl font-black text-[#800000] tracking-tight">Archives</h2>
+								<button 
+									onClick={() => setShowAllArchives(!showAllArchives)}
+									className="inline-flex items-center gap-2 text-[10px] font-mono font-black text-[#008b8b] uppercase tracking-[0.2em] hover:translate-x-2 transition-transform shrink-0"
+								>
+									{showAllArchives ? 'View Less' : 'View All Archives'} <ChevronRight size={14} className={`transition-transform ${showAllArchives ? 'rotate-90' : ''}`} />
+								</button>
 							</div>
 
 							<div className="bg-white rounded-3xl border border-gray-200 overflow-hidden shadow-sm">
-								{config.archives.map((archive, idx) => (
+								{config.archives.slice(0, showAllArchives ? undefined : 2).map((archive, idx) => (
 									<div key={idx} className={`p-6 md:p-8 flex flex-col sm:flex-row sm:items-center justify-between gap-6 hover:bg-gray-50 transition-colors ${idx !== config.archives.length - 1 ? 'border-b border-gray-100' : ''}`}>
 										<h3 className="text-3xl font-black text-gray-800 w-28 shrink-0">{archive.year}</h3>
 										<div className="flex flex-wrap gap-3 flex-1">

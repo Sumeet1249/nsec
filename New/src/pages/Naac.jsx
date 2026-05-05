@@ -33,6 +33,10 @@ export default function Naac() {
   const [selectedPdf, setSelectedPdf] = useState(null);
   const [currentSentenceIdx, setCurrentSentenceIdx] = useState(0);
   const [activeCriterion, setActiveCriterion] = useState(null);
+  const [showAllAnnualReports, setShowAllAnnualReports] = useState(false);
+  const [showAllStatutory, setShowAllStatutory] = useState(false);
+  const [showAllHistoricalDocs, setShowAllHistoricalDocs] = useState(false);
+  const [showAllHistoricalAqars, setShowAllHistoricalAqars] = useState(false);
 
   const carouselPhrases = [
     { main: "NAAC", highlight: "ACCREDITED" },
@@ -855,8 +859,8 @@ export default function Naac() {
           </div>
 
           {/* Objectives */}
-          <div className="lg:col-span-3 p-10 bg-brand-accent/[0.03] border border-brand-accent/10 rounded-[40px] relative overflow-hidden">
-            <h3 className="text-3xl font-heading font-black italic uppercase tracking-tighter text-slate-900 mb-8">Strategic <span className="text-brand-accent">Objectives</span></h3>
+          <div className="lg:col-span-3 p-10  border border-brand-accent/10 rounded-[40px] relative overflow-hidden">
+            <h3 className="text-3xl font-heading font-maroon italic uppercase tracking-tighter text-brand-maroon mb-8">Strategic <span className="text-brand-maroon">Objectives</span></h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {iqacData.objectives.map((obj, i) => (
                 <Card key={i} index={i} variant={i % 3 === 0 ? 'accent' : i % 3 === 1 ? 'slate' : 'danger'}>
@@ -909,18 +913,26 @@ export default function Naac() {
           <div className="order-1 lg:order-2">
             <span className="text-[10px] font-mono font-black text-brand-accent uppercase tracking-[0.4em] mb-4 block">Quality Mandate</span>
             <h2 className="text-5xl font-heading font-black italic uppercase tracking-tighter text-brand-maroon mb-8 leading-none">
-              Operational <br/> <span className="text-brand-accent">Functions</span>
+              Operational <br/> <span className="text-brand-maroon">Functions</span>
             </h2>
             <p className="text-lg font-body font-medium text-slate-500 leading-relaxed mb-8">
               The Internal Quality Assurance Cell orchestrates a multi-dimensional approach to excellence, ensuring every academic and administrative node operates at peak performance.
             </p>
             <div className="p-8 bg-brand-maroon/5 border border-brand-maroon/10 rounded-[40px] relative overflow-hidden">
-              <div className="flex items-center gap-4 text-brand-maroon mb-4">
-                <FileText size={32} />
-                <h4 className="text-xl font-heading font-black italic uppercase tracking-tight leading-none">Annual Reports <br/> & Archives</h4>
+              <div className="flex items-center justify-between mb-4 text-brand-maroon">
+                <div className="flex items-center gap-4">
+                  <FileText size={32} />
+                  <h4 className="text-xl font-heading font-black italic uppercase tracking-tight leading-none">Annual Reports <br/> & Archives</h4>
+                </div>
+                <button 
+                  onClick={() => setShowAllAnnualReports(!showAllAnnualReports)}
+                  className="inline-flex items-center gap-2 text-[10px] font-mono font-black text-brand-accent uppercase tracking-[0.2em] hover:translate-x-2 transition-transform shrink-0"
+                >
+                  {showAllAnnualReports ? 'View Less' : 'View All Archives'} <ChevronRight size={14} className={`transition-transform ${showAllAnnualReports ? 'rotate-90' : ''}`} />
+                </button>
               </div>
               <div className="grid grid-cols-3 gap-2">
-                {iqacData.annualReports.map((r, i) => (
+                {iqacData.annualReports.slice(0, showAllAnnualReports ? undefined : 2).map((r, i) => (
                   <PdfCard
                     key={i}
                     href={r.url}
@@ -955,8 +967,16 @@ export default function Naac() {
             </div>
             <div className="p-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="space-y-3">
-                <p className="text-[10px] font-mono font-black text-slate-400 uppercase tracking-widest mb-4">Statutory Documents</p>
-                {cycles.second.docs.map((doc, i) => (
+                <div className="flex items-center justify-between mb-4">
+                  <p className="text-[10px] font-mono font-black text-slate-400 uppercase tracking-widest">Statutory Documents</p>
+                  <button 
+                    onClick={() => setShowAllStatutory(!showAllStatutory)}
+                    className="inline-flex items-center gap-1 text-[9px] font-mono font-black text-brand-accent uppercase tracking-[0.1em] hover:translate-x-1 transition-transform shrink-0"
+                  >
+                    {showAllStatutory ? 'Less' : 'All Archives'} <ChevronRight size={12} className={`transition-transform ${showAllStatutory ? 'rotate-90' : ''}`} />
+                  </button>
+                </div>
+                {cycles.second.docs.slice(0, showAllStatutory ? undefined : 2).map((doc, i) => (
                   <PdfCard
                     key={i}
                     href={doc.url}
@@ -1000,8 +1020,16 @@ export default function Naac() {
             </div>
             <div className="p-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="space-y-3">
-                <p className="text-[10px] font-mono font-black text-slate-400 uppercase tracking-widest mb-4">Historical Certificates</p>
-                {cycles.first.docs.map((doc, i) => (
+                <div className="flex items-center justify-between mb-4">
+                  <p className="text-[10px] font-mono font-black text-slate-400 uppercase tracking-widest">Historical Certificates</p>
+                  <button 
+                    onClick={() => setShowAllHistoricalDocs(!showAllHistoricalDocs)}
+                    className="inline-flex items-center gap-1 text-[9px] font-mono font-black text-brand-accent uppercase tracking-[0.1em] hover:translate-x-1 transition-transform shrink-0"
+                  >
+                    {showAllHistoricalDocs ? 'Less' : 'All Archives'} <ChevronRight size={12} className={`transition-transform ${showAllHistoricalDocs ? 'rotate-90' : ''}`} />
+                  </button>
+                </div>
+                {cycles.first.docs.slice(0, showAllHistoricalDocs ? undefined : 2).map((doc, i) => (
                   <PdfCard
                     key={i}
                     href={doc.url}
@@ -1015,9 +1043,17 @@ export default function Naac() {
                 ))}
               </div>
               <div className="space-y-3">
-                <p className="text-[10px] font-mono font-black text-slate-400 uppercase tracking-widest mb-4">AQAR (2018-2023)</p>
+                <div className="flex items-center justify-between mb-4">
+                  <p className="text-[10px] font-mono font-black text-slate-400 uppercase tracking-widest">AQAR (2018-2023)</p>
+                  <button 
+                    onClick={() => setShowAllHistoricalAqars(!showAllHistoricalAqars)}
+                    className="inline-flex items-center gap-1 text-[9px] font-mono font-black text-brand-accent uppercase tracking-[0.1em] hover:translate-x-1 transition-transform shrink-0"
+                  >
+                    {showAllHistoricalAqars ? 'Less' : 'All Archives'} <ChevronRight size={12} className={`transition-transform ${showAllHistoricalAqars ? 'rotate-90' : ''}`} />
+                  </button>
+                </div>
                 <div className="grid grid-cols-1 gap-2">
-                  {cycles.first.aqars.map((aq, i) => (
+                  {cycles.first.aqars.slice(0, showAllHistoricalAqars ? undefined : 2).map((aq, i) => (
                     <PdfCard
                       key={i}
                       href={aq.url}

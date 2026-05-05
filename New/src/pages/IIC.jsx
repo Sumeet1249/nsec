@@ -145,8 +145,8 @@ export default function IIC() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-24 items-start">
           <div>
             <span className="text-[10px] font-mono font-black text-brand-accent uppercase tracking-[0.4em] mb-4 block">Institutional Context</span>
-            <h2 className="text-5xl font-heading font-black italic uppercase tracking-tighter text-slate-900 mb-8 leading-none">
-              The NSEC-IIC <br /> <span className="text-brand-accent">Journey</span>
+            <h2 className="text-5xl font-heading font-black italic uppercase tracking-tighter text-brand-maroon mb-8 leading-none">
+              The NSEC-IIC <br /> <span className="text-brand-maroon">Journey</span>
             </h2>
             <div className="space-y-6">
               <div className="p-8 bg-white border border-slate-100 rounded-[32px] shadow-sm relative overflow-hidden group">
@@ -197,8 +197,8 @@ export default function IIC() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
           <div>
             <span className="text-[10px] font-mono font-black text-brand-accent uppercase tracking-[0.4em] mb-4 block">Council Mandate</span>
-            <h2 className="text-5xl font-heading font-black italic uppercase tracking-tighter text-slate-900 mb-8 leading-none">
-              Functions of <br /> <span className="text-brand-accent">IIC Council</span>
+            <h2 className="text-5xl font-heading font-black italic uppercase tracking-tighter text-brand-maroon mb-8 leading-none">
+              Functions of <br /> <span className="text-brand-maroon">IIC Council</span>
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {[
@@ -280,7 +280,7 @@ export default function IIC() {
               target={card.type === 'pdf' ? '_blank' : undefined}
               rel={card.type === 'pdf' ? 'noopener noreferrer' : undefined}
               delay={i * 0.05}
-              variant={i % 3 === 0 ? 'teal' : i % 3 === 1 ? 'gold' : 'maroon'}
+              variant={i % 2 === 0 ? 'teal' : i % 2 === 0 ? 'gold' : 'maroon'}
               backgroundImage="/assets/images/helpline-bg.png"
               icon={card.icon}
               badge={card.type === 'pdf' ? 'PDF Resource' : 'Hub Portal'}
@@ -301,7 +301,7 @@ export default function IIC() {
             <div className="relative rounded-[48px] overflow-hidden group shadow-2xl">
               <div className="absolute inset-0 bg-brand-accent/10 group-hover:bg-brand-accent/0 transition-colors duration-700" />
               <img
-                src="https://www.nsec.ac.in/notice/Sanitization_Tunnel.jpg"
+                src="/assets/images/IIC/iic_product_01_sani.jpg"
                 alt="Automatic Sanitization Tunnel"
                 className="w-full aspect-video object-cover transition-transform duration-700 group-hover:scale-105"
                 onError={(e) => { e.target.src = '/assets/HeroFocus/Campus_Life4.webp'; }}
@@ -325,7 +325,7 @@ export default function IIC() {
             <div className="lg:order-2 relative rounded-[48px] overflow-hidden group shadow-2xl">
               <div className="absolute inset-0 bg-brand-maroon/10 group-hover:bg-brand-maroon/0 transition-colors duration-700" />
               <img
-                src="https://www.nsec.ac.in/notice/IDEA_Lab.jpg"
+                src="/assets/images/IIC/nsec-idealab-fp01.jpg"
                 alt="AICTE-IDEA Lab"
                 className="w-full aspect-video object-cover transition-transform duration-700 group-hover:scale-105"
                 onError={(e) => { e.target.src = '/assets/HeroFocus/Campus_Life3.webp'; }}

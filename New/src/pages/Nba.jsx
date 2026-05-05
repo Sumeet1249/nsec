@@ -31,7 +31,7 @@ function HighlightText({ text }) {
    COMPONENT: PROGRAM CARD
  ═══════════════════════════════════════════════════════════ */
 function ProgramCard({ index, program }) {
-  const variants = ['teal', 'gold', 'maroon', 'teal'];
+  const variants = ['teal', 'teal', 'teal', 'teal'];
   return (
     <SpotlightStatusCard
       delay={index * 0.1}
@@ -42,7 +42,7 @@ function ProgramCard({ index, program }) {
       title={program.name}
       value={program.validity}
       valueClassName="text-sm text-[#fbbf24]"
-      meta="NBA Approved"
+      meta={<span className="text-white">NBA Approved</span>}
       cta="Accredited"
       className="min-h-[340px]"
     />
@@ -52,6 +52,9 @@ function ProgramCard({ index, program }) {
 export default function Nba() {
   const [selectedPdf, setSelectedPdf] = useState(null);
   const [currentSentenceIdx, setCurrentSentenceIdx] = useState(0);
+  const [showAllAicte, setShowAllAicte] = useState(false);
+  const [showAllMakaut, setShowAllMakaut] = useState(false);
+  const [showAllAccreditation, setShowAllAccreditation] = useState(false);
 
   const carouselPhrases = [
     { main: "NBA", highlight: "ACCREDITED" },
@@ -213,9 +216,17 @@ export default function Nba() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             {/* AICTE Section */}
             <div>
-              <div className="flex items-center gap-4 mb-10">
-                <img src="/assets/logo/aicte_logo.png" alt="AICTE Logo" className="h-12 w-auto object-contain" />
-                <h3 className="text-3xl font-heading font-black italic uppercase tracking-tighter text-slate-900">AICTE Approvals</h3>
+              <div className="flex items-center justify-between mb-10">
+                <div className="flex items-center gap-4">
+                  <img src="/assets/logo/aicte_logo.png" alt="AICTE Logo" className="h-12 w-auto object-contain" />
+                  <h3 className="text-3xl font-heading font-black italic uppercase tracking-tighter text-slate-900">AICTE Approvals</h3>
+                </div>
+                <button 
+                  onClick={() => setShowAllAicte(!showAllAicte)}
+                  className="inline-flex items-center gap-2 text-[10px] font-mono font-black text-brand-accent uppercase tracking-[0.2em] hover:translate-x-2 transition-transform shrink-0"
+                >
+                  {showAllAicte ? 'View Less' : 'View All Archives'} <ChevronRight size={14} className={`transition-transform ${showAllAicte ? 'rotate-90' : ''}`} />
+                </button>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -224,7 +235,7 @@ export default function Nba() {
                   { title: "MCA & BCA Program (2025-26)", url: "https://www.nsec.ac.in/circular/EOA-Report-25-26MCA.PDF" },
                   { title: "Engg & MBA (2024-25)", url: "https://www.nsec.ac.in/circular/EOA-Report-2024-25_BTech.PDF" },
                   { title: "MCA & BCA Program (2024-25)", url: "https://www.nsec.ac.in/circular/EOA-REPORT-2024-2025-MCA-BCA.PDF" }
-                ].map((doc, i) => (
+                ].slice(0, showAllAicte ? undefined : 2).map((doc, i) => (
                   <PdfCard
                     key={i}
                     href={doc.url}
@@ -241,12 +252,20 @@ export default function Nba() {
 
             {/* MAKAUT Section */}
             <div>
-              <div className="flex items-center gap-4 mb-10">
-                <img src="/assets/logo/makaut_logo.jpg" alt="MAKAUT Logo" className="h-12 w-auto object-contain rounded-md" />
-                <h3 className="text-3xl font-heading font-black italic uppercase tracking-tighter text-slate-900">MAKAUT Affiliations</h3>
+              <div className="flex items-center justify-between mb-10">
+                <div className="flex items-center gap-4">
+                  <img src="/assets/logo/makaut_logo.jpg" alt="MAKAUT Logo" className="h-12 w-auto object-contain rounded-md" />
+                  <h3 className="text-3xl font-heading font-black italic uppercase tracking-tighter text-slate-900">MAKAUT Affiliations</h3>
+                </div>
+                <button 
+                  onClick={() => setShowAllMakaut(!showAllMakaut)}
+                  className="inline-flex items-center gap-2 text-[10px] font-mono font-black text-brand-accent uppercase tracking-[0.2em] hover:translate-x-2 transition-transform shrink-0"
+                >
+                  {showAllMakaut ? 'View Less' : 'View All Archives'} <ChevronRight size={14} className={`transition-transform ${showAllMakaut ? 'rotate-90' : ''}`} />
+                </button>
               </div>
 
-              <div className="grid grid-cols-1 gap-3">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { name: "All B.Tech Programs", url: "https://www.nsec.ac.in/circular/109-BTECH-2025-26.pdf" },
                   { name: "All M.Tech Programs", url: "https://www.nsec.ac.in/circular/109-MTECH-2025-26.pdf" },
@@ -256,7 +275,7 @@ export default function Nba() {
                   { name: "BBA Program", url: "https://www.nsec.ac.in/circular/109-BBA-2025.pdf" },
                   { name: "BBA (Hospital Mgmt)", url: "https://www.nsec.ac.in/circular/109%20-BBA%28Spl%29-2-25-26.pdf" },
                   { name: "BBA Digital Marketing", url: "https://www.nsec.ac.in/circular/109%20-BBA%28Spl%29-2-25-26.pdf" }
-                ].map((prog, i) => (
+                ].slice(0, showAllMakaut ? undefined : 2).map((prog, i) => (
                   <PdfCard
                     key={i}
                     href={prog.url}
@@ -272,7 +291,7 @@ export default function Nba() {
                 ))}
               </div>
               <a href="https://www.nsec.ac.in/page.php?id=533" target="_blank" rel="noreferrer" className="mt-8 inline-flex items-center gap-2 text-[10px] font-mono font-black text-brand-accent uppercase tracking-[0.2em] hover:translate-x-2 transition-transform">
-                View All Affiliation Letters <ChevronRight size={14} />
+                View External Affiliation Letters <ChevronRight size={14} />
               </a>
             </div>
           </div>
@@ -283,13 +302,21 @@ export default function Nba() {
 
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16">
           <div className="lg:w-1/2">
-            <h2 className="text-4xl font-heading font-black italic uppercase tracking-tighter text-slate-900 mb-6">Accreditation Node</h2>
+            <div className="flex items-center justify-between mb-6">
+              <h2 className="text-4xl font-heading font-black italic uppercase tracking-tighter text-slate-900">Accreditation Node</h2>
+              <button 
+                onClick={() => setShowAllAccreditation(!showAllAccreditation)}
+                className="inline-flex items-center gap-2 text-[10px] font-mono font-black text-brand-accent uppercase tracking-[0.2em] hover:translate-x-2 transition-transform shrink-0"
+              >
+                {showAllAccreditation ? 'View Less' : 'View All Archives'} <ChevronRight size={14} className={`transition-transform ${showAllAccreditation ? 'rotate-90' : ''}`} />
+              </button>
+            </div>
             <div className="space-y-4">
               {[
                 { title: "NBA Certificate (2024 - 2027)", url: "https://www.nsec.ac.in/impdoc/Netaji_Subhash_Engineering_College8_4_2024_16_32_35.pdf" },
                 { title: "NBA Certificate (2019 - 2022)", url: "https://www.nsec.ac.in/impdoc/nba-nsec-2019-2022.pdf" },
                 { title: "Historical Certificates (2005 - 2019)", url: "https://www.nsec.ac.in/impdoc/NBA_Accreditation_2005-2019_opt.pdf" }
-              ].map((doc, i) => (
+              ].slice(0, showAllAccreditation ? undefined : 2).map((doc, i) => (
                 <PdfCard
                   key={i}
                   href={doc.url}

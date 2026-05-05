@@ -159,6 +159,8 @@ function PdfModal({ url, onClose }) {
 export default function Iqac() {
   const [currentSentenceIdx, setCurrentSentenceIdx] = useState(0);
   const [selectedPdf, setSelectedPdf] = useState(null);
+  const [showAllImportantLinks, setShowAllImportantLinks] = useState(false);
+  const [showAllAnnualReports, setShowAllAnnualReports] = useState(false);
 
   const carouselPhrases = [
     { main: 'INTERNAL QUALITY', highlight: 'ASSURANCE CELL' },
@@ -409,9 +411,17 @@ export default function Iqac() {
 
           {/* Important Links */}
           <div className="lg:w-1/2">
-            <h2 className="text-4xl font-heading font-black italic uppercase tracking-tighter text-brand-maroon mb-6">Important Links</h2>
+            <div className="flex items-center justify-between mb-6">
+              <h2 className="text-4xl font-heading font-black italic uppercase tracking-tighter text-brand-maroon">Important Links</h2>
+              <button 
+                onClick={() => setShowAllImportantLinks(!showAllImportantLinks)}
+                className="inline-flex items-center gap-2 text-[10px] font-mono font-black text-brand-accent uppercase tracking-[0.2em] hover:translate-x-2 transition-transform shrink-0"
+              >
+                {showAllImportantLinks ? 'View Less' : 'View All Archives'} <ChevronRight size={14} className={`transition-transform ${showAllImportantLinks ? 'rotate-90' : ''}`} />
+              </button>
+            </div>
             <div className="space-y-4">
-              {importantLinks.map((link, i) => (
+              {importantLinks.slice(0, showAllImportantLinks ? undefined : 2).map((link, i) => (
                 <PdfCard
                   key={i}
                   href={link.url}
@@ -427,9 +437,17 @@ export default function Iqac() {
 
           {/* Annual Reports */}
           <div className="lg:w-1/2">
-            <h2 className="text-4xl font-heading font-black italic uppercase tracking-tighter text-brand-maroon mb-6">Annual Reports</h2>
+            <div className="flex items-center justify-between mb-6">
+              <h2 className="text-4xl font-heading font-black italic uppercase tracking-tighter text-brand-maroon">Annual Reports</h2>
+              <button 
+                onClick={() => setShowAllAnnualReports(!showAllAnnualReports)}
+                className="inline-flex items-center gap-2 text-[10px] font-mono font-black text-brand-accent uppercase tracking-[0.2em] hover:translate-x-2 transition-transform shrink-0"
+              >
+                {showAllAnnualReports ? 'View Less' : 'View All Archives'} <ChevronRight size={14} className={`transition-transform ${showAllAnnualReports ? 'rotate-90' : ''}`} />
+              </button>
+            </div>
             <div className="grid grid-cols-2 gap-4">
-              {reports.map((report, i) => (
+              {reports.slice(0, showAllAnnualReports ? undefined : 2).map((report, i) => (
                 <PdfCard
                   key={i}
                   href={report.url}

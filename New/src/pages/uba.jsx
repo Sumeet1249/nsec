@@ -195,7 +195,7 @@ export default function UbaPage() {
           <div>
             <span className="text-[10px] font-mono font-black text-brand-accent uppercase tracking-[0.4em] mb-4 block">National Mission</span>
             <h2 className="text-5xl font-heading font-black italic uppercase tracking-tighter text-brand-maroon mb-8 leading-none">
-              Transforming <br/> <span className="text-brand-accent">Rural Life</span>
+              Transforming <br/> <span className="text-brand-maroon">Rural Life</span>
             </h2>
             <div className="p-8 bg-white border border-slate-100 rounded-[32px] shadow-sm relative overflow-hidden group">
               <div className="absolute top-0 left-0 w-1.5 h-full bg-brand-accent" />
@@ -304,7 +304,7 @@ export default function UbaPage() {
           <div>
             <span className="text-[10px] font-mono font-black text-brand-accent uppercase tracking-[0.4em] mb-4 block">Strategic Focus</span>
             <h2 className="text-5xl font-heading font-black italic uppercase tracking-tighter text-brand-maroon mb-8 leading-none">
-              Cell Major <br/> <span className="text-brand-accent">Interventions</span>
+              Cell Major <br/> <span className="text-brand-maroon">Interventions</span>
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {ubaData.focus.map((f, i) => (
@@ -321,7 +321,7 @@ export default function UbaPage() {
           </div>
 
           <div>
-            <h3 className="text-3xl font-heading font-black italic uppercase tracking-tighter text-brand-maroon mb-8 leading-none">Operational <span className="text-brand-accent">Functions</span></h3>
+            <h3 className="text-3xl font-heading font-black italic uppercase tracking-tighter text-brand-maroon mb-8 leading-none">Operational <span className="text-brand-maroon">Functions</span></h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {ubaData.functions.map((fn, i) => (
                 <Card key={i} index={i} variant="danger" className="p-6">
